@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Transformers For DC/DC Converter - WE-POE&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-POE_EFD15" urn="urn:adsk.eagle:footprint:12941770/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EFD15 SMD 12Pin</description>
+<wire x1="-8" y1="-8.75" x2="8" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="-8" y1="8.75" x2="8" y2="8.75" width="0.1" layer="51"/>
+<wire x1="8" y1="8.75" x2="8" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="-8" y1="8.75" x2="-8" y2="6.7" width="0.1" layer="51"/>
+<wire x1="-8" y1="6.7" x2="-8" y2="6" width="0.1" layer="51"/>
+<wire x1="-8" y1="6" x2="-8" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="-8.1" y1="8.85" x2="8.1" y2="8.85" width="0.2" layer="21"/>
+<wire x1="8.1" y1="8.85" x2="8.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="8.1" y1="-8.85" x2="-8.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="-8.85" x2="-8.1" y2="8.85" width="0.2" layer="21"/>
+<wire x1="-8" y1="6.7" x2="-11.05" y2="6.7" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="6.7" x2="-11.05" y2="6" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="6" x2="-8" y2="6" width="0.1" layer="51"/>
+<wire x1="-8" y1="4.1" x2="-11.05" y2="4.1" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="4.1" x2="-11.05" y2="3.4" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="3.4" x2="-8" y2="3.4" width="0.1" layer="51"/>
+<wire x1="-8" y1="1.6" x2="-11.05" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="1.6" x2="-11.05" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="0.9" x2="-8" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-8" y1="-0.9" x2="-11.05" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="-0.9" x2="-11.05" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="-1.6" x2="-8" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-8" y1="-3.5" x2="-11.05" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="-3.5" x2="-11.05" y2="-4.2" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="-4.2" x2="-8" y2="-4.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="-6.1" x2="-11.05" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="-6.1" x2="-11.05" y2="-6.8" width="0.1" layer="51"/>
+<wire x1="-11.05" y1="-6.8" x2="-8" y2="-6.8" width="0.1" layer="51"/>
+<wire x1="8" y1="6" x2="11.05" y2="6" width="0.1" layer="51"/>
+<wire x1="11.05" y1="6" x2="11.05" y2="6.7" width="0.1" layer="51"/>
+<wire x1="11.05" y1="6.7" x2="8" y2="6.7" width="0.1" layer="51"/>
+<wire x1="8" y1="3.5" x2="11.05" y2="3.5" width="0.1" layer="51"/>
+<wire x1="11.05" y1="3.5" x2="11.05" y2="4.2" width="0.1" layer="51"/>
+<wire x1="11.05" y1="4.2" x2="8" y2="4.2" width="0.1" layer="51"/>
+<wire x1="8" y1="1" x2="11.05" y2="1" width="0.1" layer="51"/>
+<wire x1="11.05" y1="1" x2="11.05" y2="1.7" width="0.1" layer="51"/>
+<wire x1="11.05" y1="1.7" x2="8" y2="1.7" width="0.1" layer="51"/>
+<wire x1="8" y1="-1.6" x2="11.05" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="11.05" y1="-1.6" x2="11.05" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="11.05" y1="-0.9" x2="8" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="8" y1="-4.1" x2="11.05" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="11.05" y1="-4.1" x2="11.05" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="11.05" y1="-3.4" x2="8" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="8" y1="-6.7" x2="11.05" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="11.05" y1="-6.7" x2="11.05" y2="-6" width="0.1" layer="51"/>
+<wire x1="11.05" y1="-6" x2="8" y2="-6" width="0.1" layer="51"/>
+<circle x="-7.5" y="7.2" radius="0.1" width="0.2" layer="21"/>
+<smd name="12" x="10.155" y="6.35" dx="3.43" dy="1.75" layer="1"/>
+<smd name="7" x="10.155" y="-6.35" dx="3.43" dy="1.75" layer="1"/>
+<smd name="6" x="-10.155" y="-6.35" dx="3.43" dy="1.75" layer="1"/>
+<smd name="1" x="-10.155" y="6.35" dx="3.43" dy="1.75" layer="1"/>
+<smd name="11" x="10.155" y="3.81" dx="3.43" dy="1.75" layer="1"/>
+<smd name="2" x="-10.155" y="3.81" dx="3.43" dy="1.75" layer="1"/>
+<smd name="5" x="-10.155" y="-3.81" dx="3.43" dy="1.75" layer="1"/>
+<smd name="8" x="10.155" y="-3.81" dx="3.43" dy="1.75" layer="1"/>
+<smd name="10" x="10.155" y="1.27" dx="3.43" dy="1.75" layer="1"/>
+<smd name="9" x="10.155" y="-1.27" dx="3.43" dy="1.75" layer="1"/>
+<smd name="4" x="-10.155" y="-1.27" dx="3.43" dy="1.75" layer="1"/>
+<smd name="3" x="-10.155" y="1.27" dx="3.43" dy="1.75" layer="1"/>
+<text x="-0.32" y="9.83" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-10.73" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.2" y="-6.9" size="1.016" layer="48">6</text>
+<text x="6.9" y="-6.95" size="1.016" layer="48">7</text>
+<text x="6.05" y="5.9" size="1.016" layer="48">12</text>
+<text x="-7.3" y="6" size="1.016" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.07" y="-9.05"/>
+<vertex x="-12.07" y="9.05"/>
+<vertex x="12.07" y="9.05"/>
+<vertex x="12.07" y="-9.05"/>
+</polygon>
+</package>
+<package name="WE-POE_EP10" urn="urn:adsk.eagle:footprint:12941769/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP10  SMD 8Pin</description>
+<wire x1="-5.27" y1="-6.67" x2="5.27" y2="-6.67" width="0.1" layer="51"/>
+<wire x1="-5.27" y1="6.67" x2="5.27" y2="6.67" width="0.1" layer="51"/>
+<wire x1="5.27" y1="6.67" x2="5.27" y2="-6.67" width="0.1" layer="51"/>
+<wire x1="-5.27" y1="6.67" x2="-5.27" y2="-6.67" width="0.1" layer="51"/>
+<wire x1="-5.37" y1="6.77" x2="5.37" y2="6.77" width="0.2" layer="21"/>
+<wire x1="5.37" y1="6.77" x2="5.37" y2="-6.77" width="0.2" layer="21"/>
+<wire x1="5.37" y1="-6.77" x2="-5.37" y2="-6.77" width="0.2" layer="21"/>
+<wire x1="-5.37" y1="-6.77" x2="-5.37" y2="6.77" width="0.2" layer="21"/>
+<wire x1="-5.3" y1="4.135" x2="-7.62" y2="4.135" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="4.135" x2="-7.62" y2="3.335" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="3.335" x2="-5.3" y2="3.335" width="0.1" layer="51"/>
+<wire x1="-5.3" y1="1.645" x2="-7.62" y2="1.645" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="1.645" x2="-7.62" y2="0.845" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="0.845" x2="-5.3" y2="0.845" width="0.1" layer="51"/>
+<wire x1="-5.3" y1="-0.845" x2="-7.62" y2="-0.845" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="-0.845" x2="-7.62" y2="-1.645" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="-1.645" x2="-5.3" y2="-1.645" width="0.1" layer="51"/>
+<wire x1="-5.3" y1="-3.355" x2="-7.62" y2="-3.355" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="-3.355" x2="-7.62" y2="-4.155" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="-4.155" x2="-5.3" y2="-4.155" width="0.1" layer="51"/>
+<wire x1="5.3" y1="-4.135" x2="7.62" y2="-4.135" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-4.135" x2="7.62" y2="-3.335" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-3.335" x2="5.3" y2="-3.335" width="0.1" layer="51"/>
+<wire x1="5.3" y1="-1.645" x2="7.62" y2="-1.645" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-1.645" x2="7.62" y2="-0.845" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-0.845" x2="5.3" y2="-0.845" width="0.1" layer="51"/>
+<wire x1="5.3" y1="0.845" x2="7.62" y2="0.845" width="0.1" layer="51"/>
+<wire x1="7.62" y1="0.845" x2="7.62" y2="1.645" width="0.1" layer="51"/>
+<wire x1="7.62" y1="1.645" x2="5.3" y2="1.645" width="0.1" layer="51"/>
+<wire x1="5.3" y1="3.355" x2="7.62" y2="3.355" width="0.1" layer="51"/>
+<wire x1="7.62" y1="3.355" x2="7.62" y2="4.155" width="0.1" layer="51"/>
+<wire x1="7.62" y1="4.155" x2="5.3" y2="4.155" width="0.1" layer="51"/>
+<smd name="5" x="6.78" y="3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="8" x="6.78" y="-3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="4" x="-6.78" y="3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="1" x="-6.78" y="-3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="6" x="6.78" y="1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="7" x="6.78" y="-1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="3" x="-6.78" y="1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="2" x="-6.78" y="-1.245" dx="2.08" dy="1.07" layer="1"/>
+<text x="0.1" y="7.68" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-8.62" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.51" y="3.07" size="1.016" layer="48">4</text>
+<text x="4.14" y="3.07" size="1.016" layer="48">5</text>
+<text x="4.1" y="-3.7" size="1.016" layer="48">8</text>
+<text x="-4.41" y="-3.63" size="1.016" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.02" y="6.97"/>
+<vertex x="8.02" y="6.97"/>
+<vertex x="8.02" y="-6.97"/>
+<vertex x="-8.02" y="-6.97"/>
+</polygon>
+<circle x="-4.8" y="-4.2" radius="0.1" width="0.2" layer="51"/>
+</package>
+<package name="WE-POE_ER14.5/6" urn="urn:adsk.eagle:footprint:12941766/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;ER14.5/6  SMD 12Pin</description>
+<wire x1="-6" y1="-8.15" x2="-6" y2="5.9" width="0.1" layer="51"/>
+<wire x1="-6" y1="5.9" x2="-6" y2="6.6" width="0.1" layer="51"/>
+<wire x1="-6" y1="6.6" x2="-6" y2="8.15" width="0.1" layer="51"/>
+<wire x1="-6" y1="8.15" x2="6" y2="8.15" width="0.1" layer="51"/>
+<wire x1="6" y1="8.15" x2="6" y2="-8.15" width="0.1" layer="51"/>
+<wire x1="6" y1="-8.15" x2="-6" y2="-8.15" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="8.25" x2="6.1" y2="8.25" width="0.2" layer="21"/>
+<wire x1="6.1" y1="8.25" x2="6.1" y2="-8.2" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-8.25" x2="-6.1" y2="-8.25" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-8.2" x2="-6.1" y2="8.25" width="0.2" layer="21"/>
+<wire x1="-6" y1="6.6" x2="-8.4" y2="6.6" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="6.6" x2="-8.4" y2="5.9" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="5.9" x2="-6" y2="5.9" width="0.1" layer="51"/>
+<wire x1="-6" y1="4.1" x2="-8.4" y2="4.1" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="4.1" x2="-8.4" y2="3.4" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="3.4" x2="-6" y2="3.4" width="0.1" layer="51"/>
+<wire x1="-6" y1="1.6" x2="-8.4" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="1.6" x2="-8.4" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="0.9" x2="-6" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-6" y1="-0.9" x2="-8.4" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="-0.9" x2="-8.4" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="-1.6" x2="-6" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-6" y1="-3.4" x2="-8.4" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="-3.4" x2="-8.4" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="-4.1" x2="-6" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-6" y1="-5.9" x2="-8.4" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="-5.9" x2="-8.4" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-8.4" y1="-6.6" x2="-6" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="6" y1="-6.6" x2="8.4" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="8.4" y1="-6.6" x2="8.4" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="8.4" y1="-5.9" x2="6" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="6" y1="-4.1" x2="8.4" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="8.4" y1="-4.1" x2="8.4" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="8.4" y1="-3.4" x2="6" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="6" y1="-1.6" x2="8.4" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="8.4" y1="-1.6" x2="8.4" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="8.4" y1="-0.9" x2="6" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="6" y1="0.9" x2="8.4" y2="0.9" width="0.1" layer="51"/>
+<wire x1="8.4" y1="0.9" x2="8.4" y2="1.6" width="0.1" layer="51"/>
+<wire x1="8.4" y1="1.6" x2="6" y2="1.6" width="0.1" layer="51"/>
+<wire x1="6" y1="3.4" x2="8.4" y2="3.4" width="0.1" layer="51"/>
+<wire x1="8.4" y1="3.4" x2="8.4" y2="4.1" width="0.1" layer="51"/>
+<wire x1="8.4" y1="4.1" x2="6" y2="4.1" width="0.1" layer="51"/>
+<wire x1="6" y1="5.9" x2="8.4" y2="5.9" width="0.1" layer="51"/>
+<wire x1="8.4" y1="5.9" x2="8.4" y2="6.6" width="0.1" layer="51"/>
+<wire x1="8.4" y1="6.6" x2="6" y2="6.6" width="0.1" layer="51"/>
+<circle x="-5.534" y="7.05" radius="0.1" width="0.2" layer="21"/>
+<smd name="6" x="-7.75" y="-6.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="5" x="-7.75" y="-3.75" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="4" x="-7.75" y="-1.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="3" x="-7.75" y="1.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="-7.75" y="3.75" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="1" x="-7.75" y="6.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="7" x="7.75" y="-6.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="8" x="7.75" y="-3.75" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="9" x="7.75" y="-1.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="10" x="7.75" y="1.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="11" x="7.75" y="3.75" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<smd name="12" x="7.75" y="6.25" dx="1.75" dy="2.5" layer="1" rot="R90"/>
+<text x="-0.19" y="9.01" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.32" y="-10.13" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-5.15" y="-6.9" size="1.016" layer="48">6</text>
+<text x="4.95" y="-7.05" size="1.016" layer="48">7</text>
+<text x="4.15" y="5.3" size="1.016" layer="48">12</text>
+<text x="-5.15" y="5.5" size="1.016" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="-9.25" y="-8.45"/>
+<vertex x="-9.25" y="8.45"/>
+<vertex x="9.25" y="8.45"/>
+<vertex x="9.25" y="-8.45"/>
+</polygon>
+</package>
+<package name="WE-POE_ER11/5" urn="urn:adsk.eagle:footprint:12941767/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;ER11/5  SMD 12Pin</description>
+<wire x1="-4.6" y1="-6.45" x2="4.6" y2="-6.45" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-6.45" x2="4.6" y2="6.45" width="0.1" layer="51"/>
+<wire x1="4.6" y1="6.45" x2="-4.6" y2="6.45" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="6.45" x2="-4.6" y2="5.35" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="5.35" x2="-4.6" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="4.65" x2="-4.6" y2="-6.45" width="0.1" layer="51"/>
+<wire x1="-4.7" y1="6.2" x2="-4.7" y2="6.55" width="0.2" layer="21"/>
+<wire x1="-4.7" y1="6.55" x2="4.7" y2="6.55" width="0.2" layer="21"/>
+<wire x1="4.7" y1="6.55" x2="4.7" y2="6.2" width="0.2" layer="21"/>
+<wire x1="-4.7" y1="-6.2" x2="-4.7" y2="-6.55" width="0.2" layer="21"/>
+<wire x1="-4.7" y1="-6.55" x2="4.7" y2="-6.55" width="0.2" layer="21"/>
+<wire x1="4.7" y1="-6.55" x2="4.7" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="5.35" x2="-6.45" y2="5.35" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="5.35" x2="-6.45" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="4.65" x2="-4.6" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="3.35" x2="-6.45" y2="3.35" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="3.35" x2="-6.45" y2="2.65" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="2.65" x2="-4.6" y2="2.65" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="1.35" x2="-6.45" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="1.35" x2="-6.45" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="0.65" x2="-4.6" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-0.65" x2="-6.45" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="-0.65" x2="-6.45" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="-1.35" x2="-4.6" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-2.65" x2="-6.45" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="-2.65" x2="-6.45" y2="-3.35" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="-3.35" x2="-4.6" y2="-3.35" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-4.65" x2="-6.45" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="-4.65" x2="-6.45" y2="-5.35" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="-5.35" x2="-4.6" y2="-5.35" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-5.35" x2="6.45" y2="-5.35" width="0.1" layer="51"/>
+<wire x1="6.45" y1="-5.35" x2="6.45" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="6.45" y1="-4.65" x2="4.6" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-3.35" x2="6.45" y2="-3.35" width="0.1" layer="51"/>
+<wire x1="6.45" y1="-3.35" x2="6.45" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="6.45" y1="-2.65" x2="4.6" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="4.6" y1="-1.35" x2="6.45" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="6.45" y1="-1.35" x2="6.45" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="6.45" y1="-0.65" x2="4.6" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="4.6" y1="0.65" x2="6.45" y2="0.65" width="0.1" layer="51"/>
+<wire x1="6.45" y1="0.65" x2="6.45" y2="1.35" width="0.1" layer="51"/>
+<wire x1="6.45" y1="1.35" x2="4.6" y2="1.35" width="0.1" layer="51"/>
+<wire x1="4.6" y1="2.65" x2="6.45" y2="2.65" width="0.1" layer="51"/>
+<wire x1="6.45" y1="2.65" x2="6.45" y2="3.35" width="0.1" layer="51"/>
+<wire x1="6.45" y1="3.35" x2="4.6" y2="3.35" width="0.1" layer="51"/>
+<wire x1="4.6" y1="4.65" x2="6.45" y2="4.65" width="0.1" layer="51"/>
+<wire x1="6.45" y1="4.65" x2="6.45" y2="5.35" width="0.1" layer="51"/>
+<wire x1="6.45" y1="5.35" x2="4.6" y2="5.35" width="0.1" layer="51"/>
+<circle x="-4.11" y="5.78" radius="0.1" width="0.2" layer="21"/>
+<smd name="6" x="-5.975" y="-5" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="5" x="-5.975" y="-3" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="4" x="-5.975" y="-1" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="3" x="-5.975" y="1" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="2" x="-5.975" y="3" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="1" x="-5.975" y="5" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="7" x="5.975" y="-5" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="8" x="5.975" y="-3" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="9" x="5.975" y="-1" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="10" x="5.975" y="1" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="11" x="5.975" y="3" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<smd name="12" x="5.975" y="5" dx="1.75" dy="2.25" layer="1" rot="R90"/>
+<text x="0.08" y="7.5" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.88" y="-8.2" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-3.91" y="-5.53" size="1.016" layer="48">6</text>
+<text x="3.64" y="-5.51" size="1.016" layer="48">7</text>
+<text x="2.63" y="4.53" size="1.016" layer="48">12</text>
+<text x="-3.81" y="4.57" size="1.016" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.3" y="-6.75"/>
+<vertex x="-7.3" y="6.75"/>
+<vertex x="7.3" y="6.75"/>
+<vertex x="7.3" y="-6.75"/>
+</polygon>
+</package>
+<package name="WE-POE_EP13" urn="urn:adsk.eagle:footprint:12941768/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP13  SMD 10Pin</description>
+<wire x1="-6.5" y1="-6.73" x2="6.5" y2="-6.73" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="6.73" x2="6.5" y2="6.73" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="6.73" x2="-6.5" y2="5.35" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="5.35" x2="-6.5" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="4.65" x2="-6.5" y2="-6.73" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.73" x2="6.5" y2="-6.73" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.83" x2="6.6" y2="6.83" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.83" x2="6.6" y2="-6.83" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.83" x2="-6.6" y2="-6.83" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.83" x2="-6.6" y2="6.83" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="5.35" x2="-8.875" y2="5.35" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="5.35" x2="-8.875" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="4.65" x2="-6.5" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="2.85" x2="-8.875" y2="2.85" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="2.85" x2="-8.875" y2="2.15" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="2.15" x2="-6.5" y2="2.15" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="0.35" x2="-8.875" y2="0.35" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="0.35" x2="-8.875" y2="-0.35" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-0.35" x2="-6.5" y2="-0.35" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-2.15" x2="-8.875" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-2.15" x2="-8.875" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-2.85" x2="-6.5" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-4.65" x2="-8.875" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-4.65" x2="-8.875" y2="-5.35" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-5.35" x2="-6.5" y2="-5.35" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-5.35" x2="8.875" y2="-5.35" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-5.35" x2="8.875" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-4.65" x2="6.5" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-2.85" x2="8.875" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-2.85" x2="8.875" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-2.15" x2="6.5" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-0.35" x2="8.875" y2="-0.35" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-0.35" x2="8.875" y2="0.35" width="0.1" layer="51"/>
+<wire x1="8.875" y1="0.35" x2="6.5" y2="0.35" width="0.1" layer="51"/>
+<wire x1="6.5" y1="2.15" x2="8.875" y2="2.15" width="0.1" layer="51"/>
+<wire x1="8.875" y1="2.15" x2="8.875" y2="2.85" width="0.1" layer="51"/>
+<wire x1="8.875" y1="2.85" x2="6.5" y2="2.85" width="0.1" layer="51"/>
+<wire x1="6.5" y1="4.65" x2="8.875" y2="4.65" width="0.1" layer="51"/>
+<wire x1="8.875" y1="4.65" x2="8.875" y2="5.35" width="0.1" layer="51"/>
+<wire x1="8.875" y1="5.35" x2="6.5" y2="5.35" width="0.1" layer="51"/>
+<circle x="-6.1" y="-5.5" radius="0.1" width="0.2" layer="21"/>
+<smd name="6" x="8.275" y="5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="10" x="8.275" y="-5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="5" x="-8.275" y="5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="1" x="-8.275" y="-5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="7" x="8.275" y="2.5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="9" x="8.275" y="-2.5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="4" x="-8.275" y="2.5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="2" x="-8.275" y="-2.5" dx="1.55" dy="1.27" layer="1"/>
+<smd name="8" x="8.275" y="0" dx="1.55" dy="1.27" layer="1"/>
+<smd name="3" x="-8.275" y="0" dx="1.55" dy="1.27" layer="1"/>
+<text x="0.05" y="7.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.3" y="-8.7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-5.76" y="4.456" size="1.016" layer="48">5</text>
+<text x="5.517" y="4.368" size="1.016" layer="48">6</text>
+<text x="4.656" y="-5.288" size="1.016" layer="48">10</text>
+<text x="-5.56" y="-5.144" size="1.016" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="-9.25" y="7.03"/>
+<vertex x="9.25" y="7.03"/>
+<vertex x="9.25" y="-7.03"/>
+<vertex x="-9.25" y="-7.03"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-POE_EFD15" urn="urn:adsk.eagle:package:12941781/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EFD15 SMD 12Pin</description>
+<packageinstances>
+<packageinstance name="WE-POE_EFD15"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE_ER14.5/6" urn="urn:adsk.eagle:package:12941777/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;ER14.5/6  SMD 12Pin</description>
+<packageinstances>
+<packageinstance name="WE-POE_ER14.5/6"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE_EP10" urn="urn:adsk.eagle:package:12941780/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP10  SMD 8Pin</description>
+<packageinstances>
+<packageinstance name="WE-POE_EP10"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE_ER11/5" urn="urn:adsk.eagle:package:12941778/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;ER11/5  SMD 12Pin</description>
+<packageinstances>
+<packageinstance name="WE-POE_ER11/5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE_EP13" urn="urn:adsk.eagle:package:12941779/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PoE Power over Ethernet Transformer&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP13  SMD 10Pin</description>
+<packageinstances>
+<packageinstance name="WE-POE_EP13"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-POE_2W:2W" urn="urn:adsk.eagle:symbol:14283982/1">
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="4.46" x2="-0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="0.3" y1="4.46" x2="0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="4.40375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="4.50375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<text x="-5.01" y="-11.1" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.07" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="2.5" size="1.27" layer="97">N1</text>
+<text x="-7" y="-5" size="1.27" layer="97">N2</text>
+<text x="5" y="-5" size="1.27" layer="97">N4</text>
+<text x="5" y="2.5" size="1.27" layer="97">N3</text>
+</symbol>
+<symbol name="WE-POE_2W:3W-2" urn="urn:adsk.eagle:symbol:14283984/1">
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="6" x2="-0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="0.3" y1="6" x2="0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="5.08" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="9.58375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="1.86375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="6.94375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-0.57625" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.54" y="-5.65625" radius="0.12" width="0.254" layer="94"/>
+<text x="-4.31" y="-12.74" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-1.11" y="11.47" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-6.5" y="5" size="1.27" layer="97">N1</text>
+<text x="-6.5" y="-3" size="1.27" layer="97">N2</text>
+<text x="5" y="7" size="1.27" layer="97">N3</text>
+<text x="5" y="0" size="1.27" layer="97">N4</text>
+<text x="5" y="-8" size="1.27" layer="97">N5</text>
+</symbol>
+<symbol name="WE-POE_1W:1W" urn="urn:adsk.eagle:symbol:14283986/1">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="2.5" x2="-0.3" y2="-2.5" width="0.254" layer="94"/>
+<wire x1="0.3" y1="2.5" x2="0.3" y2="-2.5" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.4567" y="1.93865" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.4359" y="1.91775" radius="0.12" width="0.254" layer="94"/>
+<text x="-3.81" y="-5.35" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0.03" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="0" size="1.27" layer="97">N1</text>
+<text x="4.8" y="0" size="1.27" layer="97">N2</text>
+</symbol>
+<symbol name="WE-POE_2W:3W-1" urn="urn:adsk.eagle:symbol:14283983/1">
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.3" y1="-9.54" x2="0.3" y2="7.46" width="0.254" layer="94"/>
+<wire x1="-0.3" y1="-9.54" x2="-0.3" y2="7.46" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="-2.54" y="4.48625" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.4575" y="7.03375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.54" y="-5.67375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.4575" y="1.95375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-3.13375" radius="0.12" width="0.254" layer="94"/>
+<text x="-1.13" y="-12.8" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-0.53" y="8.83" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="2.5" size="1.27" layer="97">N1</text>
+<text x="-7" y="-5" size="1.27" layer="97">N2</text>
+<text x="5" y="-7.5" size="1.27" layer="97">N5</text>
+<text x="5" y="0" size="1.27" layer="97">N4</text>
+<text x="5" y="5" size="1.27" layer="97">N3</text>
+</symbol>
+<symbol name="WE-POE_2W:3W" urn="urn:adsk.eagle:symbol:14283981/1">
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="6" x2="-0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="0.3" y1="6" x2="0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="7.04375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="1.86375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="6.94375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-0.57625" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.54" y="-3.11625" radius="0.12" width="0.254" layer="94"/>
+<text x="-5.31" y="-11.2" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.11" y="8.93" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-6.5" y="5" size="1.27" layer="97">N1</text>
+<text x="-6.7" y="-3" size="1.27" layer="97">N2</text>
+<text x="5" y="5" size="1.27" layer="97">N3</text>
+<text x="5" y="0" size="1.27" layer="97">N4</text>
+<text x="5" y="-5" size="1.27" layer="97">N5</text>
+</symbol>
+<symbol name="WE-POE_2W:2W-1" urn="urn:adsk.eagle:symbol:14283985/1">
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="4.46" x2="-0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="0.3" y1="4.46" x2="0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="4.40375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="4.50375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<text x="-5.01" y="-11.1" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.07" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="2.5" size="1.27" layer="97">N1</text>
+<text x="-7" y="-5" size="1.27" layer="97">N4</text>
+<text x="5" y="-5" size="1.27" layer="97">N3</text>
+<text x="5" y="2.5" size="1.27" layer="97">N2</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-POE_EFD15_SCH1" prefix="T" urn="urn:adsk.eagle:component:14283992/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:3W-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EFD15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="12"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="10"/>
+<connect gate="G$1" pin="7" pad="8"/>
+<connect gate="G$1" pin="8" pad="11"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941781/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_749119318">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119318.pdf" constant="no"/>
+<attribute name="IO2" value="2.4A" constant="no"/>
+<attribute name="IO3" value="2.4A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="120uH" constant="no"/>
+<attribute name="LSMIN" value="2.5uH" constant="no"/>
+<attribute name="N" value="1:0.39:0.07:0.07:0.07" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119318 " constant="no"/>
+<attribute name="VALUE" value="1.8V 2.4A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="1.8V" constant="no"/>
+<attribute name="VO3" value="1.8V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_749119333">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119333.pdf" constant="no"/>
+<attribute name="IO2" value="1.35A" constant="no"/>
+<attribute name="IO3" value="1.35A" constant="no"/>
+<attribute name="ISAT" value="1.3A" constant="no"/>
+<attribute name="L" value="120uH" constant="no"/>
+<attribute name="LSMIN" value="3.5uH" constant="no"/>
+<attribute name="N" value="1:0.25:0.08:0.08:0.08" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119333 " constant="no"/>
+<attribute name="VALUE" value="3.3V 1.35A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="3.3V" constant="no"/>
+<attribute name="VO3" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_749119350">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119350.pdf" constant="no"/>
+<attribute name="IO2" value="0.9A" constant="no"/>
+<attribute name="IO3" value="0.9A" constant="no"/>
+<attribute name="ISAT" value="1.4A" constant="no"/>
+<attribute name="L" value="120uH" constant="no"/>
+<attribute name="LSMIN" value="2.5uH" constant="no"/>
+<attribute name="N" value="1:0.25:0.14:0.14:0.14" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119350 " constant="no"/>
+<attribute name="VALUE" value="5.0V 0.9A" constant="no"/>
+<attribute name="VAUX" value="9V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5.0V" constant="no"/>
+<attribute name="VO3" value="5.0V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_EFD15_SCH2" prefix="T" urn="urn:adsk.eagle:component:14283994/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:3W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EFD15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="7"/>
+<connect gate="G$1" pin="6" pad="8 9"/>
+<connect gate="G$1" pin="7" pad="10 11"/>
+<connect gate="G$1" pin="8" pad="12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941781/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7491193912">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491193912.pdf" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="120uH" constant="no"/>
+<attribute name="LSMIN" value="1.5uH" constant="no"/>
+<attribute name="N" value="1:0.33:0.1:0.07:0.2" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491193912 " constant="no"/>
+<attribute name="VALUE" value="12.0V 1.2A" constant="no"/>
+<attribute name="VAUX" value="11V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5.0V" constant="no"/>
+<attribute name="VO3" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_ER14.5/6_SCH3" prefix="T" urn="urn:adsk.eagle:component:14283995/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:3W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_ER14.5/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="7"/>
+<connect gate="G$1" pin="6" pad="8 9"/>
+<connect gate="G$1" pin="7" pad="10 11"/>
+<connect gate="G$1" pin="8" pad="12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941777/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7491192912">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491192912.pdf" constant="no"/>
+<attribute name="ISAT" value="0.6A" constant="no"/>
+<attribute name="L" value="210uH" constant="no"/>
+<attribute name="LSMIN" value="2.5uH" constant="no"/>
+<attribute name="N" value="1:0.42:0.12:0.08:0.29" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491192912 " constant="no"/>
+<attribute name="VALUE" value="12.0V 0.58A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5.0V" constant="no"/>
+<attribute name="VO3" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_EP10" prefix="T" urn="urn:adsk.eagle:component:14283993/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EP10">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="7 8"/>
+<connect gate="G$1" pin="4" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941780/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310062">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/750310062.pdf" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="3uH" constant="no"/>
+<attribute name="N" value="4 : 1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 750310062 " constant="no"/>
+<attribute name="VALUE" value="5.0V 2.0A" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_ER14.5/6_SCH1" prefix="T" urn="urn:adsk.eagle:component:14283996/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:3W-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_ER14.5/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="12"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="10"/>
+<connect gate="G$1" pin="7" pad="8"/>
+<connect gate="G$1" pin="8" pad="11"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941777/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_749119218">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119218.pdf" constant="no"/>
+<attribute name="IO2" value="1.3A" constant="no"/>
+<attribute name="IO3" value="1.3A" constant="no"/>
+<attribute name="ISAT" value="1.08A" constant="no"/>
+<attribute name="L" value="210uH" constant="no"/>
+<attribute name="LSMIN" value="4.5uH" constant="no"/>
+<attribute name="N" value="1:0.33:0.06:0.06:0.06" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119218 " constant="no"/>
+<attribute name="VALUE" value="1.8V 1.3A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="1.8V" constant="no"/>
+<attribute name="VO3" value="1.8V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_749119250">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119250.pdf" constant="no"/>
+<attribute name="IO2" value="0.47A" constant="no"/>
+<attribute name="IO3" value="0.47A" constant="no"/>
+<attribute name="ISAT" value="0.7A" constant="no"/>
+<attribute name="L" value="210uH" constant="no"/>
+<attribute name="LSMIN" value="2.5uH" constant="no"/>
+<attribute name="N" value="1:0.29:0.17:0.17:0.17" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119250 " constant="no"/>
+<attribute name="VALUE" value="5.0V 0.47A" constant="no"/>
+<attribute name="VAUX" value="9V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5.0V" constant="no"/>
+<attribute name="VO3" value="5.0V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_EP13_SCH2" prefix="T" urn="urn:adsk.eagle:component:14283989/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EP13">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="9 10" route="any"/>
+<connect gate="G$1" pin="4" pad="7 8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941779/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310013">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/750310013.pdf" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="1uH" constant="no"/>
+<attribute name="N" value="1 : 0.25" constant="no"/>
+<attribute name="PART-NUMBER" value=" 750310013 " constant="no"/>
+<attribute name="VALUE" value="5V 2.6A" constant="no"/>
+<attribute name="VAUX" value="5V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_ER11/5" prefix="T" urn="urn:adsk.eagle:component:14283997/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:3W-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_ER11/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="12"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="10"/>
+<connect gate="G$1" pin="7" pad="8"/>
+<connect gate="G$1" pin="8" pad="11"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941778/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_749119133">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119133.pdf" constant="no"/>
+<attribute name="IO2" value="0.4A" constant="no"/>
+<attribute name="IO3" value="0.4A" constant="no"/>
+<attribute name="ISAT" value="0.3A" constant="no"/>
+<attribute name="L" value="400uH" constant="no"/>
+<attribute name="LSMIN" value="4uH" constant="no"/>
+<attribute name="N" value="1:0.25:0.08:0.08:0.08" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119133 " constant="no"/>
+<attribute name="VALUE" value="3.3V  0.4A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="3.3V" constant="no"/>
+<attribute name="VO3" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_749119150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119150.pdf" constant="no"/>
+<attribute name="IO2" value="0.27A" constant="no"/>
+<attribute name="IO3" value="0.27A" constant="no"/>
+<attribute name="ISAT" value="0.3A" constant="no"/>
+<attribute name="L" value="400uH" constant="no"/>
+<attribute name="LSMIN" value="4uH" constant="no"/>
+<attribute name="N" value="1:0.25:0.14:0.14:0.14" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119150 " constant="no"/>
+<attribute name="VALUE" value="5.0V 0.27A" constant="no"/>
+<attribute name="VAUX" value="9V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5.0V" constant="no"/>
+<attribute name="VO3" value="5.0V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_ER14.5/6_SCH2" prefix="T" urn="urn:adsk.eagle:component:14283987/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_ER14.5/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="8 9"/>
+<connect gate="G$1" pin="6" pad="10 11"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941777/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_749119233">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119233.pdf" constant="no"/>
+<attribute name="IO2" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="0.6A" constant="no"/>
+<attribute name="L" value="210uH" constant="no"/>
+<attribute name="LSMIN" value="2.5uH" constant="no"/>
+<attribute name="N" value="1:0.25:0.08:0.08" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119233 " constant="no"/>
+<attribute name="VALUE" value="3.3V 0.7A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_EP13_SCH4" prefix="T" urn="urn:adsk.eagle:component:14283990/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EP13">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="G$1" pin="3" pad="9 10"/>
+<connect gate="G$1" pin="4" pad="7 8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941779/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7491199312">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491199312.pdf" constant="no"/>
+<attribute name="ISAT" value="3.7A" constant="no"/>
+<attribute name="L" value="40uH" constant="no"/>
+<attribute name="LSMIN" value="0.56uH" constant="no"/>
+<attribute name="N" value="1 : 1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491199312 " constant="no"/>
+<attribute name="VALUE" value="12V 1.25A" constant="no"/>
+<attribute name="VAUX" value="12V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_EP13_SCH1" prefix="T" urn="urn:adsk.eagle:component:14283988/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:2W-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EP13">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="8"/>
+<connect gate="G$1" pin="7" pad="10"/>
+<connect gate="G$1" pin="8" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941779/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7491199112">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491199112.pdf" constant="no"/>
+<attribute name="IO2" value="0.55A" constant="no"/>
+<attribute name="ISAT" value="1.3A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="1.3uH" constant="no"/>
+<attribute name="N" value="1:0.5:0.5:0.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491199112 " constant="no"/>
+<attribute name="VALUE" value="12V 0.55A" constant="no"/>
+<attribute name="VAUX" value="12V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="12V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_7491199212">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491199212.pdf" constant="no"/>
+<attribute name="IO2" value="0.55A" constant="no"/>
+<attribute name="ISAT" value="2.4A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="2.3uH" constant="no"/>
+<attribute name="N" value="1:0.29:0.29:0.21" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491199212 " constant="no"/>
+<attribute name="VALUE" value="12V 0.55A" constant="no"/>
+<attribute name="VAUX" value="8V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="12V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_749119933">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119933.pdf" constant="no"/>
+<attribute name="IO2" value="2A" constant="no"/>
+<attribute name="ISAT" value="1.42A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="1.3uH" constant="no"/>
+<attribute name="N" value="1:0.17:0.17:0.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119933 " constant="no"/>
+<attribute name="VALUE" value="3.3V 2A" constant="no"/>
+<attribute name="VAUX" value="12V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_7491199331">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491199331.pdf" constant="no"/>
+<attribute name="IO2" value="2A" constant="no"/>
+<attribute name="ISAT" value="2.3A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="3.5uH" constant="no"/>
+<attribute name="N" value="1:0.08:0.08:0.21" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491199331 " constant="no"/>
+<attribute name="VALUE" value="3.3V 2A" constant="no"/>
+<attribute name="VAUX" value="12V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="3.3V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_749119950">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/749119950.pdf" constant="no"/>
+<attribute name="IO2" value="1.3A" constant="no"/>
+<attribute name="ISAT" value="1.7A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="1.3uH" constant="no"/>
+<attribute name="N" value="1:0.25:0.25:0.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 749119950 " constant="no"/>
+<attribute name="VALUE" value="5V 1.3A" constant="no"/>
+<attribute name="VAUX" value="12V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_7491199501">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491199501.pdf" constant="no"/>
+<attribute name="IO2" value="1.3A" constant="no"/>
+<attribute name="ISAT" value="2.4A" constant="no"/>
+<attribute name="L" value="127uH" constant="no"/>
+<attribute name="LSMIN" value="2.5uH" constant="no"/>
+<attribute name="N" value="1:0.125:0.125:0.21" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491199501 " constant="no"/>
+<attribute name="VALUE" value="5V 1.3A" constant="no"/>
+<attribute name="VAUX" value="12V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-POE_EP13_SCH3" prefix="T" urn="urn:adsk.eagle:component:14283991/1">
+<description>&lt;b&gt;WE-PoE Power over Ethernet Transformer
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flyback transformer designed for PoE PDs
+&lt;br&gt;
+&lt;br&gt; Input voltage: 36 V to 57 V
+&lt;br&gt;
+&lt;br&gt; Switching frequencies: 200–500 kHz
+&lt;br&gt;
+&lt;br&gt; Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt; Insulation test voltage: 1.5 kVAC/1 min
+&lt;br&gt;
+&lt;br&gt; Different output powers and voltages available
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; PoE powered devices
+&lt;br&gt;IP Phones
+&lt;br&gt;WLAN Access Points
+&lt;br&gt;Access control terminals
+&lt;br&gt;Security cameras
+&lt;br&gt;Suitable for PoE IC’s like LTC4267, LM5070, TPS 23750, TPS 23770, LM 5071, LM 5072
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; The "VALUE"shown is the Output Voltage 1  Output Current 1.&lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14839v209%20Family_we-poe_uebertrager_power_over_ethernet.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2V"&gt;https://katalog.we-online.com/en/pbs/WE-POE#vs_ct:2&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun, Shan 2019-08-19&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE_2W:3W-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE_EP13">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="10"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="9"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12941779/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7491199332">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7491199332.pdf" constant="no"/>
+<attribute name="IO2" value="1A" constant="no"/>
+<attribute name="IO3" value="0.05A" constant="no"/>
+<attribute name="ISAT" value="2.8A" constant="no"/>
+<attribute name="L" value="35uH" constant="no"/>
+<attribute name="LSMIN" value="0.95uH" constant="no"/>
+<attribute name="N" value="1: 0.17:0.28:0.29:0.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7491199332 " constant="no"/>
+<attribute name="VALUE" value="3.3V 2A" constant="no"/>
+<attribute name="VAUX" value="10V" constant="no"/>
+<attribute name="VI" value="36-57V" constant="no"/>
+<attribute name="VO2" value="5V" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

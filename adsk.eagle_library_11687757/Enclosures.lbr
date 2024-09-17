@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.4.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Enclosures&lt;/i&gt;&lt;/h3&gt;
+
+Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
+&lt;BR&gt;
+&lt;BR&gt;
+This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
+&lt;BR&gt;
+&lt;BR&gt;
+Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
+<packages>
+<package name="A9066107(SMART-M)" urn="urn:adsk.eagle:footprint:11687759/1">
+<wire x1="13.62694375" y1="-48" x2="-13.62694375" y2="-48" width="0.1524" layer="20"/>
+<wire x1="-13.62694375" y1="-48" x2="-15.1211" y2="-46.63228125" width="0.1524" layer="20" curve="-84.940658"/>
+<wire x1="-15.1211" y1="-46.63228125" x2="-23.5" y2="46.36771875" width="0.1524" layer="20" curve="-13.4057"/>
+<wire x1="-23.5" y1="46.36771875" x2="-21.86131875" y2="48" width="0.1524" layer="20" curve="-95.059948"/>
+<wire x1="-21.86131875" y1="48" x2="21.86131875" y2="48" width="0.1524" layer="20"/>
+<wire x1="21.86131875" y1="48" x2="23.5" y2="46.36771875" width="0.1524" layer="20" curve="-95.059342"/>
+<wire x1="23.5" y1="46.36771875" x2="15.1211" y2="-46.63228125" width="0.1524" layer="20" curve="-13.4057"/>
+<wire x1="15.1211" y1="-46.63228125" x2="13.62694375" y2="-48" width="0.1524" layer="20" curve="-84.940291"/>
+<hole x="0" y="38" drill="1.8"/>
+<hole x="0" y="15.14" drill="2.5"/>
+<hole x="0" y="-10.26" drill="1.8"/>
+<hole x="0" y="-16" drill="2.5"/>
+<dimension x1="23.5" y1="46.99" x2="-23.5" y2="46.99" x3="0" y3="50.8" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="-21.59" y1="48" x2="-12.7" y2="-48" x3="-30.48" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-15" y1="-47" x2="15" y2="-47" x3="0" y3="-52.07" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="376.355234375" y1="35.515503125" x2="-18.087246875" y2="-30.94581875" x3="-25.778828125" y3="-32.24180625" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="22.5" y1="46.5" x2="23.923025" y2="46.974340625" x3="31.32275625" y3="49.440915625" textsize="1.778" layer="47" dtype="radius"/>
+</package>
+<package name="B7020107(ERGO-L)" urn="urn:adsk.eagle:footprint:11687761/1">
+<wire x1="81" y1="-75" x2="99" y2="-75" width="0.1524" layer="20"/>
+<wire x1="99" y1="-75" x2="100" y2="-74" width="0.1524" layer="20" curve="90"/>
+<wire x1="100" y1="-74" x2="100" y2="63.38" width="0.1524" layer="20"/>
+<wire x1="100" y1="63.38" x2="97.27" y2="67.38" width="0.1524" layer="20" curve="90"/>
+<wire x1="97.27" y1="67.38" x2="-94.73" y2="67.38" width="0.1524" layer="20" curve="18.9227"/>
+<wire x1="-94.73" y1="67.38" x2="-100" y2="62.11" width="0.1524" layer="20" curve="90"/>
+<wire x1="-100" y1="62.11" x2="-100" y2="-74" width="0.1524" layer="20"/>
+<wire x1="-100" y1="-74" x2="-99" y2="-75" width="0.1524" layer="20" curve="90"/>
+<wire x1="-99" y1="-75" x2="-81" y2="-75" width="0.1524" layer="20"/>
+<wire x1="-81" y1="-75" x2="81" y2="-75" width="0.1524" layer="20"/>
+<wire x1="81" y1="-75" x2="81" y2="44.26" width="0.1524" layer="20"/>
+<wire x1="81" y1="44.26" x2="76" y2="50.8" width="0.1524" layer="20" curve="90"/>
+<wire x1="76" y1="50.8" x2="-77.28" y2="49.53" width="0.1524" layer="20" curve="34.288"/>
+<wire x1="-77.28" y1="49.53" x2="-81" y2="44.26" width="0.1524" layer="20" curve="90"/>
+<wire x1="-81" y1="44.26" x2="-81" y2="-75" width="0.1524" layer="20"/>
+<wire x1="73" y1="27.1" x2="-73" y2="27.1" width="0.1524" layer="20"/>
+<wire x1="-73" y1="27.1" x2="-74" y2="26.1" width="0.1524" layer="20" curve="90"/>
+<wire x1="-74" y1="26.1" x2="-74" y2="-66" width="0.1524" layer="20"/>
+<wire x1="-74" y1="-66" x2="-73" y2="-67" width="0.1524" layer="20" curve="90"/>
+<wire x1="-73" y1="-67" x2="73" y2="-67" width="0.1524" layer="20"/>
+<wire x1="73" y1="-67" x2="74" y2="-66" width="0.1524" layer="20" curve="90"/>
+<wire x1="74" y1="-66" x2="74" y2="26.1" width="0.1524" layer="20"/>
+<wire x1="74" y1="26.1" x2="73" y2="27.1" width="0.1524" layer="20" curve="90"/>
+<hole x="-75" y="-31" drill="2.75"/>
+<hole x="75" y="-31" drill="2.75"/>
+<hole x="-75" y="39" drill="2.75"/>
+<hole x="75" y="39" drill="2.75"/>
+<dimension x1="-1" y1="75" x2="-1" y2="-75" x3="-148.7" y3="0" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="1.27" y1="-508.680278125" x2="1.27" y2="75.324384375" x3="1.27" y3="105.324384375" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+<dimension x1="-100" y1="-74" x2="100" y2="-74" x3="0" y3="-111.76" textsize="3.81" textratio="9" layer="47" dtype="horizontal" width="0.5"/>
+<dimension x1="-74" y1="-66" x2="74" y2="-66.04" x3="0" y3="-86.36" textsize="3.81" textratio="9" layer="47" dtype="horizontal" width="0.5"/>
+<dimension x1="-81" y1="-75" x2="81" y2="-74.93" x3="0" y3="-99.06" textsize="3.81" textratio="9" layer="47" dtype="horizontal" width="0.5"/>
+<dimension x1="0" y1="62" x2="0" y2="-75" x3="-133.46" y3="-6.5" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="-73" y1="27.1" x2="-69.85" y2="-67" x3="-119.49" y3="-19.95" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="1.418475" y1="-198.278184375" x2="11.1199125" y2="61.545271875" x3="12.239290625" y3="91.52438125" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+<dimension x1="76" y1="48" x2="78.828428125" y2="50.828428125" x3="100.041634375" y3="72.04163125" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+<dimension x1="-73" y1="-67" x2="-65" y2="-75" x3="-107" y3="-71" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="73" y1="26.5" x2="74" y2="26.5" x3="104" y3="26.5" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+</package>
+<package name="B7005107(ERGO-S)" urn="urn:adsk.eagle:footprint:11687763/1">
+<wire x1="-33" y1="-39" x2="-47.5" y2="-39" width="0.1524" layer="20"/>
+<wire x1="-47.5" y1="-39" x2="-48" y2="-38.5" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-48" y1="-38.5" x2="-48" y2="29" width="0.1524" layer="20"/>
+<wire x1="-48" y1="29" x2="-44" y2="34" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-44" y1="34" x2="44" y2="33.5" width="0.1524" layer="20" curve="-37.116"/>
+<wire x1="44" y1="33.5" x2="48" y2="28.5" width="0.1524" layer="20" curve="-90"/>
+<wire x1="48" y1="28.5" x2="48" y2="-38.5" width="0.1524" layer="20"/>
+<wire x1="48" y1="-38.5" x2="47.5" y2="-39" width="0.1524" layer="20" curve="-90"/>
+<wire x1="47.5" y1="-39" x2="33" y2="-39" width="0.1524" layer="20"/>
+<wire x1="33" y1="-39" x2="-33" y2="-39" width="0.1524" layer="20"/>
+<wire x1="28.5" y1="-31" x2="-28.5" y2="-31" width="0.1524" layer="20"/>
+<wire x1="-28.5" y1="-31" x2="-29" y2="-30.5" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-29" y1="-30.5" x2="-29" y2="12.3" width="0.1524" layer="20"/>
+<wire x1="-29" y1="12.3" x2="-28.5" y2="12.8" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-28.5" y1="12.8" x2="28.5" y2="12.8" width="0.1524" layer="20"/>
+<wire x1="28.5" y1="12.8" x2="29" y2="12.3" width="0.1524" layer="20" curve="-90"/>
+<wire x1="29" y1="12.3" x2="29" y2="-30.5" width="0.1524" layer="20"/>
+<wire x1="29" y1="-30.5" x2="28.5" y2="-31" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-33" y1="-39" x2="-33" y2="16" width="0.1524" layer="20"/>
+<wire x1="-33" y1="16" x2="-29" y2="20.5" width="0.1524" layer="20" curve="-90"/>
+<wire x1="33" y1="-39" x2="33" y2="15.5" width="0.1524" layer="20"/>
+<wire x1="33" y1="15.5" x2="29" y2="20.5" width="0.1524" layer="20" curve="90"/>
+<wire x1="29" y1="20.5" x2="-29" y2="20.5" width="0.1524" layer="20" curve="24.95"/>
+<hole x="0" y="-11" drill="2.75"/>
+<hole x="25" y="18" drill="2.75"/>
+<hole x="-25" y="18" drill="2.75"/>
+<dimension x1="28.5" y1="12.5" x2="28.5" y2="13.00000625" x3="28.5" y3="28.60000625" textsize="1.778" textratio="9" layer="47" dtype="radius" width="0.26"/>
+<dimension x1="-1" y1="-39" x2="-1" y2="41" x3="-52.5" y3="1" textsize="1.778" textratio="9" layer="47" dtype="vertical" width="0.26"/>
+<dimension x1="-29" y1="-30.5" x2="29" y2="-30" x3="0" y3="-45" textsize="1.778" textratio="9" layer="47" dtype="horizontal" width="0.26"/>
+<dimension x1="-48" y1="-38.5" x2="48" y2="-38.5" x3="0" y3="-52" textsize="1.778" textratio="9" layer="47" dtype="horizontal" width="0.26"/>
+<dimension x1="25.5" y1="12.8" x2="25.5" y2="-31" x3="53" y3="-9.1" textsize="1.778" textratio="9" layer="47" dtype="vertical" width="0.26"/>
+<dimension x1="45.5" y1="31.5" x2="48.89199375" y2="33.619996875" x3="62.120765625" y3="41.88798125" textsize="1.778" textratio="9" layer="47" dtype="radius" width="0.26"/>
+<dimension x1="28.5" y1="-31" x2="26.5" y2="-39" x3="53" y3="-35" textsize="1.778" textratio="9" layer="47" dtype="vertical" width="0.26"/>
+<dimension x1="-0.744665625" y1="-97.31108125" x2="-0.502728125" y2="40.9407375" x3="-0.475428125" y3="56.5407125" textsize="1.778" textratio="9" layer="47" dtype="radius" width="0.26"/>
+</package>
+<package name="A9064107(SMART-XS)" urn="urn:adsk.eagle:footprint:11687760/1">
+<wire x1="-11.5" y1="-29" x2="-17.8" y2="29" width="0.1524" layer="20" curve="-17.6629"/>
+<wire x1="-17.8" y1="29" x2="17.8" y2="29" width="0.1524" layer="20"/>
+<wire x1="17.8" y1="29" x2="17.779196875" y2="29" width="0.1524" layer="20" curve="-92.293873"/>
+<wire x1="17.779196875" y1="29" x2="11.5" y2="-29" width="0.1524" layer="20" curve="-17.6629"/>
+<wire x1="-11.43" y1="-29" x2="-8.45" y2="-30.27" width="0.1524" layer="20"/>
+<wire x1="8.45" y1="-30.27" x2="11.43" y2="-29" width="0.1524" layer="20"/>
+<wire x1="-8.45" y1="-30.27" x2="-7.62" y2="-29.51" width="0.1524" layer="20"/>
+<wire x1="8.45" y1="-30.27" x2="7.62" y2="-29.51" width="0.1524" layer="20"/>
+<wire x1="-7.62" y1="-29.508" x2="7.62" y2="-29.508" width="0.1524" layer="20" curve="74.523143"/>
+<hole x="0" y="23" drill="1.6"/>
+<hole x="0" y="1" drill="1.6"/>
+<hole x="7.62" y="-20.18" drill="1.6"/>
+<hole x="-7.62" y="-20.18" drill="2.6"/>
+<dimension x1="-17.8" y1="29" x2="17.8" y2="29" x3="0" y3="31.75" textsize="1.778" layer="47"/>
+<dimension x1="-11.5" y1="-29" x2="11.5" y2="-29" x3="0" y3="-41.91" textsize="1.778" layer="47"/>
+<dimension x1="-8.45" y1="-30" x2="8.45" y2="-30" x3="0" y3="-36.8246875" textsize="1.778" layer="47"/>
+<dimension x1="172.000875" y1="20.274146875" x2="-14.40389375" y2="-16.519525" x3="-22.056246875" y3="-18.0299875" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="-17.8" y1="29" x2="-11.43" y2="-29" x3="-29.21" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+</package>
+<package name="B7010107(ERGO-M)" urn="urn:adsk.eagle:footprint:11687762/1">
+<wire x1="-36" y1="-75" x2="-49.5" y2="-75" width="0.1524" layer="20"/>
+<wire x1="-49.5" y1="-75" x2="-50" y2="-74.5" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-50" y1="-74.5" x2="-50" y2="62.11" width="0.1524" layer="20"/>
+<wire x1="-50" y1="62.11" x2="-46" y2="67.38" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-46" y1="67.38" x2="46" y2="67.38" width="0.1524" layer="20" curve="-38.293"/>
+<wire x1="46" y1="67.38" x2="50" y2="62.11" width="0.1524" layer="20" curve="-90"/>
+<wire x1="50" y1="62.11" x2="50" y2="-74.5" width="0.1524" layer="20"/>
+<wire x1="50" y1="-74.5" x2="49.5" y2="-75" width="0.1524" layer="20" curve="-90"/>
+<wire x1="49.5" y1="-75" x2="36" y2="-75" width="0.1524" layer="20"/>
+<wire x1="36" y1="-75" x2="36" y2="50.92" width="0.1524" layer="20"/>
+<wire x1="36" y1="50.92" x2="31.56" y2="56.2" width="0.1524" layer="20" curve="90"/>
+<wire x1="31.56" y1="56.2" x2="-31.56" y2="56.2" width="0.1524" layer="20" curve="30.495"/>
+<wire x1="-31.56" y1="56.2" x2="-36" y2="50.92" width="0.1524" layer="20" curve="90"/>
+<wire x1="-36" y1="50.92" x2="-36" y2="-75" width="0.1524" layer="20"/>
+<wire x1="-36" y1="-75" x2="36" y2="-75" width="0.1524" layer="20"/>
+<wire x1="-28.5" y1="-67" x2="28.5" y2="-67" width="0.1524" layer="20"/>
+<wire x1="28.5" y1="-67" x2="29" y2="-66.5" width="0.1524" layer="20" curve="90"/>
+<wire x1="29" y1="-66.5" x2="29" y2="34.5" width="0.1524" layer="20"/>
+<wire x1="29" y1="34.5" x2="28.5" y2="34.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="28.5" y1="34.9" x2="-28.5" y2="34.9" width="0.1524" layer="20"/>
+<wire x1="-28.5" y1="34.9" x2="-29" y2="34" width="0.1524" layer="20" curve="90"/>
+<wire x1="-29" y1="34" x2="-29" y2="-66.5" width="0.1524" layer="20"/>
+<wire x1="-29" y1="-66.5" x2="-28.5" y2="-67" width="0.1524" layer="20" curve="90"/>
+<hole x="-30.25" y="-37" drill="2.75"/>
+<hole x="-30.25" y="43" drill="2.75"/>
+<hole x="30.25" y="-37" drill="2.75"/>
+<hole x="30.25" y="43" drill="2.75"/>
+<dimension x1="0" y1="75" x2="0" y2="-75" x3="-85.09" y3="0" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.26"/>
+<dimension x1="-50" y1="-74.5" x2="50" y2="-74.5" x3="0" y3="-107.06" textsize="3.81" textratio="9" layer="47" dtype="horizontal" width="0.5"/>
+<dimension x1="-36" y1="-75" x2="36" y2="-75" x3="0" y3="-97.09" textsize="3.81" textratio="9" layer="47" dtype="horizontal" width="0.5"/>
+<dimension x1="0" y1="60.07" x2="0" y2="-74.93" x3="-68.58" y3="-7.43" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="48" y1="64" x2="50.828428125" y2="66.828428125" x3="72.04163125" y3="88.04163125" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+<dimension x1="0" y1="-65.11221875" x2="0" y2="75.138228125" x3="0" y3="105.138228125" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+<dimension x1="0" y1="-59.580646875" x2="13.43811875" y2="59.669546875" x3="16.797509375" y3="89.480859375" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+<dimension x1="28.5" y1="34.9" x2="27" y2="-67" x3="63" y3="-16.05" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="-29" y1="-66.5" x2="29" y2="-66.5" x3="0" y3="-84" textsize="3.81" textratio="9" layer="47" dtype="vertical" width="0.5"/>
+<dimension x1="28.5" y1="34" x2="28.8762875" y2="34.329253125" x3="51.453553125" y3="54.084434375" textsize="3.81" textratio="9" layer="47" dtype="radius" width="0.5"/>
+</package>
+<package name="A9067107(SMART-L)" urn="urn:adsk.eagle:footprint:11687758/1">
+<wire x1="31" y1="67.843325" x2="20.144834375" y2="-65.616653125" width="0.1524" layer="20" curve="-12.8132"/>
+<wire x1="20.144834375" y1="-65.616653125" x2="15.150978125" y2="-70" width="0.1524" layer="20" curve="-85.50744"/>
+<wire x1="15.150978125" y1="-70" x2="-15.150978125" y2="-70" width="0.1524" layer="20"/>
+<wire x1="-15.150978125" y1="-70" x2="-20.144834375" y2="-65.616653125" width="0.1524" layer="20" curve="-85.507619"/>
+<wire x1="-20.144834375" y1="-65.616653125" x2="-31" y2="67.843325" width="0.1524" layer="20" curve="-12.8132"/>
+<wire x1="-31" y1="67.843325" x2="-28.83669375" y2="70" width="0.1524" layer="20" curve="-94.49247"/>
+<wire x1="-28.83669375" y1="70" x2="28.83669375" y2="70" width="0.1524" layer="20"/>
+<wire x1="28.83669375" y1="70" x2="31" y2="67.843325" width="0.1524" layer="20" curve="-94.493013"/>
+<hole x="-22.86" y="60" drill="2.2"/>
+<hole x="22.86" y="60" drill="2.2"/>
+<hole x="-22.86" y="45" drill="6"/>
+<hole x="22.86" y="45" drill="6"/>
+<hole x="-20.32" y="9.2" drill="2.2"/>
+<hole x="22.86" y="9.2" drill="2.2"/>
+<dimension x1="-31" y1="68.58" x2="31" y2="68.58" x3="0" y3="74.93" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="-28.83669375" y1="70" x2="-15.24" y2="-70" x3="-40.64" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-20" y1="-67.31" x2="20" y2="-67.31" x3="0" y3="-76" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="568.7208375" y1="49.451059375" x2="-24.796746875" y2="-38.52755625" x3="-32.512440625" y3="-39.671275" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="30" y1="69" x2="32" y2="69" x3="39.8" y3="69" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="18" y1="-68" x2="23" y2="-68" x3="30.8" y3="-68" textsize="1.778" layer="47" dtype="radius"/>
+</package>
+<package name="B9006806(MINITEC-EL)" urn="urn:adsk.eagle:footprint:11687767/1">
+<wire x1="-20" y1="26" x2="20" y2="26" width="0.1524" layer="20"/>
+<wire x1="20" y1="26" x2="20" y2="-26" width="0.1524" layer="20"/>
+<wire x1="20" y1="-26" x2="-20" y2="-26" width="0.1524" layer="20"/>
+<wire x1="-20" y1="-26" x2="-20" y2="26" width="0.1524" layer="20"/>
+<hole x="0" y="-22" drill="1.6"/>
+<hole x="0" y="22" drill="1.6"/>
+<dimension x1="-20" y1="26" x2="20" y2="25" x3="0" y3="30" textsize="1.778" layer="21" dtype="horizontal"/>
+<dimension x1="20" y1="26" x2="19.5" y2="-26" x3="26" y3="0" textsize="1.778" layer="21" dtype="vertical"/>
+</package>
+<package name="B9004806(MINITEC-EM)" urn="urn:adsk.eagle:footprint:11687766/1">
+<wire x1="-17" y1="25.5" x2="17" y2="25.5" width="0.1524" layer="20"/>
+<wire x1="17" y1="25.5" x2="17" y2="-25.5" width="0.1524" layer="20"/>
+<wire x1="17" y1="-25.5" x2="-17" y2="-25.5" width="0.1524" layer="20"/>
+<wire x1="-17" y1="-25.5" x2="-17" y2="25.5" width="0.1524" layer="20"/>
+<hole x="0" y="-21.5" drill="1.6"/>
+<hole x="0" y="23.5" drill="1.6"/>
+<dimension x1="-17" y1="-25.5" x2="17" y2="-25.5" x3="0" y3="-30.607" textsize="1.778" layer="21" dtype="vertical"/>
+<dimension x1="17" y1="25.5" x2="17" y2="-25.5" x3="25.5" y3="0" textsize="1.778" layer="21" dtype="vertical"/>
+</package>
+<package name="B1606207(BODY-L)" urn="urn:adsk.eagle:footprint:11687764/1">
+<wire x1="-9.5" y1="19" x2="9.5" y2="19" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="19" x2="9.5" y2="18.9" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="18.9" x2="11.5" y2="16.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="11.5" y1="16.9" x2="17.7" y2="16.9" width="0.1524" layer="20"/>
+<wire x1="17.7" y1="16.9" x2="17.7" y2="-16.9" width="0.1524" layer="20" curve="-28.65"/>
+<wire x1="17.7" y1="-16.9" x2="11.5" y2="-16.9" width="0.1524" layer="20"/>
+<wire x1="11.5" y1="-16.9" x2="9.5" y2="-18.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="9.5" y1="-18.9" x2="9.5" y2="-19" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="-19" x2="-9.5" y2="-19" width="0.1524" layer="20"/>
+<wire x1="-9.5" y1="-19" x2="-9.5" y2="-18.9" width="0.1524" layer="20"/>
+<wire x1="-9.5" y1="-18.9" x2="-11.5" y2="-16.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="-11.5" y1="-16.9" x2="-17.7" y2="-16.9" width="0.1524" layer="20"/>
+<wire x1="-17.7" y1="-16.9" x2="-17.7" y2="16.9" width="0.1524" layer="20" curve="-28.65"/>
+<wire x1="-17.7" y1="16.9" x2="-11.5" y2="16.9" width="0.1524" layer="20"/>
+<wire x1="-11.5" y1="16.9" x2="-9.5" y2="18.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="-9.5" y1="18.9" x2="-9.5" y2="19" width="0.1524" layer="20"/>
+<hole x="-16.5" y="15.5" drill="1.2"/>
+<hole x="16.5" y="15.5" drill="1.2"/>
+<hole x="-16.5" y="-15.5" drill="1.2"/>
+<hole x="16.5" y="-15.5" drill="1.2"/>
+<hole x="-18" y="1.5" drill="1.37"/>
+<hole x="-18" y="4.5" drill="1.37"/>
+<hole x="-18" y="-1.5" drill="1.37"/>
+<hole x="-18" y="-4.5" drill="1.37"/>
+<dimension x1="-9.5" y1="19" x2="9.5" y2="19" x3="0" y3="21.59" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="-19.7" y1="0" x2="19.9" y2="0" x3="0.1" y3="-22.534025" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="9.5" y1="19" x2="9.5" y2="-19" x3="30.48" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-10.11" y1="16.88" x2="-11.616865625" y2="18.19508125" x3="-17.493578125" y3="23.323846875" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="17.7" y1="16.9" x2="17.7" y2="-16.9" x3="25.66" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+</package>
+<package name="B1604207(BODY-M)" urn="urn:adsk.eagle:footprint:11687765/1">
+<wire x1="-9.265" y1="16.7" x2="9.265" y2="16.7" width="0.1524" layer="20"/>
+<wire x1="9.265" y1="16.7" x2="10.945" y2="13.75" width="0.1524" layer="20" curve="90"/>
+<wire x1="10.945" y1="13.75" x2="15.5" y2="13.75" width="0.1524" layer="20"/>
+<wire x1="15.5" y1="13.75" x2="16" y2="13.25" width="0.1524" layer="20" curve="-90"/>
+<wire x1="16" y1="13.25" x2="16" y2="-13.25" width="0.1524" layer="20" curve="-26.64"/>
+<wire x1="16" y1="-13.25" x2="15.5" y2="-13.75" width="0.1524" layer="20" curve="-90"/>
+<wire x1="15.5" y1="-13.75" x2="10.945" y2="-13.75" width="0.1524" layer="20"/>
+<wire x1="10.945" y1="-13.75" x2="9.265" y2="-16.7" width="0.1524" layer="20" curve="90"/>
+<wire x1="9.265" y1="-16.7" x2="-9.265" y2="-16.7" width="0.1524" layer="20"/>
+<wire x1="-9.265" y1="-16.7" x2="-12.215" y2="-13.75" width="0.1524" layer="20" curve="90"/>
+<wire x1="-12.215" y1="-13.75" x2="-15.5" y2="-13.75" width="0.1524" layer="20"/>
+<wire x1="-15.5" y1="-13.75" x2="-16" y2="-13.25" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-16" y1="-13.25" x2="-16" y2="13.25" width="0.1524" layer="20" curve="-26.64"/>
+<wire x1="-16" y1="13.25" x2="-15.5" y2="13.75" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-15.5" y1="13.75" x2="-10.945" y2="13.75" width="0.1524" layer="20"/>
+<wire x1="-10.945" y1="13.75" x2="-9.265" y2="16.7" width="0.1524" layer="20" curve="90"/>
+<hole x="-14.5" y="12" drill="1.2"/>
+<hole x="14.5" y="12" drill="1.2"/>
+<hole x="-14.5" y="-12" drill="1.2"/>
+<hole x="14.5" y="-12" drill="1.2"/>
+<hole x="-16" y="1.5" drill="1.37"/>
+<hole x="-16" y="-1.5" drill="1.37"/>
+<hole x="-16" y="-4.5" drill="1.37"/>
+<hole x="-16" y="4.5" drill="1.37"/>
+<dimension x1="-9.265" y1="16.7" x2="9.265" y2="16.7" x3="0" y3="19.05" textsize="1.778" layer="47"/>
+<dimension x1="17.6" y1="0" x2="-17.4" y2="0" x3="0.1" y3="-20.871328125" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="9.265" y1="16.7" x2="9.265" y2="-16.7" x3="27.75" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="15.5" y1="13.75" x2="15.5" y2="-13.75" x3="22.9" y3="0" textsize="1.778" layer="47"/>
+<dimension x1="-9.05" y1="13.8" x2="-11.7881875" y2="15.55064375" x3="-18.359859375" y3="19.75220625" textsize="1.778" layer="47" dtype="radius"/>
+</package>
+<package name="B9006906(MINITEC-DL)" urn="urn:adsk.eagle:footprint:11687769/1">
+<wire x1="19.555" y1="21.355165625" x2="22.4" y2="-19.555" width="0.1524" layer="20"/>
+<wire x1="22.4" y1="-19.555" x2="13.983253125" y2="-28" width="0.1524" layer="20" curve="-92.908338"/>
+<wire x1="13.983253125" y1="-28" x2="-13.983253125" y2="-28" width="0.1524" layer="20"/>
+<wire x1="-13.983253125" y1="-28" x2="-22.4" y2="-19.555" width="0.1524" layer="20" curve="-92.908338"/>
+<wire x1="-22.4" y1="-19.555" x2="-19.555" y2="21.355165625" width="0.1524" layer="20"/>
+<wire x1="-19.555" y1="21.355165625" x2="-12.901596875" y2="28" width="0.1524" layer="20" curve="-87.091681"/>
+<wire x1="-12.901596875" y1="28" x2="12.901596875" y2="28" width="0.1524" layer="20"/>
+<wire x1="12.901596875" y1="28" x2="19.555" y2="21.355165625" width="0.1524" layer="20" curve="-87.091681"/>
+<dimension x1="-19.555" y1="21.355165625" x2="19.555" y2="21.355165625" x3="0" y3="30.7" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="12.901596875" y1="28" x2="11.8" y2="-28" x3="27.8" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-20.2" y1="-24.5" x2="-27.184096875" y2="-28.402878125" x3="-23.69205" y3="-26.4514375" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="-17.3" y1="25.5" x2="-24.29999375" y2="25.5" x3="-32.09999375" y3="25.5" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="-22.4" y1="-19.555" x2="22.4" y2="-19.555" x3="0" y3="-32.5" textsize="1.778" layer="47" dtype="horizontal"/>
+<hole x="0" y="-20" drill="1.6"/>
+<hole x="0" y="23" drill="1.6"/>
+</package>
+<package name="B9002807(MINITEC-ES)" urn="urn:adsk.eagle:footprint:11687768/1">
+<wire x1="-12" y1="18.4" x2="12" y2="18.4" width="0.1524" layer="20"/>
+<wire x1="12" y1="18.4" x2="12" y2="-18.4" width="0.1524" layer="20"/>
+<wire x1="12" y1="-18.4" x2="-12" y2="-18.4" width="0.1524" layer="20"/>
+<wire x1="-12" y1="-18.4" x2="-12" y2="18.4" width="0.1524" layer="20"/>
+<dimension x1="-12" y1="18.4" x2="12" y2="18" x3="0" y3="21.59" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="12" y1="18.4" x2="12" y2="-18.4" x3="18.4" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<hole x="0" y="-15.5" drill="0.8"/>
+<hole x="0" y="16.5" drill="0.8"/>
+</package>
+<package name="B7040217(ERGO-XS)" urn="urn:adsk.eagle:footprint:11687773/1">
+<wire x1="-24" y1="22.5" x2="-24" y2="-22.5" width="0.1524" layer="20"/>
+<wire x1="-24" y1="-22.5" x2="24" y2="-22.5" width="0.1524" layer="20"/>
+<wire x1="24" y1="-22.5" x2="24" y2="22.5" width="0.1524" layer="20"/>
+<wire x1="24" y1="22.5" x2="-24" y2="22.5" width="0.1524" layer="20"/>
+<hole x="-21.8" y="0" drill="1.5"/>
+<hole x="20.7" y="0" drill="1.5"/>
+<dimension x1="-24" y1="22.5" x2="24" y2="22.5" x3="0" y3="25.4" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="24" y1="22.5" x2="24" y2="-22.5" x3="29.21" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+</package>
+<package name="B9004906(MINITEC-DM)" urn="urn:adsk.eagle:footprint:11687770/1">
+<wire x1="-18.214025" y1="-14.4906875" x2="-16.2" y2="22.15281875" width="0.1524" layer="20"/>
+<wire x1="-16.2" y1="22.15281875" x2="-13.3491" y2="25" width="0.1524" layer="20" curve="-87.080472"/>
+<wire x1="-13.3491" y1="25" x2="13.3491" y2="25" width="0.1524" layer="20"/>
+<wire x1="13.3491" y1="25" x2="16.2" y2="22.15281875" width="0.1524" layer="20" curve="-87.080114"/>
+<wire x1="16.2" y1="22.15281875" x2="18.214025" y2="-14.4906875" width="0.1524" layer="20"/>
+<wire x1="18.214025" y1="-14.4906875" x2="8.227003125" y2="-25" width="0.1524" layer="20" curve="-92.919552"/>
+<wire x1="8.227003125" y1="-25" x2="-8.227003125" y2="-25" width="0.1524" layer="20"/>
+<wire x1="-8.227003125" y1="-25" x2="-18.214025" y2="-14.4906875" width="0.1524" layer="20" curve="-92.919409"/>
+<dimension x1="-16.2" y1="22.15281875" x2="16.2" y2="20.5" x3="0" y3="28" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="13.3491" y1="25" x2="8.227003125" y2="-25" x3="23.3" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-15.2" y1="23.4" x2="-17.757803125" y2="24.967684375" x3="-24.40809375" y3="29.043665625" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="-15.1" y1="-20" x2="-23.327315625" y2="-25.684328125" x3="-19.21365625" y3="-22.8421625" textsize="1.778" layer="47" dtype="radius"/>
+<hole x="0" y="22" drill="1.6"/>
+<hole x="0" y="-21" drill="1.6"/>
+</package>
+<package name="B1606107(BODY-L)" urn="urn:adsk.eagle:footprint:11687772/1">
+<wire x1="-9.5" y1="19" x2="9.5" y2="19" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="19" x2="9.5" y2="18.9" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="18.9" x2="11.5" y2="16.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="11.5" y1="16.9" x2="17.7" y2="16.9" width="0.1524" layer="20"/>
+<wire x1="17.7" y1="16.9" x2="17.7" y2="-16.9" width="0.1524" layer="20" curve="-28.65"/>
+<wire x1="17.7" y1="-16.9" x2="11.5" y2="-16.9" width="0.1524" layer="20"/>
+<wire x1="11.5" y1="-16.9" x2="9.5" y2="-18.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="9.5" y1="-18.9" x2="9.5" y2="-19" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="-19" x2="-9.5" y2="-19" width="0.1524" layer="20"/>
+<wire x1="-9.5" y1="-19" x2="-9.5" y2="-18.9" width="0.1524" layer="20"/>
+<wire x1="-9.5" y1="-18.9" x2="-11.5" y2="-16.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="-11.5" y1="-16.9" x2="-17.7" y2="-16.9" width="0.1524" layer="20"/>
+<wire x1="-17.7" y1="-16.9" x2="-17.7" y2="16.9" width="0.1524" layer="20" curve="-28.65"/>
+<wire x1="-17.7" y1="16.9" x2="-11.5" y2="16.9" width="0.1524" layer="20"/>
+<wire x1="-11.5" y1="16.9" x2="-9.5" y2="18.9" width="0.1524" layer="20" curve="90"/>
+<wire x1="-9.5" y1="18.9" x2="-9.5" y2="19" width="0.1524" layer="20"/>
+<hole x="-16.5" y="15.5" drill="1.2"/>
+<hole x="16.5" y="15.5" drill="1.2"/>
+<hole x="-16.5" y="-15.5" drill="1.2"/>
+<hole x="16.5" y="-15.5" drill="1.2"/>
+<hole x="-18" y="1.5" drill="1.37"/>
+<hole x="-18" y="-1.5" drill="1.37"/>
+<hole x="-18" y="-4.5" drill="1.37"/>
+<hole x="-18" y="4.5" drill="1.37"/>
+<dimension x1="-19.9" y1="0" x2="19.7" y2="0" x3="-0.1" y3="-23.92391875" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="-9.5" y1="19" x2="9.5" y2="19" x3="0" y3="21" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="17.7" y1="16.9" x2="17.7" y2="-16.9" x3="25" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="9.5" y1="19" x2="9.5" y2="-19" x3="31" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-10" y1="17" x2="-11.6641" y2="18.1094" x3="-10.83205" y3="17.5547" textsize="1.778" layer="47" dtype="radius"/>
+</package>
+<package name="B9002906(MINITEC-DS)" urn="urn:adsk.eagle:footprint:11687771/1">
+<wire x1="-11.07" y1="17.5" x2="11.07" y2="17.5" width="0.1524" layer="20"/>
+<wire x1="11.07" y1="17.5" x2="13.011759375" y2="-7.811575" width="0.1524" layer="20"/>
+<wire x1="13.011759375" y1="-7.811575" x2="4.038128125" y2="-17.5" width="0.1524" layer="20" curve="-94.386795"/>
+<wire x1="4.038128125" y1="-17.5" x2="-4.038128125" y2="-17.5" width="0.1524" layer="20"/>
+<wire x1="-4.038128125" y1="-17.5" x2="-13.011759375" y2="-7.811575" width="0.1524" layer="20" curve="-94.386935"/>
+<wire x1="-13.011759375" y1="-7.811575" x2="-11.07" y2="17.5" width="0.1524" layer="20"/>
+<hole x="0" y="13.9" drill="1.6"/>
+<hole x="0" y="-13.1" drill="1.6"/>
+<dimension x1="-11.07" y1="17.5" x2="11.07" y2="17.5" x3="0" y3="20" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="11.07" y1="17.5" x2="1.75" y2="-17.5" x3="17" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-11" y1="-13.5" x2="-19.7" y2="-15.8" x3="-27.24093125" y3="-17.79358125" textsize="1.778" layer="47" dtype="radius"/>
+</package>
+<package name="B1604107(BODY-M)" urn="urn:adsk.eagle:footprint:11687774/1">
+<wire x1="-9.265" y1="16.7" x2="9.265" y2="16.7" width="0.1524" layer="20"/>
+<wire x1="9.265" y1="16.7" x2="12.215" y2="13.75" width="0.1524" layer="20" curve="90"/>
+<wire x1="12.215" y1="13.75" x2="15.5" y2="13.75" width="0.1524" layer="20"/>
+<wire x1="15.5" y1="13.75" x2="16" y2="13.25" width="0.1524" layer="20" curve="-90"/>
+<wire x1="16" y1="13.25" x2="16" y2="-13.25" width="0.1524" layer="20" curve="-26.64"/>
+<wire x1="16" y1="-13.25" x2="15.5" y2="-13.75" width="0.1524" layer="20" curve="-90"/>
+<wire x1="15.5" y1="-13.75" x2="12.215" y2="-13.75" width="0.1524" layer="20"/>
+<wire x1="12.215" y1="-13.75" x2="9.265" y2="-16.7" width="0.1524" layer="20" curve="90"/>
+<wire x1="9.265" y1="-16.7" x2="-9.265" y2="-16.7" width="0.1524" layer="20"/>
+<wire x1="-9.265" y1="-16.7" x2="-12.215" y2="-13.75" width="0.1524" layer="20" curve="90"/>
+<wire x1="-12.215" y1="-13.75" x2="-15.5" y2="-13.75" width="0.1524" layer="20"/>
+<wire x1="-15.5" y1="-13.75" x2="-16" y2="-13.25" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-16" y1="-13.25" x2="-16" y2="13.25" width="0.1524" layer="20" curve="-26.64"/>
+<wire x1="-16" y1="13.25" x2="-15.5" y2="13.75" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-15.5" y1="13.75" x2="-12.215" y2="13.75" width="0.1524" layer="20"/>
+<wire x1="-12.215" y1="13.75" x2="-9.265" y2="16.7" width="0.1524" layer="20" curve="90"/>
+<hole x="-14.5" y="12" drill="1.2"/>
+<hole x="-14.5" y="-12" drill="1.2"/>
+<hole x="14.5" y="12" drill="1.2"/>
+<hole x="14.5" y="-12" drill="1.2"/>
+<hole x="-16" y="1.5" drill="1.37"/>
+<hole x="-16" y="-1.5" drill="1.37"/>
+<hole x="-16" y="-4.5" drill="1.37"/>
+<hole x="-16" y="4.5" drill="1.37"/>
+<dimension x1="-9.265" y1="16.7" x2="9.265" y2="16.7" x3="0" y3="19.5" textsize="1.778" layer="47"/>
+<dimension x1="15.5" y1="-13.75" x2="15.5" y2="13.75" x3="22" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="9.265" y1="-16.7" x2="9.265" y2="16.7" x3="26.5" y3="0" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-10.25" y1="14.25" x2="-12.71758125" y2="16.36506875" x3="-11.4837875" y3="15.307534375" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="-17.5" y1="0" x2="17.5" y2="0" x3="0" y3="-20.311321875" textsize="1.778" layer="47" dtype="diameter"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="A9066107(SMART-M)" urn="urn:adsk.eagle:package:11687776/1" type="box">
+<packageinstances>
+<packageinstance name="A9066107(SMART-M)"/>
+</packageinstances>
+</package3d>
+<package3d name="B7020107(ERGO-L)" urn="urn:adsk.eagle:package:11687778/1" type="box">
+<packageinstances>
+<packageinstance name="B7020107(ERGO-L)"/>
+</packageinstances>
+</package3d>
+<package3d name="B7005107(ERGO-S)" urn="urn:adsk.eagle:package:11687780/1" type="box">
+<packageinstances>
+<packageinstance name="B7005107(ERGO-S)"/>
+</packageinstances>
+</package3d>
+<package3d name="A9064107(SMART-XS)" urn="urn:adsk.eagle:package:11687777/1" type="box">
+<packageinstances>
+<packageinstance name="A9064107(SMART-XS)"/>
+</packageinstances>
+</package3d>
+<package3d name="B7010107(ERGO-M)" urn="urn:adsk.eagle:package:11687779/1" type="box">
+<packageinstances>
+<packageinstance name="B7010107(ERGO-M)"/>
+</packageinstances>
+</package3d>
+<package3d name="A9067107(SMART-L)" urn="urn:adsk.eagle:package:11687775/1" type="box">
+<packageinstances>
+<packageinstance name="A9067107(SMART-L)"/>
+</packageinstances>
+</package3d>
+<package3d name="B1606207(BODY-L)" urn="urn:adsk.eagle:package:11687781/1" type="box">
+<packageinstances>
+<packageinstance name="B1606207(BODY-L)"/>
+</packageinstances>
+</package3d>
+<package3d name="B9006806(MINITEC-EL)" urn="urn:adsk.eagle:package:11687784/1" type="box">
+<packageinstances>
+<packageinstance name="B9006806(MINITEC-EL)"/>
+</packageinstances>
+</package3d>
+<package3d name="B9004806(MINITEC-EM)" urn="urn:adsk.eagle:package:11687783/1" type="box">
+<packageinstances>
+<packageinstance name="B9004806(MINITEC-EM)"/>
+</packageinstances>
+</package3d>
+<package3d name="B1604207(BODY-M)" urn="urn:adsk.eagle:package:11687782/1" type="box">
+<packageinstances>
+<packageinstance name="B1604207(BODY-M)"/>
+</packageinstances>
+</package3d>
+<package3d name="B9002807(MINITEC-ES)" urn="urn:adsk.eagle:package:11687785/1" type="box">
+<packageinstances>
+<packageinstance name="B9002807(MINITEC-ES)"/>
+</packageinstances>
+</package3d>
+<package3d name="B9006906(MINITEC-DL)" urn="urn:adsk.eagle:package:11687786/1" type="box">
+<packageinstances>
+<packageinstance name="B9006906(MINITEC-DL)"/>
+</packageinstances>
+</package3d>
+<package3d name="B9004906(MINITEC-DM)" urn="urn:adsk.eagle:package:11687787/1" type="box">
+<packageinstances>
+<packageinstance name="B9004906(MINITEC-DM)"/>
+</packageinstances>
+</package3d>
+<package3d name="B1606107(BODY-L)" urn="urn:adsk.eagle:package:11687789/1" type="box">
+<packageinstances>
+<packageinstance name="B1606107(BODY-L)"/>
+</packageinstances>
+</package3d>
+<package3d name="B7040217(ERGO-XS)" urn="urn:adsk.eagle:package:11687790/1" type="box">
+<packageinstances>
+<packageinstance name="B7040217(ERGO-XS)"/>
+</packageinstances>
+</package3d>
+<package3d name="B9002906(MINITEC-DS)" urn="urn:adsk.eagle:package:11687788/1" type="box">
+<packageinstances>
+<packageinstance name="B9002906(MINITEC-DS)"/>
+</packageinstances>
+</package3d>
+<package3d name="B1604107(BODY-M)" urn="urn:adsk.eagle:package:11687791/1" type="box">
+<packageinstances>
+<packageinstance name="B1604107(BODY-M)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="A9066107(SMART-M)" urn="urn:adsk.eagle:component:11687793/1">
+<description>&lt;a href="https://www.okwenclosures.com/en/Smart-Case/A9066107.htm?var=af260520-c2e5-11e2-8e2c-0050568225d7"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="A9066107(SMART-M)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687776/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B7020107(ERGO-L)" urn="urn:adsk.eagle:component:11687795/1">
+<description>&lt;a href="https://www.okwenclosures.com/en/Ergo-Case/B7010107.htm?var=afac2510-c2e5-11e2-8e2c-0050568225d7"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B7020107(ERGO-L)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687778/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B7005107(ERGO-S)" urn="urn:adsk.eagle:component:11687797/1">
+<description>&lt;a href="https://www.okwenclosures.com/en/Ergo-Case/B7000107.htm?var=afab88d0-c2e5-11e2-8e2c-0050568225d7#syscomp"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B7005107(ERGO-S)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687780/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A9064107(SMART-XS)" urn="urn:adsk.eagle:component:11687794/1">
+<description>&lt;a href="https://www.okwenclosures.com/en/Smart-Case/A9064107.htm?var=5e110190-c6d6-11e2-8c20-0050568225d7"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="A9064107(SMART-XS)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687777/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B7010107(ERGO-M)" urn="urn:adsk.eagle:component:11687796/1">
+<description>&lt;a href="https://www.okwenclosures.com/en/Ergo-Case/B7010107.htm?var=afac2510-c2e5-11e2-8e2c-0050568225d7"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B7010107(ERGO-M)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687779/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A9067107(SMART-L)" urn="urn:adsk.eagle:component:11687792/1">
+<description>&lt;a href="https://www.okwenclosures.com/en/Smart-Case/A9067107.htm?var=af260520-c2e5-11e2-8e2c-0050568225d7"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="A9067107(SMART-L)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687775/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B9006806(MINITEC-EL)" urn="urn:adsk.eagle:component:11687802/1">
+<description>&lt;a href="https://www.okw.com/en/Minitec/B9006806.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B9006806(MINITEC-EL)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687784/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B1606207(BODY-L)" urn="urn:adsk.eagle:component:11687798/1">
+<description>&lt;a href="https://www.okw.com/en/Body-Case/B1606207.htm?ref=8fda6890-c3c4-11e5-96da-8eba63e66ed5"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B1606207(BODY-L)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687781/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B1604207(BODY-M)" urn="urn:adsk.eagle:component:11687799/1">
+<description>&lt;a href="https://www.okw.com/en/Body-Case/B1604207.htm?ref=8fda6890-c3c4-11e5-96da-8eba63e66ed5"&gt;More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B1604207(BODY-M)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687782/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B9006906(MINITEC-DL)" urn="urn:adsk.eagle:component:11687800/1">
+<description>&lt;a href="https://www.okw.com/en/Minitec/B9006906.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B9006906(MINITEC-DL)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687786/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B9002807(MINITEC-ES)" urn="urn:adsk.eagle:component:11687803/1">
+<description>&lt;a href="https://www.okw.com/en/Minitec/B9002807.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B9002807(MINITEC-ES)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687785/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B9004806(MINITEC-EM)" urn="urn:adsk.eagle:component:11687801/1">
+<description>&lt;a href="https://www.okw.com/en/Minitec/B9004806.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B9004806(MINITEC-EM)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687783/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B7040217(ERGO-XS)" urn="urn:adsk.eagle:component:11687807/1">
+<description>&lt;a href="https://www.okw.com/en/Ergo-Case/B7040217.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B7040217(ERGO-XS)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687790/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B1606107(BODY-L)" urn="urn:adsk.eagle:component:11687806/1">
+<description>&lt;a href="https://www.okw.com/en/Body-Case/B1606107.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B1606107(BODY-L)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687789/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B9002906(MINITEC-DS)" urn="urn:adsk.eagle:component:11687805/1">
+<description>&lt;a href="https://www.okw.com/en/Minitec/B9002906.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B9002906(MINITEC-DS)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687788/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B9004906(MINITEC-DM)" urn="urn:adsk.eagle:component:11687804/1">
+<description>&lt;a href="https://www.okw.com/en/Minitec/B9004906.htm"&gt; More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B9004906(MINITEC-DM)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687787/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B1604107(BODY-M)" urn="urn:adsk.eagle:component:11687808/1">
+<description>&lt;a href="https://www.okw.com/en/Body-Case/B1604107.htm"&gt;More Information&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="" package="B1604107(BODY-M)">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11687791/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note severity="warning" version="8.3">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note severity="warning" version="8.3">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

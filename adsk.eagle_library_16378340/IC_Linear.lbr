@@ -1,0 +1,2923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;B&gt;Amplifiers, OpAmp, Comparators, Video-processing</description>
+<packages>
+<package name="DIP762W53P254L1000H508Q8B" urn="urn:adsk.eagle:footprint:24991455/1">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 10.00 X 6.60 X 5.08 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 10.00 X 6.60 X 5.08 mm&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="0.7434" diameter="1.3434"/>
+<pad name="2" x="0" y="-2.54" drill="0.7434" diameter="1.3434"/>
+<pad name="3" x="0" y="-5.08" drill="0.7434" diameter="1.3434"/>
+<pad name="4" x="0" y="-7.62" drill="0.7434" diameter="1.3434"/>
+<pad name="5" x="7.62" y="-7.62" drill="0.7434" diameter="1.3434"/>
+<pad name="6" x="7.62" y="-5.08" drill="0.7434" diameter="1.3434"/>
+<pad name="7" x="7.62" y="-2.54" drill="0.7434" diameter="1.3434"/>
+<pad name="8" x="7.62" y="0" drill="0.7434" diameter="1.3434"/>
+<circle x="-1.1757" y="0" radius="0.25" width="0" layer="21"/>
+<wire x1="0.51" y1="0.9257" x2="0.51" y2="1.19" width="0.12" layer="21"/>
+<wire x1="0.51" y1="1.19" x2="7.11" y2="1.19" width="0.12" layer="21"/>
+<wire x1="7.11" y1="1.19" x2="7.11" y2="0.9257" width="0.12" layer="21"/>
+<wire x1="0.51" y1="-8.5457" x2="0.51" y2="-8.81" width="0.12" layer="21"/>
+<wire x1="0.51" y1="-8.81" x2="7.11" y2="-8.81" width="0.12" layer="21"/>
+<wire x1="7.11" y1="-8.81" x2="7.11" y2="-8.5457" width="0.12" layer="21"/>
+<wire x1="0.51" y1="-8.81" x2="0.51" y2="1.19" width="0.12" layer="51"/>
+<wire x1="0.51" y1="1.19" x2="7.11" y2="1.19" width="0.12" layer="51"/>
+<wire x1="7.11" y1="1.19" x2="7.11" y2="-8.81" width="0.12" layer="51"/>
+<wire x1="7.11" y1="-8.81" x2="0.51" y2="-8.81" width="0.12" layer="51"/>
+<text x="3.81" y="1.825" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="-9.445" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP820W55P254L925H330Q8B" urn="urn:adsk.eagle:footprint:29364448/1">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 8.20 mm (0.32 in) span, 9.25 X 6.35 X 3.30 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 8.20 mm (0.32 in) span with body size 9.25 X 6.35 X 3.30 mm&lt;/p&gt;</description>
+<pad name="1" x="-4.1" y="3.81" drill="0.7629" diameter="1.3629"/>
+<pad name="2" x="-4.1" y="1.27" drill="0.7629" diameter="1.3629"/>
+<pad name="3" x="-4.1" y="-1.27" drill="0.7629" diameter="1.3629"/>
+<pad name="4" x="-4.1" y="-3.81" drill="0.7629" diameter="1.3629"/>
+<pad name="5" x="4.1" y="-3.81" drill="0.7629" diameter="1.3629"/>
+<pad name="6" x="4.1" y="-1.27" drill="0.7629" diameter="1.3629"/>
+<pad name="7" x="4.1" y="1.27" drill="0.7629" diameter="1.3629"/>
+<pad name="8" x="4.1" y="3.81" drill="0.7629" diameter="1.3629"/>
+<circle x="-5.2855" y="3.81" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.225" y1="4.8055" x2="3.225" y2="4.8055" width="0.12" layer="21"/>
+<wire x1="-3.225" y1="-4.8055" x2="3.225" y2="-4.8055" width="0.12" layer="21"/>
+<wire x1="-3.225" y1="-4.675" x2="-3.225" y2="4.675" width="0.12" layer="51"/>
+<wire x1="-3.225" y1="4.675" x2="3.225" y2="4.675" width="0.12" layer="51"/>
+<wire x1="3.225" y1="4.675" x2="3.225" y2="-4.675" width="0.12" layer="51"/>
+<wire x1="3.225" y1="-4.675" x2="-3.225" y2="-4.675" width="0.12" layer="51"/>
+<text x="0" y="5.4405" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.4405" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP762W56P254L930H431Q8B" urn="urn:adsk.eagle:footprint:29364449/1">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 9.30 X 6.40 X 4.31 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 9.30 X 6.40 X 4.31 mm&lt;/p&gt;</description>
+<pad name="1" x="-3.81" y="3.81" drill="0.8657" diameter="1.4657"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.8657" diameter="1.4657"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.8657" diameter="1.4657"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.8657" diameter="1.4657"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.8657" diameter="1.4657"/>
+<pad name="6" x="3.81" y="-1.27" drill="0.8657" diameter="1.4657"/>
+<pad name="7" x="3.81" y="1.27" drill="0.8657" diameter="1.4657"/>
+<pad name="8" x="3.81" y="3.81" drill="0.8657" diameter="1.4657"/>
+<circle x="-5.0469" y="3.81" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.3" y1="4.8569" x2="3.3" y2="4.8569" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-4.8569" x2="3.3" y2="-4.8569" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-4.8" x2="-3.3" y2="4.8" width="0.12" layer="51"/>
+<wire x1="-3.3" y1="4.8" x2="3.3" y2="4.8" width="0.12" layer="51"/>
+<wire x1="3.3" y1="4.8" x2="3.3" y2="-4.8" width="0.12" layer="51"/>
+<wire x1="3.3" y1="-4.8" x2="-3.3" y2="-4.8" width="0.12" layer="51"/>
+<text x="0" y="5.4919" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.4919" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P600X175-8" urn="urn:adsk.eagle:footprint:29364447/1">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.7" y="1.905" dx="1.5" dy="0.65" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.5" dy="0.65" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.5" dy="0.65" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.5" dy="0.65" layer="1"/>
+<circle x="-2.725" y="2.734" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="2.484" x2="-2" y2="2.55" width="0.12" layer="21"/>
+<wire x1="-2" y1="2.55" x2="2" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2" y1="2.55" x2="2" y2="2.484" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.484" x2="-2" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.55" x2="2" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.55" x2="2" y2="-2.484" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.55" x2="-2" y2="2.55" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.55" x2="2" y2="2.55" width="0.12" layer="51"/>
+<wire x1="2" y1="2.55" x2="2" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="2" y1="-2.55" x2="-2" y2="-2.55" width="0.12" layer="51"/>
+<text x="0" y="3.619" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P490X120-8" urn="urn:adsk.eagle:footprint:29364445/1">
+<description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.20 mm body
+ &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.20 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.075" y="0.975" dx="1.35" dy="0.45" layer="1"/>
+<smd name="2" x="-2.075" y="0.325" dx="1.35" dy="0.45" layer="1"/>
+<smd name="3" x="-2.075" y="-0.325" dx="1.35" dy="0.45" layer="1"/>
+<smd name="4" x="-2.075" y="-0.975" dx="1.35" dy="0.45" layer="1"/>
+<smd name="5" x="2.075" y="-0.975" dx="1.35" dy="0.45" layer="1"/>
+<smd name="6" x="2.075" y="-0.325" dx="1.35" dy="0.45" layer="1"/>
+<smd name="7" x="2.075" y="0.325" dx="1.35" dy="0.45" layer="1"/>
+<smd name="8" x="2.075" y="0.975" dx="1.35" dy="0.45" layer="1"/>
+<circle x="-2.15" y="1.704" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.55" y1="1.454" x2="-1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.454" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.454" x2="-1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="-1.454" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.12" layer="51"/>
+<text x="0" y="2.589" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP826W53P254L959H508Q8B" urn="urn:adsk.eagle:footprint:18493706/3">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 8.26 mm (0.33 in) span, 9.59 X 6.35 X 5.08 mm body&#xD;
+&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 8.26 mm (0.33 in) span with body size 9.59 X 6.35 X 5.08 mm&lt;/p&gt;</description>
+<circle x="-5.327" y="3.81" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.3" y1="4.757" x2="-3.3" y2="5.08" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="5.08" x2="3.3" y2="5.08" width="0.12" layer="21"/>
+<wire x1="3.3" y1="5.08" x2="3.3" y2="4.757" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-4.757" x2="-3.3" y2="-5.08" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-5.08" x2="3.3" y2="-5.08" width="0.12" layer="21"/>
+<wire x1="3.3" y1="-5.08" x2="3.3" y2="-4.757" width="0.12" layer="21"/>
+<wire x1="3.3" y1="-5.08" x2="-3.3" y2="-5.08" width="0.12" layer="51"/>
+<wire x1="-3.3" y1="-5.08" x2="-3.3" y2="5.08" width="0.12" layer="51"/>
+<wire x1="-3.3" y1="5.08" x2="3.3" y2="5.08" width="0.12" layer="51"/>
+<wire x1="3.3" y1="5.08" x2="3.3" y2="-5.08" width="0.12" layer="51"/>
+<pad name="1" x="-4.13" y="3.81" drill="0.786" diameter="1.386"/>
+<pad name="2" x="-4.13" y="1.27" drill="0.786" diameter="1.386"/>
+<pad name="3" x="-4.13" y="-1.27" drill="0.786" diameter="1.386"/>
+<pad name="4" x="-4.13" y="-3.81" drill="0.786" diameter="1.386"/>
+<pad name="5" x="4.13" y="-3.81" drill="0.786" diameter="1.386"/>
+<pad name="6" x="4.13" y="-1.27" drill="0.786" diameter="1.386"/>
+<pad name="7" x="4.13" y="1.27" drill="0.786" diameter="1.386"/>
+<pad name="8" x="4.13" y="3.81" drill="0.786" diameter="1.386"/>
+<text x="0" y="5.715" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.715" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:29364298/1">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.4736" y="1.905" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="2" x="-2.4736" y="0.635" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="3" x="-2.4736" y="-0.635" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="4" x="-2.4736" y="-1.905" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="5" x="2.4736" y="-1.905" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="6" x="2.4736" y="-0.635" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="7" x="2.4736" y="0.635" dx="1.9694" dy="0.5922" layer="1"/>
+<smd name="8" x="2.4736" y="1.905" dx="1.9694" dy="0.5922" layer="1"/>
+<circle x="-2.7292" y="2.7051" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="2.5151" x2="2" y2="2.5151" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.5151" x2="2" y2="-2.5151" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
+<text x="0" y="3.5901" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1501" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P640X120-8" urn="urn:adsk.eagle:footprint:29364446/1">
+<description>8-SOP, 0.65 mm pitch, 6.40 mm span, 3.00 X 4.40 X 1.20 mm body
+ &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 3.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.97" y="0.975" dx="1.78" dy="0.42" layer="1"/>
+<smd name="2" x="-2.97" y="0.325" dx="1.78" dy="0.42" layer="1"/>
+<smd name="3" x="-2.97" y="-0.325" dx="1.78" dy="0.42" layer="1"/>
+<smd name="4" x="-2.97" y="-0.975" dx="1.78" dy="0.42" layer="1"/>
+<smd name="5" x="2.97" y="-0.975" dx="1.78" dy="0.42" layer="1"/>
+<smd name="6" x="2.97" y="-0.325" dx="1.78" dy="0.42" layer="1"/>
+<smd name="7" x="2.97" y="0.325" dx="1.78" dy="0.42" layer="1"/>
+<smd name="8" x="2.97" y="0.975" dx="1.78" dy="0.42" layer="1"/>
+<circle x="-3.055" y="1.689" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="1.439" x2="-2.25" y2="1.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="1.55" x2="2.25" y2="1.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="1.55" x2="2.25" y2="1.439" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-1.439" x2="-2.25" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-1.55" x2="2.25" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-1.55" x2="2.25" y2="-1.439" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-1.55" x2="-2.25" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="1.55" x2="2.25" y2="1.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="1.55" x2="2.25" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="-1.55" x2="-2.25" y2="-1.55" width="0.12" layer="51"/>
+<text x="0" y="2.574" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT65P217X110-6N" urn="urn:adsk.eagle:footprint:34332040/1">
+<description>6-SOT23, 0.65 mm pitch, 2.18 mm span, 2.00 X 1.25 X 1.10 mm body
+ &lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.18 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<smd name="1" x="-0.996" y="0.65" dx="1.0769" dy="0.4" layer="1"/>
+<smd name="2" x="-0.996" y="0" dx="1.0769" dy="0.4" layer="1"/>
+<smd name="3" x="-0.996" y="-0.65" dx="1.0769" dy="0.4" layer="1"/>
+<smd name="4" x="0.996" y="-0.65" dx="1.0769" dy="0.4" layer="1"/>
+<smd name="5" x="0.996" y="0" dx="1.0769" dy="0.4" layer="1"/>
+<smd name="6" x="0.996" y="0.65" dx="1.0769" dy="0.4" layer="1"/>
+<circle x="-1.179" y="1.354" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.675" y1="1.164" x2="0.675" y2="1.164" width="0.12" layer="21"/>
+<wire x1="-0.675" y1="-1.164" x2="0.675" y2="-1.164" width="0.12" layer="21"/>
+<wire x1="-0.675" y1="-1.075" x2="-0.675" y2="1.075" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="1.075" x2="0.675" y2="1.075" width="0.12" layer="51"/>
+<wire x1="0.675" y1="1.075" x2="0.675" y2="-1.075" width="0.12" layer="51"/>
+<wire x1="0.675" y1="-1.075" x2="-0.675" y2="-1.075" width="0.12" layer="51"/>
+<text x="0" y="2.239" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.799" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P490X110-9T157X189N" urn="urn:adsk.eagle:footprint:16378346/1">
+<description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body, 1.89 X 1.57 mm thermal pad
+&lt;p&gt;8-pin SOP package with 0.65 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm and thermal pad size 1.89 X 1.57 mm&lt;/p&gt;</description>
+<circle x="-2.2175" y="1.7197" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.55" y1="1.4697" x2="-1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.4697" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.4697" x2="-1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="-1.4697" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
+<smd name="1" x="-2.1496" y="0.975" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="2" x="-2.1496" y="0.325" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="3" x="-2.1496" y="-0.325" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="4" x="-2.1496" y="-0.975" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="5" x="2.1496" y="-0.975" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="6" x="2.1496" y="-0.325" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="7" x="2.1496" y="0.325" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="8" x="2.1496" y="0.975" dx="1.4709" dy="0.4815" layer="1"/>
+<smd name="9" x="0" y="0" dx="1.57" dy="1.89" layer="1" thermals="no"/>
+<text x="0" y="2.6047" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP50P490X110-10N" urn="urn:adsk.eagle:footprint:34332039/1">
+<description>10-SOP, 0.50 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body
+ &lt;p&gt;10-pin SOP package with 0.50 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.1563" y="1" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="2" x="-2.1563" y="0.5" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="3" x="-2.1563" y="0" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="4" x="-2.1563" y="-0.5" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="5" x="-2.1563" y="-1" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="6" x="2.1563" y="-1" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="7" x="2.1563" y="-0.5" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="8" x="2.1563" y="0" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="9" x="2.1563" y="0.5" dx="1.5508" dy="0.3" layer="1"/>
+<smd name="10" x="2.1563" y="1" dx="1.5508" dy="0.3" layer="1"/>
+<circle x="-2.2409" y="1.654" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.55" y1="1.404" x2="-1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.404" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.404" x2="-1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="-1.404" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.12" layer="51"/>
+<text x="0" y="2.539" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P490X110-8N" urn="urn:adsk.eagle:footprint:16378347/1">
+<description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 2.95 X 1.10 mm body
+&lt;p&gt;8-pin SOP package with 0.65 mm pitch, 4.90 mm span with body size 3.00 X 2.95 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-2.2406" y="1.7249" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.55" y1="1.4749" x2="-1.55" y2="1.6" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="1.6" x2="1.55" y2="1.6" width="0.12" layer="21"/>
+<wire x1="1.55" y1="1.6" x2="1.55" y2="1.4749" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.4749" x2="-1.55" y2="-1.6" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.6" x2="1.55" y2="-1.6" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.6" x2="1.55" y2="-1.4749" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.6" x2="-1.55" y2="-1.6" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="-1.6" x2="-1.55" y2="1.6" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="1.6" x2="1.55" y2="1.6" width="0.12" layer="51"/>
+<wire x1="1.55" y1="1.6" x2="1.55" y2="-1.6" width="0.12" layer="51"/>
+<smd name="1" x="-2.2192" y="0.975" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="2" x="-2.2192" y="0.325" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="3" x="-2.2192" y="-0.325" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="4" x="-2.2192" y="-0.975" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="5" x="2.2192" y="-0.975" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="6" x="2.2192" y="-0.325" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="7" x="2.2192" y="0.325" dx="1.424" dy="0.4919" layer="1"/>
+<smd name="8" x="2.2192" y="0.975" dx="1.424" dy="0.4919" layer="1"/>
+<text x="0" y="2.6099" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.235" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:16378620/1">
+<description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<circle x="-1.354" y="1.7525" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.85" y1="1.5625" x2="0.85" y2="1.5625" width="0.12" layer="21"/>
+<wire x1="-0.85" y1="-1.5625" x2="0.85" y2="-1.5625" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.5" x2="0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.85" y1="1.5" x2="0.85" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="2" x="-1.2644" y="0" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="3" x="-1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="4" x="1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="5" x="1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP762W53P254L1969H508Q14B" urn="urn:adsk.eagle:footprint:32405030/2">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.69 X 6.35 X 5.08 mm body&#xD;
+ &lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 19.69 X 6.35 X 5.08 mm&lt;/p&gt;</description>
+<pad name="1" x="-3.81" y="7.62" drill="0.7434" diameter="1.3434"/>
+<pad name="2" x="-3.81" y="5.08" drill="0.7434" diameter="1.3434"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.7434" diameter="1.3434"/>
+<pad name="4" x="-3.81" y="0" drill="0.7434" diameter="1.3434"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.7434" diameter="1.3434"/>
+<pad name="6" x="-3.81" y="-5.08" drill="0.7434" diameter="1.3434"/>
+<pad name="7" x="-3.81" y="-7.62" drill="0.7434" diameter="1.3434"/>
+<pad name="8" x="3.81" y="-7.62" drill="0.7434" diameter="1.3434"/>
+<pad name="9" x="3.81" y="-5.08" drill="0.7434" diameter="1.3434"/>
+<pad name="10" x="3.81" y="-2.54" drill="0.7434" diameter="1.3434"/>
+<pad name="11" x="3.81" y="0" drill="0.7434" diameter="1.3434"/>
+<pad name="12" x="3.81" y="2.54" drill="0.7434" diameter="1.3434"/>
+<pad name="13" x="3.81" y="5.08" drill="0.7434" diameter="1.3434"/>
+<pad name="14" x="3.81" y="7.62" drill="0.7434" diameter="1.3434"/>
+<circle x="-4.9857" y="7.62" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.3" y1="8.5457" x2="-3.3" y2="9.845" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="9.845" x2="3.3" y2="9.845" width="0.12" layer="21"/>
+<wire x1="3.3" y1="9.845" x2="3.3" y2="8.5457" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-8.5457" x2="-3.3" y2="-9.845" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-9.845" x2="3.3" y2="-9.845" width="0.12" layer="21"/>
+<wire x1="3.3" y1="-9.845" x2="3.3" y2="-8.5457" width="0.12" layer="21"/>
+<wire x1="-3.3" y1="-9.845" x2="-3.3" y2="9.845" width="0.12" layer="51"/>
+<wire x1="-3.3" y1="9.845" x2="3.3" y2="9.845" width="0.12" layer="51"/>
+<wire x1="3.3" y1="9.845" x2="3.3" y2="-9.845" width="0.12" layer="51"/>
+<wire x1="3.3" y1="-9.845" x2="-3.3" y2="-9.845" width="0.12" layer="51"/>
+<text x="0" y="10.48" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.48" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P600X175-14N" urn="urn:adsk.eagle:footprint:16378579/3">
+<description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body&#xD;
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 8.65 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<circle x="-2.7288" y="4.6136" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="4.3636" x2="-2" y2="4.375" width="0.12" layer="21"/>
+<wire x1="-2" y1="4.375" x2="2" y2="4.375" width="0.12" layer="21"/>
+<wire x1="2" y1="4.375" x2="2" y2="4.3636" width="0.12" layer="21"/>
+<wire x1="-2" y1="-4.3636" x2="-2" y2="-4.375" width="0.12" layer="21"/>
+<wire x1="-2" y1="-4.375" x2="2" y2="-4.375" width="0.12" layer="21"/>
+<wire x1="2" y1="-4.375" x2="2" y2="-4.3636" width="0.12" layer="21"/>
+<wire x1="2" y1="-4.375" x2="-2" y2="-4.375" width="0.12" layer="51"/>
+<wire x1="-2" y1="-4.375" x2="-2" y2="4.375" width="0.12" layer="51"/>
+<wire x1="-2" y1="4.375" x2="2" y2="4.375" width="0.12" layer="51"/>
+<wire x1="2" y1="4.375" x2="2" y2="-4.375" width="0.12" layer="51"/>
+<smd name="1" x="-2.4734" y="3.81" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="2" x="-2.4734" y="2.54" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="3" x="-2.4734" y="1.27" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="4" x="-2.4734" y="0" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="5" x="-2.4734" y="-1.27" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="6" x="-2.4734" y="-2.54" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="7" x="-2.4734" y="-3.81" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="8" x="2.4734" y="-3.81" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="9" x="2.4734" y="-2.54" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="10" x="2.4734" y="-1.27" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="11" x="2.4734" y="0" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="12" x="2.4734" y="1.27" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="13" x="2.4734" y="2.54" dx="1.9685" dy="0.5991" layer="1"/>
+<smd name="14" x="2.4734" y="3.81" dx="1.9685" dy="0.5991" layer="1"/>
+<text x="0" y="5.4986" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.01" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIP762W53P254L1000H508Q8B" urn="urn:adsk.eagle:package:24991458/1" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 10.00 X 6.60 X 5.08 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 10.00 X 6.60 X 5.08 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W53P254L1000H508Q8B"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP762W56P254L930H431Q8B" urn="urn:adsk.eagle:package:29364457/1" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 9.30 X 6.40 X 4.31 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 9.30 X 6.40 X 4.31 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W56P254L930H431Q8B"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP820W55P254L925H330Q8B" urn="urn:adsk.eagle:package:29364455/1" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 8.20 mm (0.32 in) span, 9.25 X 6.35 X 3.30 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 8.20 mm (0.32 in) span with body size 9.25 X 6.35 X 3.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP820W55P254L925H330Q8B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-8" urn="urn:adsk.eagle:package:29364453/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-8"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P490X120-8_MSOP" urn="urn:adsk.eagle:package:29364451/1" type="model">
+<description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.20 mm body
+ &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P490X120-8"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-8_TSSOP" urn="urn:adsk.eagle:package:29364452/1" type="model">
+<description>8-SOP, 0.65 mm pitch, 6.40 mm span, 3.00 X 4.40 X 1.20 mm body
+ &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 3.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-8"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP826W53P254L959H508Q8B" urn="urn:adsk.eagle:package:18493555/7" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 8.26 mm (0.33 in) span, 9.59 X 6.35 X 5.08 mm body&#xD;
+&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 8.26 mm (0.33 in) span with body size 9.59 X 6.35 X 5.08 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP826W53P254L959H508Q8B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:16378355/3" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP50P490X110-10N" urn="urn:adsk.eagle:package:34332042/1" type="model">
+<description>10-SOP, 0.50 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body
+ &lt;p&gt;10-pin SOP package with 0.50 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP50P490X110-10N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P490X110-9T157X189N" urn="urn:adsk.eagle:package:16378356/1" type="model">
+<description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body, 1.89 X 1.57 mm thermal pad
+&lt;p&gt;8-pin SOP package with 0.65 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm and thermal pad size 1.89 X 1.57 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P490X110-9T157X189N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P217X110-6N" urn="urn:adsk.eagle:package:34332041/1" type="model">
+<description>6-SOT23, 0.65 mm pitch, 2.18 mm span, 2.00 X 1.25 X 1.10 mm body
+ &lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.18 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT65P217X110-6N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-14N" urn="urn:adsk.eagle:package:16378323/4" type="model">
+<description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body&#xD;
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 8.65 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-14N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P490X110-8N" urn="urn:adsk.eagle:package:16378357/1" type="model">
+<description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 2.95 X 1.10 mm body
+&lt;p&gt;8-pin SOP package with 0.65 mm pitch, 4.90 mm span with body size 3.00 X 2.95 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P490X110-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP762W53P254L1969H508Q14B" urn="urn:adsk.eagle:package:32405040/2" type="model">
+<description>14-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.69 X 6.35 X 5.08 mm body&#xD;
+ &lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 19.69 X 6.35 X 5.08 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W53P254L1969H508Q14B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:16378354/2" type="model">
+<description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X145-5N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="OP-AMP" urn="urn:adsk.eagle:symbol:34280288/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="3.81" y="-2.54" size="1.524" layer="93">OUT</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<pin name="ON2" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="ON1" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="NC" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="V-" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="LM386" urn="urn:adsk.eagle:symbol:34332033/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="3.81" y="-2.54" size="1.524" layer="93">OUT</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7" y="1.27" size="1.524" layer="97" align="center">VOUT</text>
+<pin name="BYPASS" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="G1" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="VOUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="G2" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VS" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="AS358" urn="urn:adsk.eagle:symbol:29364450/1">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="GND" x="17.78" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="OUTPUT1" x="17.78" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="VCC" x="17.78" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="INPUT1-" x="-17.78" y="7.62" length="short" direction="in"/>
+<pin name="INPUT2+" x="-17.78" y="-7.62" length="short" direction="in"/>
+<pin name="INPUT1+" x="-17.78" y="2.54" length="short" direction="in"/>
+<pin name="INPUT2-" x="-17.78" y="-2.54" length="short" direction="in"/>
+<pin name="OUTPUT2" x="17.78" y="-2.54" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="OPAMP-DUAL" urn="urn:adsk.eagle:symbol:34332038/3">
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-3.81" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-3.81" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-3.81" x2="5.715" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-3.81" x2="1.905" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.715" y1="1.27" x2="-4.445" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="0.635" width="0.1524" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-3.81" y="2.54" size="1.524" layer="97" align="center">A</text>
+<text x="3.81" y="-2.54" size="1.524" layer="97" align="center">B</text>
+<text x="-6.35" y="8.89" size="1.524" layer="97" align="center">OUT1</text>
+<text x="-7.62" y="-1.27" size="1.524" layer="97" align="center">-IN1</text>
+<text x="7.62" y="-6.35" size="1.524" layer="97" align="center">-IN2</text>
+<text x="7.62" y="-11.43" size="1.524" layer="97" align="center">+IN2</text>
+<text x="6.35" y="3.81" size="1.524" layer="97" align="center">OUT2</text>
+<text x="-7.62" y="-6.35" size="1.524" layer="97" align="center">+IN1</text>
+<pin name="OUT2" x="12.7" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="OUT1" x="-12.7" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="-IN1" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN1" x="-12.7" y="-5.08" visible="pad" length="short" direction="in"/>
+<pin name="+IN2" x="12.7" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="V-" x="-12.7" y="-10.16" length="short"/>
+<pin name="-IN2" x="12.7" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="MAX2634" urn="urn:adsk.eagle:symbol:34332030/1">
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="RFIN" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND2" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="GND1" x="-12.7" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="!SHDN" x="-12.7" y="0" visible="pin" length="short" direction="in"/>
+<pin name="RFOUT" x="12.7" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="VCC" x="12.7" y="5.08" length="short" rot="R180"/>
+</symbol>
+<symbol name="DUAL-COMPARATOR" urn="urn:adsk.eagle:symbol:34280289/1">
+<pin name="+IN1" x="-10.16" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="-IN1" x="-10.16" y="7.62" visible="pad" length="short" direction="in"/>
+<pin name="OUT1" x="10.16" y="5.08" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="+IN2" x="-10.16" y="-7.62" visible="pad" length="short" direction="in"/>
+<pin name="-IN2" x="-10.16" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT2" x="10.16" y="-5.08" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="VCC" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" length="short" rot="R180"/>
+<text x="0" y="12.7" size="1.778" layer="96" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-3.81" y1="-5.715" x2="-3.81" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-6.35" x2="-3.175" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-8.89" x2="3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="-2.54" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-2.54" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-4.445" y1="8.89" x2="-3.175" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="3.81" y2="5.08" width="0.127" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-2.54" y2="8.89" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="3.81" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="4.445" x2="-3.81" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="3.81" x2="-3.175" y2="3.81" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="AD8351" urn="urn:adsk.eagle:symbol:34332037/2">
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="COMM" x="12.7" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="RGP2" x="-12.7" y="-10.16" length="short" direction="pas"/>
+<pin name="PWUP" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="RGP1" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="VOCM" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="OPHI" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="VPOS" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="INH1" x="-12.7" y="0" length="short"/>
+<pin name="INLO" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="OPLO" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="THS4032CDGN" urn="urn:adsk.eagle:symbol:16378342/3">
+<pin name="1IN-" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="1OUT" x="-12.7" y="7.62" length="short" direction="out"/>
+<pin name="1IN+" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="-VCC" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<pin name="2OUT" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="VCC+" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="2IN-" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="2IN+" x="12.7" y="-7.62" length="short" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="OPAMP" urn="urn:adsk.eagle:symbol:34332032/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">OUT</text>
+<pin name="ON2" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="ON1" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="NC" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="V-" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="LT6011CMS8" urn="urn:adsk.eagle:symbol:16378344/2">
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
+<text x="0" y="15.24" size="2.086740625" layer="95" ratio="10" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-15.24" size="2.083609375" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<pin name="V+" x="-15.24" y="7.62" length="short" direction="pwr"/>
+<pin name="+IN_A" x="-15.24" y="2.54" length="short" direction="in"/>
+<pin name="-IN_A" x="-15.24" y="0" length="short" direction="in"/>
+<pin name="+IN_B" x="-15.24" y="-2.54" length="short" direction="in"/>
+<pin name="-IN_B" x="-15.24" y="-5.08" length="short" direction="in"/>
+<pin name="V-" x="-15.24" y="-10.16" length="short" direction="pwr"/>
+<pin name="OUT_A" x="15.24" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="OUT_B" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="INS-AMP" urn="urn:adsk.eagle:symbol:34332035/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">OUT</text>
+<text x="-6.35" y="-1.27" size="1.524" layer="97" align="center">+IN</text>
+<pin name="BYPASS" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="RG1" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="RG2" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="V-" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="OPA2192IDGKR" urn="urn:adsk.eagle:symbol:16378343/3">
+<pin name="-IN_A" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="OUT_A" x="-12.7" y="7.62" length="short" direction="out"/>
+<pin name="+IN_A" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="V-" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<pin name="OUT_B" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="-IN_B" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="+IN_B" x="12.7" y="-7.62" length="short" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="AD825ARZ" urn="urn:adsk.eagle:symbol:16378341/3">
+<pin name="-IN" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="NC" x="-12.7" y="7.62" length="short" direction="nc"/>
+<pin name="+IN" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="-VS" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<pin name="+VS" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="NC2" x="12.7" y="7.62" length="short" direction="nc" rot="R180"/>
+<pin name="OUTPUT" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="NC1" x="12.7" y="-7.62" length="short" direction="nc" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="MAX4172" urn="urn:adsk.eagle:symbol:34332029/1">
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="GND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="NC2" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="RS+" x="-12.7" y="7.62" visible="pin" length="short" direction="in"/>
+<pin name="RS-" x="-12.7" y="2.54" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="-2.54" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="!PG" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="NC1" x="-12.7" y="-2.54" length="short"/>
+</symbol>
+<symbol name="MAX4199" urn="urn:adsk.eagle:symbol:34332028/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">OUT</text>
+<pin name="FB" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="REF" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="!SHDN" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VCC" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="VEE" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="MCP6001" urn="urn:adsk.eagle:symbol:34332026/1">
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="VIN-" x="-12.7" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="VIN+" x="-12.7" y="-2.54" visible="pin" length="short" direction="in"/>
+<pin name="VOUT" x="-12.7" y="2.54" visible="pin" length="short" direction="out"/>
+<pin name="VDD" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VSS" x="12.7" y="-5.08" length="short" rot="R180"/>
+</symbol>
+<symbol name="QUAD-COMPARATOR" urn="urn:adsk.eagle:symbol:34280290/1">
+<pin name="+IN1" x="-12.7" y="12.7" visible="pad" length="short" direction="in"/>
+<pin name="-IN1" x="-12.7" y="17.78" visible="pad" length="short" direction="in"/>
+<pin name="OUT1" x="12.7" y="15.24" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="+IN4" x="-12.7" y="-17.78" visible="pad" length="short" direction="in"/>
+<pin name="-IN4" x="-12.7" y="-12.7" visible="pad" length="short" direction="in"/>
+<pin name="OUT4" x="12.7" y="-15.24" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="+IN3" x="-12.7" y="-7.62" visible="pad" length="short" direction="in"/>
+<pin name="-IN3" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT3" x="12.7" y="-5.08" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="+IN2" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="-IN2" x="-12.7" y="7.62" visible="pad" length="short" direction="in"/>
+<pin name="OUT2" x="12.7" y="5.08" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="VCC" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="GND" x="12.7" y="-17.78" length="short" rot="R180"/>
+<text x="0" y="22.86" size="1.778" layer="96" align="center">&gt;NAME</text>
+<text x="0" y="-22.86" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-6.35" y1="-15.875" x2="-6.35" y2="-17.145" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-11.43" x2="-5.715" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-16.51" x2="-5.715" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-11.43" x2="-2.54" y2="-12.7" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-17.78" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-19.05" x2="3.81" y2="-15.24" width="0.127" layer="94"/>
+<wire x1="3.81" y1="-15.24" x2="-2.54" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="3.81" y2="-15.24" width="0.127" layer="94"/>
+<wire x1="-6.35" y1="-5.715" x2="-6.35" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-1.27" x2="-5.715" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-6.35" x2="-5.715" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-8.89" x2="3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="-2.54" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-6.35" y1="4.445" x2="-6.35" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="8.89" x2="-5.715" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="3.81" x2="-5.715" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="3.81" y2="5.08" width="0.127" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-2.54" y2="8.89" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="3.81" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-6.985" y1="19.05" x2="-5.715" y2="19.05" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="19.05" x2="-2.54" y2="17.78" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="12.7" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="11.43" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="11.43" x2="3.81" y2="15.24" width="0.127" layer="94"/>
+<wire x1="3.81" y1="15.24" x2="-2.54" y2="19.05" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="17.78" x2="-2.54" y2="17.78" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-2.54" y2="12.7" width="0.127" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="3.81" y2="15.24" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.127" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-20.32" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="-10.16" y2="-20.32" width="0.127" layer="94"/>
+<wire x1="-6.35" y1="14.605" x2="-6.35" y2="13.335" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="13.97" x2="-5.715" y2="13.97" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="INA180" urn="urn:adsk.eagle:symbol:34332036/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">OUT</text>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="VS" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" rot="R180"/>
+</symbol>
+<symbol name="LMH6629" urn="urn:adsk.eagle:symbol:34332031/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">OUT</text>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="V-" x="12.7" y="-5.08" length="short" rot="R180"/>
+</symbol>
+<symbol name="OPA171AIDBVR" urn="urn:adsk.eagle:symbol:16378345/2">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="12.7" size="2.08636875" layer="95" ratio="10" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-15.24" size="2.08383125" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<pin name="V+" x="-15.24" y="5.08" length="short" direction="pwr"/>
+<pin name="+IN" x="-15.24" y="0" length="short" direction="in"/>
+<pin name="-IN" x="-15.24" y="-2.54" length="short" direction="in"/>
+<pin name="V-" x="-15.24" y="-7.62" length="short" direction="pwr"/>
+<pin name="OUT" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="MAX4238" urn="urn:adsk.eagle:symbol:34332027/1">
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="-3.81" y2="-5.08" width="0.127" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="-8.255" y="-1.905" size="1.524" layer="93">+IN</text>
+<text x="-7.62" y="3.81" size="1.524" layer="93">-IN</text>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">OUT</text>
+<pin name="NC1" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="!SHDN" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="-IN" x="-12.7" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-12.7" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="NC2" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VCC" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="LM324" urn="urn:adsk.eagle:symbol:34332034/1">
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="-IN3" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="-IN2" x="-12.7" y="-7.62" visible="pin" length="short" direction="pas"/>
+<pin name="OUT1" x="-12.7" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="-IN1" x="-12.7" y="2.54" visible="pin" length="short" direction="in"/>
+<pin name="OUT4" x="12.7" y="10.16" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="+IN3" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="-IN4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="+IN1" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="V+" x="-12.7" y="10.16" length="short" direction="pas"/>
+<pin name="GND" x="12.7" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="+IN2" x="-12.7" y="-5.08" visible="pin" length="short" direction="pas"/>
+<pin name="OUT2" x="-12.7" y="-10.16" length="short" direction="pas"/>
+<pin name="OUT3" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="+IN4" x="12.7" y="5.08" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM741" prefix="IC" urn="urn:adsk.eagle:component:34332057/8">
+<description>&lt;b&gt;Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/lm741.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="ON1" pad="1"/>
+<connect gate="G$1" pin="ON2" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="LM741" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Op Amps " constant="no"/>
+<attribute name="VALUE" value="LM741" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM393" prefix="IC" urn="urn:adsk.eagle:component:34280291/9">
+<description>Dual &lt;b&gt;Comparators&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/lm393-n.pdf?ts=1637561071595&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DUAL-COMPARATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Analog Comparators" constant="no"/>
+<attribute name="DESCRIPTION" value="Differential Dual Comparator" constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM393" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Comparator" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="LM393" constant="no"/>
+</technology>
+<technology name="N/NOPB">
+<attribute name="CATEGORY" value="Analog Comparators" constant="no"/>
+<attribute name="DESCRIPTION" value="IC COMP DUAL LO PWR 8-DIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM393N/NOPB" constant="no"/>
+<attribute name="OPERATING_TEMP" value="0°C ~ 70°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="LM393" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Comparator" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="LM393" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPA2134" prefix="IC" urn="urn:adsk.eagle:component:34332045/8">
+<description>&lt;b&gt;Audio Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/opa2134.pdf?ts=1645702253216&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Audio Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Audio Amplifiers SoundPlus(TM) Hi-Perf Aud Oper Amp " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="OPA2134PAG4" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="OPA2134" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Audio" constant="no"/>
+<attribute name="VALUE" value="OPA2134" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Audio Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="OPA2134" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Audio" constant="no"/>
+<attribute name="VALUE" value="OPA2134" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM386" prefix="IC" urn="urn:adsk.eagle:component:34332058/8">
+<description>&lt;b&gt;Audio Power Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/lm386.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM386" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="BYPASS" pad="8"/>
+<connect gate="G$1" pin="G1" pad="1"/>
+<connect gate="G$1" pin="G2" pad="7"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Audio Power Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="value" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Power" constant="no"/>
+<attribute name="TYPE" value="Audio" constant="no"/>
+<attribute name="VALUE" value="LM386" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="BYPASS" pad="8"/>
+<connect gate="G$1" pin="G1" pad="1"/>
+<connect gate="G$1" pin="G2" pad="7"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Audio Power Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM386" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Power" constant="no"/>
+<attribute name="TYPE" value="Audio" constant="no"/>
+<attribute name="VALUE" value="LM386" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM358" prefix="IC" urn="urn:adsk.eagle:component:34332059/9">
+<description>&lt;b&gt;Dual Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/lm158-n.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Dual Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="LM358" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Dual Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="LM358" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TL072" prefix="IC" urn="urn:adsk.eagle:component:34332046/9">
+<description>&lt;b&gt;FET-Input Operational Amplifiers&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/tl072.pdf?ts=1645679391516&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="FET-Input Operational Amplifiers " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="TL072" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="FET-Input" constant="no"/>
+<attribute name="VALUE" value="TL072" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="FET-Input Operational Amplifiers " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="TL072" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="FET-Input" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AS358*-?" prefix="IC" urn="urn:adsk.eagle:component:29364464/4">
+<description>Low power Dual Operation Amplifiers
+&lt;br&gt;&lt;a href="https://www.diodes.com/assets/Datasheets/AS358-358A-358B.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="AS358" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PDIP" package="DIP762W56P254L930H431Q8B">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT1+" pad="3"/>
+<connect gate="G$1" pin="INPUT1-" pad="2"/>
+<connect gate="G$1" pin="INPUT2+" pad="5"/>
+<connect gate="G$1" pin="INPUT2-" pad="6"/>
+<connect gate="G$1" pin="OUTPUT1" pad="1"/>
+<connect gate="G$1" pin="OUTPUT2" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29364457/1"/>
+</package3dinstances>
+<technologies>
+<technology name="AP-E1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps LP Op Amp 2-Ch 36V 0.5mA 2mV 20nA" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358AP-E1" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C (TA)" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+<technology name="P-E1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps LP Dual Op Amp 2-Ch 3 to 36V 0.5mA " constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358P-E1" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C (TA)" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TDIP" package="DIP820W55P254L925H330Q8B">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT1+" pad="3"/>
+<connect gate="G$1" pin="INPUT1-" pad="2"/>
+<connect gate="G$1" pin="INPUT2+" pad="5"/>
+<connect gate="G$1" pin="INPUT2-" pad="6"/>
+<connect gate="G$1" pin="OUTPUT1" pad="1"/>
+<connect gate="G$1" pin="OUTPUT2" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29364455/1"/>
+</package3dinstances>
+<technologies>
+<technology name="PT-G1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358PT-G1" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SO-8" package="SOIC127P600X175-8">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT1+" pad="3"/>
+<connect gate="G$1" pin="INPUT1-" pad="2"/>
+<connect gate="G$1" pin="INPUT2+" pad="5"/>
+<connect gate="G$1" pin="INPUT2-" pad="6"/>
+<connect gate="G$1" pin="OUTPUT1" pad="1"/>
+<connect gate="G$1" pin="OUTPUT2" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29364453/1"/>
+</package3dinstances>
+<technologies>
+<technology name="AMTR-G1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358AMTR-G1 " constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+<technology name="MTR-E1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358MTR-E1 " constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+<technology name="MTR-G1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358MTR-G1" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TSSOP" package="SOP65P640X120-8">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT1+" pad="3"/>
+<connect gate="G$1" pin="INPUT1-" pad="2"/>
+<connect gate="G$1" pin="INPUT2+" pad="5"/>
+<connect gate="G$1" pin="INPUT2-" pad="6"/>
+<connect gate="G$1" pin="OUTPUT1" pad="1"/>
+<connect gate="G$1" pin="OUTPUT2" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29364452/1"/>
+</package3dinstances>
+<technologies>
+<technology name="BGTR-G1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358BGTR-G1 " constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+<technology name="GTR-G1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358GTR-G1" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MSOP" package="SOP65P490X120-8">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT1+" pad="3"/>
+<connect gate="G$1" pin="INPUT1-" pad="2"/>
+<connect gate="G$1" pin="INPUT2+" pad="5"/>
+<connect gate="G$1" pin="INPUT2-" pad="6"/>
+<connect gate="G$1" pin="OUTPUT1" pad="1"/>
+<connect gate="G$1" pin="OUTPUT2" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29364451/1"/>
+</package3dinstances>
+<technologies>
+<technology name="MMTR-G1">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="LOW POWER DUAL OPERATIONAL AMPLIFIERS" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AS358MMTR-G1 " constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AS358" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AS358" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX4172" prefix="IC" urn="urn:adsk.eagle:component:34332053/4">
+<description>&lt;b&gt;Current-Sense Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX4172.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX4172" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="!PG" pad="7"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="NC1" pad="3"/>
+<connect gate="G$1" pin="NC2" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="RS+" pad="1"/>
+<connect gate="G$1" pin="RS-" pad="2"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Current-Sense Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="MAX4172" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Current Sense" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="MAX4172" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX2634" prefix="IC" urn="urn:adsk.eagle:component:34332054/3">
+<description>&lt;b&gt;Low-Noise Automotive (RKE) Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX2634.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX2634" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT65P217X110-6N">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="RFIN" pad="4"/>
+<connect gate="G$1" pin="RFOUT" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34332041/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Low-Noise Automotive Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="MAX2634AXT+T" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to +125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="MAX2634" constant="no"/>
+<attribute name="SUB-CATEGORY" value="RF" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="MAX2634" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD825ARZ" prefix="IC" urn="urn:adsk.eagle:component:16378358/12">
+<description>Low Cost, General-Purpose High Speed JFET Amplifier
+&lt;br&gt;&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/AD825.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="AD825ARZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="+VS" pad="7"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="-VS" pad="4"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NC1" pad="5"/>
+<connect gate="G$1" pin="NC2" pad="8"/>
+<connect gate="G$1" pin="OUTPUT" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Precision Amplifiers " constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Amplifiers PRECISION LOW NOISE JFET AMPLIFIER " constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc." constant="no"/>
+<attribute name="MPN" value="AD8512ARZ" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AD8512" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs " constant="no"/>
+<attribute name="TYPE" value="JFET Precision" constant="no"/>
+<attribute name="VALUE" value="AD825" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX4238" prefix="IC" urn="urn:adsk.eagle:component:34332051/4">
+<description>&lt;b&gt;Low-Noise Precision Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX4238" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="1"/>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="NC1" pad="5"/>
+<connect gate="G$1" pin="NC2" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Precision Amplifiers " constant="no"/>
+<attribute name="DESCRIPTION" value="Ultra-Low Offset/Drift, Low-Noise, Precision SOT23 Amplifiers" constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices / Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125��C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="MAX4238" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Precision Amplifiers" constant="no"/>
+<attribute name="VALUE" value="MAX4238" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT1167" prefix="IC" urn="urn:adsk.eagle:component:34332055/8">
+<description>&lt;b&gt;Precision Instrumentation Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/1167fc.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="INS-AMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="BYPASS" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="RG1" pad="1"/>
+<connect gate="G$1" pin="RG2" pad="8"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Instrumentation Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LT1167" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Instrumentation" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="LT1167" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="BYPASS" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="RG1" pad="1"/>
+<connect gate="G$1" pin="RG2" pad="8"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Instrumentation Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LT1167" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Instrumentation" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="LT1167" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8666ARZ" prefix="IC" urn="urn:adsk.eagle:component:16378362/11">
+<description>16 V, 4 MHz RR0 Amplifiers
+&lt;br&gt;&lt;a href="https://www.mouser.in/datasheet/2/609/AD8665_AD8666_AD8668-1502397.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="LT6011CMS8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN_A" pad="3"/>
+<connect gate="G$1" pin="+IN_B" pad="5"/>
+<connect gate="G$1" pin="-IN_A" pad="2"/>
+<connect gate="G$1" pin="-IN_B" pad="6"/>
+<connect gate="G$1" pin="OUT_A" pad="1"/>
+<connect gate="G$1" pin="OUT_B" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Precision Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Amplifiers Dual LowCost/Noise 16V R-R CMOS Amp " constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc." constant="no"/>
+<attribute name="MPN" value="AD8666ARZ" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125 °C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="RoHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AD8666" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="General Purpose Amplifier" constant="no"/>
+<attribute name="VALUE" value="AD8666" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD822" prefix="IC" urn="urn:adsk.eagle:component:34332065/9">
+<description>&lt;b&gt;FET-Input Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/ad822.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="General Purpose Amplifier 2 Circuit Rail-to-Rail 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc." constant="no"/>
+<attribute name="MPN" value="AD822*" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AD822" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Op Amps" constant="no"/>
+<attribute name="TYPE" value="General Purpose" constant="no"/>
+<attribute name="VALUE" value="AD822" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="General Purpose Amplifier" constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc." constant="no"/>
+<attribute name="MPN" value="AD822*" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AD822" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="General Purpose" constant="no"/>
+<attribute name="VALUE" value="AD822" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA828" prefix="IC" urn="urn:adsk.eagle:component:34332061/4">
+<description>&lt;b&gt;Precision Instrumentation Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/sbos792a/sbos792a.pdf?ts=1645724125783&amp;ref_url=https%253A%252F%252Fwww.google.com%252F#:~:text=The%20INA828%20is%20a%20high,gain%20from%201%20to%201000."&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="INS-AMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="BYPASS" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="RG1" pad="1"/>
+<connect gate="G$1" pin="RG2" pad="8"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Instrumentation Amplifiers " constant="no"/>
+<attribute name="DESCRIPTION" value="Instrumentation Amplifiers 50-V Offset Low-Power " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="INA828IDR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Acctive" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="INA828" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Instrumentation" constant="no"/>
+<attribute name="VALUE" value="INA828" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NE5532" prefix="IC" urn="urn:adsk.eagle:component:34332049/9">
+<description>&lt;b&gt;Dual Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/ne5532.pdf?ts=1645701697800&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Dual Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="NE5532" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="NE5532" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps Dual Low-Noise Hi-Speed Audio" constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="Generic" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="NE5532" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs " constant="no"/>
+<attribute name="TYPE" value="Low Noise Amplifier" constant="no"/>
+<attribute name="VALUE" value="NE5532" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OP07" prefix="IC" urn="urn:adsk.eagle:component:34332048/8">
+<description>&lt;b&gt;Precision Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/op07c.pdf?ts=1645698663529&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="ON1" pad="1"/>
+<connect gate="G$1" pin="ON2" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Precision Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="Generic" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="OP07" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs " constant="no"/>
+<attribute name="TYPE" value="Low Offset Amplifier " constant="no"/>
+<attribute name="VALUE" value="OP07" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="ON1" pad="1"/>
+<connect gate="G$1" pin="ON2" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Operational Amplifier " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="OP07" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="OP07" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX4199" prefix="IC" urn="urn:adsk.eagle:component:34332052/4">
+<description>&lt;b&gt;Precision Differential Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX4198-MAX4199.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX4199" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="8"/>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="REF" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+<connect gate="G$1" pin="VEE" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Differential Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Differential Amplifiers Micropower, Single-Supply, Rail-to-Rail Precision Differential Amplifiers" constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices / Maxim Integrated" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="MAX4199" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs " constant="no"/>
+<attribute name="TYPE" value="Differential Amplifiers" constant="no"/>
+<attribute name="VALUE" value="MAX4199" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THS4032CDGN" prefix="IC" urn="urn:adsk.eagle:component:16378360/10">
+<description>100-MHz Low-Noise High-Speed Amplifiers
+&lt;br&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/ths4032.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="THS4032CDGN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PDSO" package="SOP65P490X110-9T157X189N">
+<connects>
+<connect gate="G$1" pin="-VCC" pad="4"/>
+<connect gate="G$1" pin="1IN+" pad="3"/>
+<connect gate="G$1" pin="1IN-" pad="2"/>
+<connect gate="G$1" pin="1OUT" pad="1"/>
+<connect gate="G$1" pin="2IN+" pad="5"/>
+<connect gate="G$1" pin="2IN-" pad="6"/>
+<connect gate="G$1" pin="2OUT" pad="7"/>
+<connect gate="G$1" pin="VCC+" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378356/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="value" constant="no"/>
+<attribute name="MANUFACTURER" value="TI" constant="no"/>
+<attribute name="MPN" value="THS4032CDGN" constant="no"/>
+<attribute name="OPERATING_TEMP" value="0 to +70 °C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="RoHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="THS4032" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Op-Amp" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="THS4032" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA818" prefix="IC" urn="urn:adsk.eagle:component:34332062/4">
+<description>&lt;b&gt;Precision Instrumentation Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/ina818.pdf?ts=1645723796634&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="INS-AMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="BYPASS" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="RG1" pad="1"/>
+<connect gate="G$1" pin="RG2" pad="8"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Instrumentation Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Instrumentation Amplifiers Low power (350- uA), precision instrumentation amp with +/-60-V overvoltage protection (gain pins 1, 8) 8-SOIC -40 to 125 " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="INA818IDR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="INA818" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplier ICs" constant="no"/>
+<attribute name="TYPE" value="Instrumentation" constant="no"/>
+<attribute name="VALUE" value="INA818" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RC4558" prefix="IC" urn="urn:adsk.eagle:component:34332047/9">
+<description>&lt;b&gt;Dual Operational Amplifiers&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1645693536569&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378355/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Dual Operational Amplifiers " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="RC4558" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="RC4558" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DIP" package="DIP826W53P254L959H508Q8B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18493555/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Amplifier" constant="no"/>
+<attribute name="DESCRIPTION" value="Dual Operational Amplifiers " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="RC4558" constant="no"/>
+<attribute name="SUB-CATEGORY" value="OpAmp" constant="no"/>
+<attribute name="TYPE" value="Dual" constant="no"/>
+<attribute name="VALUE" value="RC4558" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8351" prefix="IC" urn="urn:adsk.eagle:component:34332064/4">
+<description>&lt;b&gt;Differential RF/IF Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/AD8351.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AD8351" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP50P490X110-10N">
+<connects>
+<connect gate="G$1" pin="COMM" pad="6"/>
+<connect gate="G$1" pin="INH1" pad="3"/>
+<connect gate="G$1" pin="INLO" pad="4"/>
+<connect gate="G$1" pin="OPHI" pad="8"/>
+<connect gate="G$1" pin="OPLO" pad="7"/>
+<connect gate="G$1" pin="PWUP" pad="1"/>
+<connect gate="G$1" pin="RGP1" pad="2"/>
+<connect gate="G$1" pin="RGP2" pad="5"/>
+<connect gate="G$1" pin="VOCM" pad="10"/>
+<connect gate="G$1" pin="VPOS" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34332042/1"/>
+</package3dinstances>
+<technologies>
+<technology name="ARMZ">
+<attribute name="CATEGORY" value="RF Amplifier " constant="no"/>
+<attribute name="DESCRIPTION" value="RF Amplifier miniSO IF Sampling ADC Driver " constant="no"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc." constant="no"/>
+<attribute name="MPN" value="AD8351ARMZ" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="AD8351" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Wireless &amp; RF Integrated Circuits " constant="no"/>
+<attribute name="TYPE" value="RF Amplifier" constant="no"/>
+<attribute name="VALUE" value="AD8351" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPA2192IDGKR" prefix="IC" urn="urn:adsk.eagle:component:16378361/10">
+<description>36-V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage,
+&lt;br&gt;Low Input Bias Current Op Amp with e-trim™
+&lt;br&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/opa192.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPA2192IDGKR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PDSO" package="SOP65P490X110-8N">
+<connects>
+<connect gate="G$1" pin="+IN_A" pad="3"/>
+<connect gate="G$1" pin="+IN_B" pad="5"/>
+<connect gate="G$1" pin="-IN_A" pad="2"/>
+<connect gate="G$1" pin="-IN_B" pad="6"/>
+<connect gate="G$1" pin="OUT_A" pad="1"/>
+<connect gate="G$1" pin="OUT_B" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378357/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Precision Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Amplifiers 36-V, Precision, RRIO, Low Offset Voltage, Low Input Bias Current Op Amp With e-trim 8-VSSOP -40 to 125 " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="OPA2192IDGKR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125 °C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="RoHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="OPA2192" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Low Drift Amplifier " constant="no"/>
+<attribute name="VALUE" value="OPA2192" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA180" prefix="IC" urn="urn:adsk.eagle:component:34332063/4">
+<description>&lt;b&gt;Current-Sense Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/ina180.pdf?ts=1645982756538&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="INA180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PINOUTA" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="VS" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Current Sense Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Low- and High-Side Voltage Output, Current-Sense Amplifiers" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="INA180" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplier ICs" constant="no"/>
+<attribute name="TYPE" value="Current Sense" constant="no"/>
+<attribute name="VALUE" value="INA180" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PINOUTB" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="1"/>
+<connect gate="G$1" pin="-IN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="VS" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Current-Sense Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Low- and High-Side Voltage Output, Current-Sense Amplifiers" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value=" -40°C ~ 125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="INA180" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Current Sense" constant="no"/>
+<attribute name="VALUE" value="INA180" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMH6629" prefix="IC" urn="urn:adsk.eagle:component:34332056/4">
+<description>&lt;b&gt;Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/lmh6629.pdf?ts=1645989311865&amp;ref_url=https%253A%252F%252Fwww.google.com%252F"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LMH6629" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOT23" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="High Speed Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="High Speed Operational Amplifiers Ultra-Lo Noise Hi-Spd OP Amp " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LMH6629" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="LMH6629" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP6001T" prefix="IC" urn="urn:adsk.eagle:component:34332050/4">
+<description>&lt;b&gt;Low-Power Operational Amplifier&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP6001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOT23" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VIN+" pad="3"/>
+<connect gate="G$1" pin="VIN-" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps Single 1.8V 1MHz" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology " constant="no"/>
+<attribute name="MPN" value="MCP6001T-E/LT " constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="MCP6001" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="TYPE" value="Operational Amplifiers" constant="no"/>
+<attribute name="VALUE" value="MCP6001" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT6011CMS8#PBF" prefix="IC" urn="urn:adsk.eagle:component:16378359/9">
+<description>Dual/Quad 135µA, 14nV/√Hz, Rail-to-Rail Output Precision Op Amp
+&lt;br&gt;&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/60112fc.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="LT6011CMS8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_MSOP" package="SOP65P490X110-8N">
+<connects>
+<connect gate="G$1" pin="+IN_A" pad="3"/>
+<connect gate="G$1" pin="+IN_B" pad="5"/>
+<connect gate="G$1" pin="-IN_A" pad="2"/>
+<connect gate="G$1" pin="-IN_B" pad="6"/>
+<connect gate="G$1" pin="OUT_A" pad="1"/>
+<connect gate="G$1" pin="OUT_B" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378357/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Precision Amplifiers " constant="no"/>
+<attribute name="DESCRIPTION" value="Precision Amplifiers 2x/4x 135 A, 14nV/rtHz, R2R Out Prec Op " constant="no"/>
+<attribute name="MANUFACTURER" value="Linear Technology" constant="no"/>
+<attribute name="MPN" value="LT6011CMS8#PBF" constant="no"/>
+<attribute name="OPERATING_TEMP" value="0 to +70 °C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="RoHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="LT6011" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Op-Amp" constant="no"/>
+<attribute name="VALUE" value="LT6011" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM324" prefix="IC" urn="urn:adsk.eagle:component:34332060/4">
+<description>&lt;b&gt;Quad-Operational Amplifiers&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/snosc16d/snosc16d.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM324" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-14N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="+IN3" pad="10"/>
+<connect gate="G$1" pin="+IN4" pad="12"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="-IN2" pad="6"/>
+<connect gate="G$1" pin="-IN3" pad="9"/>
+<connect gate="G$1" pin="-IN4" pad="13"/>
+<connect gate="G$1" pin="GND" pad="11"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="OUT3" pad="8"/>
+<connect gate="G$1" pin="OUT4" pad="14"/>
+<connect gate="G$1" pin="V+" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378323/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Quad-Operational Amplifiers " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM324" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Op Amps - Operational Amplifiers" constant="no"/>
+<attribute name="VALUE" value="LM324" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM339" prefix="IC" urn="urn:adsk.eagle:component:34280292/5">
+<description>Quad &lt;b&gt;Comparators&lt;/b&gt;
+
+&lt;p&gt;Reference 
+&lt;a href="https://www.ti.com/lit/ds/symlink/lm2901.pdf?ts=1637642838912&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM2901"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="QUAD-COMPARATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PDIP" package="DIP762W53P254L1969H508Q14B">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="7"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="+IN3" pad="9"/>
+<connect gate="G$1" pin="+IN4" pad="11"/>
+<connect gate="G$1" pin="-IN1" pad="6"/>
+<connect gate="G$1" pin="-IN2" pad="4"/>
+<connect gate="G$1" pin="-IN3" pad="8"/>
+<connect gate="G$1" pin="-IN4" pad="10"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="2"/>
+<connect gate="G$1" pin="OUT3" pad="14"/>
+<connect gate="G$1" pin="OUT4" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32405040/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Analog Comparators" constant="no"/>
+<attribute name="DESCRIPTION" value="Differential Quad Comparator" constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM339" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Quad" constant="no"/>
+<attribute name="TYPE" value="Analog Comparators" constant="no"/>
+<attribute name="VALUE" value="LM339" constant="no"/>
+</technology>
+<technology name="N">
+<attribute name="CATEGORY" value="Analog Comparators" constant="no"/>
+<attribute name="DESCRIPTION" value="IC QUAD DIFF COMPARATOR 14-DIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM339N" constant="no"/>
+<attribute name="OPERATING_TEMP" value="0°C ~ 70°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="LM339" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Quad" constant="no"/>
+<attribute name="TYPE" value="Analog Comparators" constant="no"/>
+<attribute name="VALUE" value="LM339" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOIC" package="SOIC127P600X175-14N">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="7"/>
+<connect gate="G$1" pin="+IN2" pad="5"/>
+<connect gate="G$1" pin="+IN3" pad="9"/>
+<connect gate="G$1" pin="+IN4" pad="11"/>
+<connect gate="G$1" pin="-IN1" pad="6"/>
+<connect gate="G$1" pin="-IN2" pad="4"/>
+<connect gate="G$1" pin="-IN3" pad="8"/>
+<connect gate="G$1" pin="-IN4" pad="10"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="2"/>
+<connect gate="G$1" pin="OUT3" pad="14"/>
+<connect gate="G$1" pin="OUT4" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378323/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Analog Comparators" constant="no"/>
+<attribute name="DESCRIPTION" value="Differential Quad Comparator" constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="LM339" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Comparator" constant="no"/>
+<attribute name="TYPE" value="Quad" constant="no"/>
+<attribute name="VALUE" value="LM339" constant="no"/>
+</technology>
+<technology name="D">
+<attribute name="CATEGORY" value="Analog Comparators" constant="no"/>
+<attribute name="DESCRIPTION" value="IC QUAD DIFF COMP 14-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM339D" constant="no"/>
+<attribute name="OPERATING_TEMP" value="0°C ~ 70°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="ROHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="LM339" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Comparator" constant="no"/>
+<attribute name="TYPE" value="Quad" constant="no"/>
+<attribute name="VALUE" value="LM339" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPA171AIDBVR" prefix="IC" urn="urn:adsk.eagle:component:16378363/11">
+<description>36-V, Single-Supply, SOT-553, General-Purpose Operational Amplifiers
+&lt;br&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/opa171.pdf"&gt;Datasheet&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPA171AIDBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOT23" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Operational Amplifiers" constant="no"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 36V,Low Power,RRO Gen Purp Op Amp " constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="OPA171AIDBVR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40 to +125 °C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="RoHS3 Compliant" constant="no"/>
+<attribute name="SERIES" value="OPA171" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Amplifier ICs" constant="no"/>
+<attribute name="TYPE" value="Low Power Amplifier " constant="no"/>
+<attribute name="VALUE" value="OPA171" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Thyristor&lt;/i&gt;&lt;/h3&gt;
+
+Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
+&lt;BR&gt;
+&lt;BR&gt;
+This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
+&lt;BR&gt;
+&lt;BR&gt;
+Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
+<packages>
+<package name="DO-214AC" urn="urn:adsk.eagle:footprint:17910274/2">
+<smd name="K" x="-2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
+<smd name="A" x="2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
+<wire x1="-2.1225" y1="1.3325" x2="2.1225" y2="1.3325" width="0.127" layer="51"/>
+<wire x1="2.1225" y1="1.3325" x2="2.1225" y2="-1.3325" width="0.127" layer="51"/>
+<wire x1="2.1225" y1="-1.3325" x2="-2.1225" y2="-1.3325" width="0.127" layer="51"/>
+<wire x1="-2.1225" y1="-1.3325" x2="-2.1225" y2="1.3325" width="0.127" layer="51"/>
+<wire x1="-2.1225" y1="1.3325" x2="2.1225" y2="1.3325" width="0.127" layer="21"/>
+<wire x1="2.1225" y1="-1.3325" x2="-2.1225" y2="-1.3325" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="1.5" x2="3.5" y2="1.5" width="0.05" layer="39"/>
+<wire x1="3.5" y1="1.5" x2="3.5" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-1.5" x2="-3.5" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.05" layer="39"/>
+<text x="-3.429" y="1.778" size="0.6096" layer="25" ratio="6">&gt;NAME</text>
+<text x="-3.556" y="-2.413" size="0.6096" layer="27" ratio="6">&gt;VALUE</text>
+</package>
+<package name="K1500SRP" urn="urn:adsk.eagle:footprint:17909835/1">
+<smd name="1" x="-2" y="0" dx="2" dy="2.8" layer="1"/>
+<smd name="2" x="2" y="0" dx="2" dy="2.8" layer="1"/>
+<wire x1="-2.1625" y1="1.8125" x2="-2.1625" y2="-1.8125" width="0.127" layer="51"/>
+<wire x1="-2.1625" y1="-1.8125" x2="2.1625" y2="-1.8125" width="0.127" layer="51"/>
+<wire x1="2.1625" y1="-1.8125" x2="2.1625" y2="1.8125" width="0.127" layer="51"/>
+<wire x1="2.1625" y1="1.8125" x2="-2.1625" y2="1.8125" width="0.127" layer="51"/>
+<wire x1="2.1625" y1="1.8125" x2="-2.1625" y2="1.8125" width="0.127" layer="21"/>
+<wire x1="-2.1625" y1="-1.8125" x2="2.1625" y2="-1.8125" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="2.0625" x2="-3.25" y2="-2.0625" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="-2.0625" x2="3.25" y2="-2.0625" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-2.0625" x2="3.25" y2="2.0625" width="0.05" layer="39"/>
+<wire x1="3.25" y1="2.0625" x2="-3.25" y2="2.0625" width="0.05" layer="39"/>
+<text x="-4" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SMDB3" urn="urn:adsk.eagle:footprint:17909837/2">
+<smd name="1" x="-0.97" y="-0.92" dx="0.48" dy="1.05" layer="1"/>
+<smd name="3" x="0" y="0.92" dx="0.48" dy="1.05" layer="1"/>
+<smd name="2" x="0.97" y="-0.92" dx="0.48" dy="1.05" layer="1"/>
+<wire x1="-1.4475" y1="0.7375" x2="-1.4475" y2="-0.7375" width="0.127" layer="51"/>
+<wire x1="-1.4475" y1="-0.7375" x2="1.4475" y2="-0.7375" width="0.127" layer="51"/>
+<wire x1="1.4475" y1="-0.7375" x2="1.4475" y2="0.7375" width="0.127" layer="51"/>
+<wire x1="1.4475" y1="0.7375" x2="-1.4475" y2="0.7375" width="0.127" layer="51"/>
+<wire x1="-0.4" y1="0.7375" x2="-1.4475" y2="0.7375" width="0.127" layer="21"/>
+<wire x1="-1.4475" y1="0.7375" x2="-1.4475" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="1.4475" y1="0.7375" x2="0.4" y2="0.7375" width="0.127" layer="21"/>
+<wire x1="1.4475" y1="0.7375" x2="1.4475" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.7375" x2="0.6" y2="-0.7375" width="0.127" layer="21"/>
+<wire x1="-1.6975" y1="1.695" x2="-1.6975" y2="-1.695" width="0.05" layer="39"/>
+<wire x1="-1.6975" y1="-1.695" x2="1.6975" y2="-1.695" width="0.05" layer="39"/>
+<wire x1="1.6975" y1="-1.695" x2="1.6975" y2="1.695" width="0.05" layer="39"/>
+<wire x1="1.6975" y1="1.695" x2="-1.6975" y2="1.695" width="0.05" layer="39"/>
+<circle x="-1" y="-2" radius="0.1" width="0.2" layer="21"/>
+<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TO92" urn="urn:adsk.eagle:footprint:17910273/2">
+<description>TO-92, 1.27 mm pitch; 2 pin, 4.73 mm W X 6.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<pad name="1" x="-1.27" y="-1.015" drill="0.84" diameter="1.25" first="yes"/>
+<pad name="2" x="1.27" y="-1.015" drill="0.84" diameter="1.25"/>
+<wire x1="-1.51" y1="-1.275" x2="-1.51" y2="-0.795" width="0.025" layer="51"/>
+<wire x1="-1.51" y1="-0.795" x2="-1.03" y2="-0.795" width="0.025" layer="51"/>
+<wire x1="-1.03" y1="-0.795" x2="-1.03" y2="-1.275" width="0.025" layer="51"/>
+<wire x1="-1.03" y1="-1.275" x2="-1.51" y2="-1.275" width="0.025" layer="51"/>
+<wire x1="1.03" y1="-1.275" x2="1.03" y2="-0.795" width="0.025" layer="51"/>
+<wire x1="1.03" y1="-0.795" x2="1.51" y2="-0.795" width="0.025" layer="51"/>
+<wire x1="1.51" y1="-0.795" x2="1.51" y2="-1.275" width="0.025" layer="51"/>
+<wire x1="1.51" y1="-1.275" x2="1.03" y2="-1.275" width="0.025" layer="51"/>
+<wire x1="2.014" y1="-2.053" x2="-2.014" y2="-2.053" width="0.025" layer="51" curve="240.981543"/>
+<wire x1="2.014" y1="-2.053" x2="-2.014" y2="-2.053" width="0.12" layer="51" curve="240.981543"/>
+<wire x1="-2.014" y1="-2.053" x2="2.014" y2="-2.053" width="0.12" layer="51"/>
+<wire x1="2.014" y1="-2.053" x2="-2.014" y2="-2.053" width="0.12" layer="21" curve="240.981543"/>
+<wire x1="-2.014" y1="-2.053" x2="2.014" y2="-2.053" width="0.12" layer="21"/>
+<wire x1="-2.62" y1="-2.29" x2="2.62" y2="-2.29" width="0.05" layer="39"/>
+<wire x1="2.62" y1="-2.29" x2="2.62" y2="-0.8325" width="0.05" layer="39"/>
+<wire x1="2.62" y1="-0.8325" x2="-2.62" y2="-0.8325" width="0.05" layer="39" curve="180"/>
+<wire x1="-2.62" y1="-0.8325" x2="-2.62" y2="-2.29" width="0.05" layer="39"/>
+<text x="-2.54" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-4.064" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="BS08D-T112" urn="urn:adsk.eagle:footprint:17909840/4">
+<pad name="1" x="-2.5" y="0" drill="0.65" shape="square"/>
+<pad name="2" x="0.04" y="0" drill="0.65"/>
+<pad name="3" x="2.5" y="0" drill="0.65"/>
+<text x="-3" y="3.02" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3" y="-2.75" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-2" y1="2.335" x2="2" y2="2.335" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1.25" x2="2" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1.25" x2="-2" y2="2.335" width="0.127" layer="51" curve="-127.406634"/>
+<wire x1="2" y1="2.335" x2="2" y2="-1.25" width="0.127" layer="51" curve="-127.406634"/>
+<wire x1="-2" y1="2.335" x2="2" y2="2.335" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.25" x2="2" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-2" y1="2.335" x2="-3.075" y2="0.8" width="0.127" layer="21" curve="60.660546"/>
+<wire x1="2" y1="2.335" x2="3.1" y2="0.55" width="0.127" layer="21" curve="-66.363901"/>
+<wire x1="-2.25" y1="2.585" x2="2.25" y2="2.585" width="0.05" layer="39"/>
+<wire x1="-2.25" y1="-1.5" x2="2.25" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-2.25" y1="2.585" x2="-2.25" y2="-1.5" width="0.05" layer="39" curve="122.437402"/>
+<wire x1="2.25" y1="2.585" x2="2.25" y2="-1.5" width="0.05" layer="39" curve="-122.437402"/>
+<circle x="-3.69" y="0" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="DB3" urn="urn:adsk.eagle:footprint:17909839/2">
+<pad name="1" x="-4.3875" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="4.3875" y="0" drill="0.8"/>
+<wire x1="-1.8875" y1="0.8825" x2="-1.8875" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.8875" y1="0" x2="-1.8875" y2="-0.8825" width="0.127" layer="21"/>
+<wire x1="-1.8875" y1="-0.8825" x2="1.8875" y2="-0.8825" width="0.127" layer="21"/>
+<wire x1="1.8875" y1="-0.8825" x2="1.8875" y2="0" width="0.127" layer="21"/>
+<wire x1="1.8875" y1="0" x2="1.8875" y2="0.8825" width="0.127" layer="21"/>
+<wire x1="1.8875" y1="0.8825" x2="-1.8875" y2="0.8825" width="0.127" layer="21"/>
+<wire x1="-1.8875" y1="0.8825" x2="-1.8875" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.8875" y1="0" x2="-1.8875" y2="-0.8825" width="0.127" layer="51"/>
+<wire x1="-1.8875" y1="-0.8825" x2="1.8875" y2="-0.8825" width="0.127" layer="51"/>
+<wire x1="1.8875" y1="-0.8825" x2="1.8875" y2="0" width="0.127" layer="51"/>
+<wire x1="1.8875" y1="0" x2="1.8875" y2="0.8825" width="0.127" layer="51"/>
+<wire x1="1.8875" y1="0.8825" x2="-1.8875" y2="0.8825" width="0.127" layer="51"/>
+<wire x1="-1.8875" y1="0" x2="-4.3875" y2="0" width="0.127" layer="51"/>
+<wire x1="4.3875" y1="0" x2="1.8875" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.8875" y1="0" x2="-3.5" y2="0" width="0.127" layer="21"/>
+<wire x1="3.5125" y1="0" x2="1.8875" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="1.1325" x2="-5.4" y2="-1.1325" width="0.05" layer="39"/>
+<wire x1="-5.4" y1="-1.1325" x2="5.4" y2="-1.1325" width="0.05" layer="39"/>
+<wire x1="5.4" y1="-1.1325" x2="5.4" y2="1.1325" width="0.05" layer="39"/>
+<wire x1="5.4" y1="1.1325" x2="-5.4" y2="1.1325" width="0.05" layer="39"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.05" layer="21"/>
+<wire x1="0" y1="-0.5" x2="-0.5" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0" y2="0.5" width="0.05" layer="21"/>
+<wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.05" layer="21"/>
+<text x="-5.207" y="1.651" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-5.207" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="AXIAL" urn="urn:adsk.eagle:footprint:17910271/2">
+<pad name="1" x="-6.7" y="0" drill="1.45"/>
+<pad name="2" x="6.7" y="0" drill="1.45"/>
+<wire x1="-4.2" y1="2.525" x2="4.2" y2="2.525" width="0.127" layer="51"/>
+<wire x1="4.2" y1="2.525" x2="4.2" y2="-2.525" width="0.127" layer="51"/>
+<wire x1="4.2" y1="-2.525" x2="-4.2" y2="-2.525" width="0.127" layer="51"/>
+<wire x1="-4.2" y1="-2.525" x2="-4.2" y2="2.525" width="0.127" layer="51"/>
+<wire x1="-4.191" y1="0" x2="-6.731" y2="0" width="0.127" layer="51"/>
+<wire x1="6.731" y1="0" x2="4.191" y2="0" width="0.127" layer="51"/>
+<wire x1="-8" y1="1.5" x2="-8" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-8" y1="-1.5" x2="-4.5" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="-1.5" x2="-4.5" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="-2.75" x2="4.5" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="4.5" y1="-2.75" x2="4.5" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="4.5" y1="-1.5" x2="8.25" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="8.25" y1="-1.5" x2="8.25" y2="1.5" width="0.05" layer="39"/>
+<wire x1="8.25" y1="1.5" x2="4.5" y2="1.5" width="0.05" layer="39"/>
+<wire x1="4.5" y1="1.5" x2="4.5" y2="2.75" width="0.05" layer="39"/>
+<wire x1="4.5" y1="2.75" x2="-4.5" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="2.75" x2="-4.5" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="1.5" x2="-8" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-4.2" y1="2.525" x2="4.2" y2="2.525" width="0.127" layer="21"/>
+<wire x1="4.2" y1="2.525" x2="4.2" y2="-2.525" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-2.525" x2="-4.2" y2="-2.525" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-2.525" x2="-4.2" y2="2.525" width="0.127" layer="21"/>
+<wire x1="-4.191" y1="0" x2="-5.334" y2="0" width="0.127" layer="21"/>
+<wire x1="4.191" y1="0" x2="5.334" y2="0" width="0.127" layer="21"/>
+<text x="-4.83" y="3.29" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.83" y="-4.56" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT-223" urn="urn:adsk.eagle:footprint:17910275/1">
+<smd name="K" x="-2.3" y="-3.24" dx="0.95" dy="1.32" layer="1"/>
+<smd name="A" x="0" y="-3.24" dx="0.95" dy="1.32" layer="1"/>
+<smd name="G" x="2.3" y="-3.24" dx="0.95" dy="1.32" layer="1"/>
+<smd name="A1" x="0" y="3.24" dx="3.25" dy="1.32" layer="1"/>
+<wire x1="-3.25" y1="-1.75" x2="3.25" y2="-1.75" width="0.1524" layer="51"/>
+<wire x1="3.25" y1="-1.75" x2="3.25" y2="1.75" width="0.1524" layer="51"/>
+<wire x1="3.25" y1="1.75" x2="-3.25" y2="1.75" width="0.1524" layer="51"/>
+<wire x1="-3.25" y1="1.75" x2="-3.25" y2="-1.75" width="0.1524" layer="51"/>
+<wire x1="-3.25" y1="-1.75" x2="3.25" y2="-1.75" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="-1.75" x2="3.25" y2="1.75" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="1.75" x2="-3.25" y2="1.75" width="0.1524" layer="21"/>
+<wire x1="-3.25" y1="1.75" x2="-3.25" y2="-1.75" width="0.1524" layer="21"/>
+<wire x1="-2" y1="4.25" x2="-2" y2="2" width="0.05" layer="39"/>
+<wire x1="-2" y1="2" x2="-3.5" y2="2" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="2" x2="-3.5" y2="-4.25" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-4.25" x2="3.5" y2="-4.25" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-4.25" x2="3.5" y2="2" width="0.05" layer="39"/>
+<wire x1="3.5" y1="2" x2="2" y2="2" width="0.05" layer="39"/>
+<wire x1="2" y1="2" x2="2" y2="4.25" width="0.05" layer="39"/>
+<wire x1="2" y1="4.25" x2="-2" y2="4.25" width="0.05" layer="39"/>
+<text x="-2.75" y="4.79" size="1.27" layer="25" ratio="6">&gt;NAME</text>
+<text x="-3" y="-6" size="1.27" layer="27" ratio="6">&gt;VALUE</text>
+</package>
+<package name="D0-15" urn="urn:adsk.eagle:footprint:17910272/2">
+<pad name="1" x="-5.70675" y="0" drill="1"/>
+<pad name="2" x="5.70675" y="0" drill="1"/>
+<wire x1="-3.20675" y1="1.651" x2="3.20675" y2="1.651" width="0.127" layer="51"/>
+<wire x1="3.20675" y1="1.651" x2="3.20675" y2="0" width="0.127" layer="51"/>
+<wire x1="3.20675" y1="0" x2="3.20675" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="3.20675" y1="-1.651" x2="-3.20675" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="-3.20675" y1="-1.651" x2="-3.20675" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.20675" y1="0" x2="-3.20675" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-3.20675" y1="1.651" x2="3.20675" y2="1.651" width="0.127" layer="21"/>
+<wire x1="3.20675" y1="1.651" x2="3.20675" y2="0" width="0.127" layer="21"/>
+<wire x1="3.20675" y1="0" x2="3.20675" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="3.20675" y1="-1.651" x2="-3.20675" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-3.20675" y1="-1.651" x2="-3.20675" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-3.20675" y1="0" x2="-5.715" y2="0" width="0.127" layer="51"/>
+<wire x1="5.715" y1="0" x2="3.20675" y2="0" width="0.127" layer="51"/>
+<wire x1="-3.302" y1="0" x2="-4.572" y2="0" width="0.127" layer="21"/>
+<wire x1="3.20675" y1="0" x2="4.572" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="1" x2="-6.75" y2="-1" width="0.05" layer="39"/>
+<wire x1="-6.75" y1="-1" x2="-3.5" y2="-1" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-1" x2="-3.5" y2="-2" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-2" x2="3.5" y2="-2" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-2" x2="3.5" y2="-1" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-1" x2="6.75" y2="-1" width="0.05" layer="39"/>
+<wire x1="6.75" y1="-1" x2="6.75" y2="1" width="0.05" layer="39"/>
+<wire x1="6.75" y1="1" x2="3.5" y2="1" width="0.05" layer="39"/>
+<wire x1="3.5" y1="1" x2="3.5" y2="2" width="0.05" layer="39"/>
+<wire x1="3.5" y1="2" x2="-3.5" y2="2" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="2" x2="-3.5" y2="1" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="1" x2="-6.75" y2="1" width="0.05" layer="39"/>
+<text x="-5.08" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TMMDB3TG" urn="urn:adsk.eagle:footprint:17909836/2">
+<smd name="1" x="-1.6" y="0" dx="0.8" dy="1.72" layer="1"/>
+<smd name="2" x="1.6" y="0" dx="0.8" dy="1.72" layer="1"/>
+<wire x1="-1.75" y1="0.825" x2="-1.75" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-0.825" x2="1.75" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-0.825" x2="1.75" y2="0.825" width="0.127" layer="51"/>
+<wire x1="1.75" y1="0.825" x2="-1.75" y2="0.825" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.825" x2="1" y2="0.825" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.825" x2="1" y2="-0.825" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="1.075" x2="-2.25" y2="-1.075" width="0.05" layer="39"/>
+<wire x1="-2.25" y1="-1.075" x2="2.25" y2="-1.075" width="0.05" layer="39"/>
+<wire x1="2.25" y1="-1.075" x2="2.25" y2="1.075" width="0.05" layer="39"/>
+<wire x1="2.25" y1="1.075" x2="-2.25" y2="1.075" width="0.05" layer="39"/>
+<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-0.75" x2="-0.5" y2="0.75" layer="21"/>
+</package>
+<package name="SODDB3TRHG" urn="urn:adsk.eagle:footprint:17909838/3">
+<smd name="1" x="-1.575" y="0" dx="0.9" dy="0.95" layer="1"/>
+<smd name="2" x="1.575" y="0" dx="0.9" dy="0.95" layer="1"/>
+<wire x1="-1.35" y1="0.8" x2="-1.35" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="1.35" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.35" y1="-0.8" x2="1.35" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.35" y1="0.8" x2="-1.35" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.35" y1="0.8" x2="-1.35" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.8" x2="1.35" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-2.275" y1="1.05" x2="-2.275" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="-2.275" y1="-1.05" x2="2.275" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="2.275" y1="-1.05" x2="2.275" y2="1.05" width="0.05" layer="39"/>
+<wire x1="2.275" y1="1.05" x2="-2.275" y2="1.05" width="0.05" layer="39"/>
+<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-0.8" x2="-0.5" y2="0.8" layer="21"/>
+</package>
+<package name="SMB-3" urn="urn:adsk.eagle:footprint:17910276/1">
+<smd name="G" x="2" y="0.88" dx="2" dy="1" layer="1"/>
+<smd name="K" x="2" y="-0.88" dx="2" dy="1" layer="1"/>
+<smd name="A" x="-2" y="0" dx="2" dy="2.8" layer="1"/>
+<wire x1="-2.1625" y1="1.8125" x2="2.1625" y2="1.8125" width="0.127" layer="51"/>
+<wire x1="2.1625" y1="1.8125" x2="2.1625" y2="-1.8125" width="0.127" layer="51"/>
+<wire x1="2.1625" y1="-1.8125" x2="-2.1625" y2="-1.8125" width="0.127" layer="51"/>
+<wire x1="-2.1625" y1="-1.8125" x2="-2.1625" y2="1.8125" width="0.127" layer="51"/>
+<wire x1="-2.1625" y1="1.8125" x2="2.1625" y2="1.8125" width="0.127" layer="21"/>
+<wire x1="2.1625" y1="-1.8125" x2="-2.1625" y2="-1.8125" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="2" x2="-3.25" y2="-2" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="-2" x2="3.25" y2="-2" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-2" x2="3.25" y2="2" width="0.05" layer="39"/>
+<wire x1="3.25" y1="2" x2="-3.25" y2="2" width="0.05" layer="39"/>
+<text x="-3.25" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-3.75" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DO-214AC" urn="urn:adsk.eagle:package:17910285/3" type="model">
+<packageinstances>
+<packageinstance name="DO-214AC"/>
+</packageinstances>
+</package3d>
+<package3d name="TO92" urn="urn:adsk.eagle:package:17910284/3" type="model">
+<description>TO-92, 1.27 mm pitch; 2 pin, 4.73 mm W X 6.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="TO92"/>
+</packageinstances>
+</package3d>
+<package3d name="K1500SRP" urn="urn:adsk.eagle:package:17909849/3" type="model">
+<packageinstances>
+<packageinstance name="K1500SRP"/>
+</packageinstances>
+</package3d>
+<package3d name="SMDB3" urn="urn:adsk.eagle:package:17909851/3" type="model">
+<packageinstances>
+<packageinstance name="SMDB3"/>
+</packageinstances>
+</package3d>
+<package3d name="BS08D-T112" urn="urn:adsk.eagle:package:17909854/6" type="model">
+<packageinstances>
+<packageinstance name="BS08D-T112"/>
+</packageinstances>
+</package3d>
+<package3d name="DB3" urn="urn:adsk.eagle:package:17909853/3" type="model">
+<packageinstances>
+<packageinstance name="DB3"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT-223" urn="urn:adsk.eagle:package:17910286/2" type="model">
+<packageinstances>
+<packageinstance name="SOT-223"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL" urn="urn:adsk.eagle:package:17910282/3" type="model">
+<packageinstances>
+<packageinstance name="AXIAL"/>
+</packageinstances>
+</package3d>
+<package3d name="TMMDB3TG" urn="urn:adsk.eagle:package:17909850/3" type="model">
+<packageinstances>
+<packageinstance name="TMMDB3TG"/>
+</packageinstances>
+</package3d>
+<package3d name="D0-15" urn="urn:adsk.eagle:package:17910283/3" type="model">
+<packageinstances>
+<packageinstance name="D0-15"/>
+</packageinstances>
+</package3d>
+<package3d name="SODDB3TRHG" urn="urn:adsk.eagle:package:17909852/4" type="model">
+<packageinstances>
+<packageinstance name="SODDB3TRHG"/>
+</packageinstances>
+</package3d>
+<package3d name="SMB-3" urn="urn:adsk.eagle:package:17910287/3" type="model">
+<packageinstances>
+<packageinstance name="SMB-3"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MKP3V240G" urn="urn:adsk.eagle:symbol:18009474/1">
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MT2" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="MT1" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+</symbol>
+<symbol name="SIDAC" urn="urn:adsk.eagle:symbol:18009471/2">
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="K" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<circle x="-1.27" y="0" radius="3.0585625" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="DIAC" urn="urn:adsk.eagle:symbol:18009472/3">
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MT2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="MT1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<circle x="-1.27" y="0" radius="2.3384625" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="SMDB3" urn="urn:adsk.eagle:symbol:18009466/1">
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DB3" urn="urn:adsk.eagle:symbol:18009469/2">
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="THYR" urn="urn:adsk.eagle:symbol:18009473/2">
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="G" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<circle x="0" y="0" radius="2.4782875" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="SODDB3TRHG" urn="urn:adsk.eagle:symbol:18009465/1">
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="BS08D-T112" urn="urn:adsk.eagle:symbol:18009470/1">
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GATE" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="T2" x="0" y="7.62" visible="off" length="middle" direction="pas" rot="R270"/>
+<pin name="T1" x="0" y="-7.62" visible="off" length="middle" direction="pas" rot="R90"/>
+<wire x1="-1.905" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="3.81" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="TMMDB3TG" urn="urn:adsk.eagle:symbol:18009464/1">
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-5.08" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="K1500SRP" prefix="Q" urn="urn:adsk.eagle:component:18009480/3">
+<description>&lt;h3&gt; SIDAC 140-170V 1A DO214 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_kxxxzy_datasheet.pdf.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="K1500SRP">
+<connects>
+<connect gate="G$1" pin="MT1" pad="1"/>
+<connect gate="G$1" pin="MT2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17909849/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="F5636TR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="K1500SRP" constant="no"/>
+<attribute name="PACKAGE" value="DO-214" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K1200S1URP" prefix="Q" urn="urn:adsk.eagle:component:18009484/2">
+<description>&lt;h3&gt; SIDAC 110-125V 1A UNI DO-214AC &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_kxxx0yu_sidac_datasheet.pdf.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="SIDAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO-214AC">
+<connects>
+<connect gate="A" pin="A" pad="A"/>
+<connect gate="A" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910285/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="F6681TR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MPN" value="K1200S1URP" constant="no"/>
+<attribute name="PACKAGE" value="DO-214AC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMDB3" prefix="Q" urn="urn:adsk.eagle:component:18009478/2">
+<description>&lt;h3&gt; DIAC 28-36V 1A SOT23-3 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/fb/af/b0/56/99/1a/42/b4/CD00002277.pdf/files/CD00002277.pdf/jcr:content/translations/en.CD00002277.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMDB3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMDB3">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17909851/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="497-3148-2-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="SMDB3" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DB3" prefix="Q" urn="urn:adsk.eagle:component:18009481/2">
+<description>&lt;h3&gt; DIAC 28-36V 2A DO35 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/fb/af/b0/56/99/1a/42/b4/CD00002277.pdf/files/CD00002277.pdf/jcr:content/translations/en.CD00002277.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DB3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DB3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17909853/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="497-3099-2-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="DB3" constant="no"/>
+<attribute name="PACKAGE" value="DO-35" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="X0202MN_5BA4" prefix="Q" urn="urn:adsk.eagle:component:18009488/2">
+<description>&lt;h3&gt; SCR 600V 1.25A SOT-223 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/2d/c1/ab/c5/67/cd/4b/d4/CD00002274.pdf/files/CD00002274.pdf/jcr:content/translations/en.CD00002274.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="THYR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-223">
+<connects>
+<connect gate="A" pin="A" pad="A A1"/>
+<connect gate="A" pin="G" pad="G"/>
+<connect gate="A" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910286/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="497-2532-2-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="X0202MN 5BA4" constant="no"/>
+<attribute name="PACKAGE" value="SOT-223" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K2200E70" prefix="Q" urn="urn:adsk.eagle:component:18009479/2">
+<description>&lt;h3&gt; SIDAC 205-230V 1A TO92 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_kxxxzy_datasheet.pdf.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="MT1" pad="1"/>
+<connect gate="G$1" pin="MT2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910284/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="K2200E70-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="K2200E70" constant="no"/>
+<attribute name="PACKAGE" value="TO-92" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BS08D-T112" prefix="Q" urn="urn:adsk.eagle:component:18009482/2">
+<description>&lt;h3&gt; SIDAC 7-9V 1A TO92 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="http://www.pwrx.com/pwrx/docs/bs08d.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BS08D-T112" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BS08D-T112">
+<connects>
+<connect gate="G$1" pin="GATE" pad="2"/>
+<connect gate="G$1" pin="T1" pad="3"/>
+<connect gate="G$1" pin="T2" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17909854/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="835-1126-3-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Powerex Inc." constant="no"/>
+<attribute name="MPN" value="BS08D-T112" constant="no"/>
+<attribute name="PACKAGE" value="TO-92" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MKP3V240G" prefix="Q" urn="urn:adsk.eagle:component:18009483/3">
+<description>&lt;h3&gt; SIDAC 220-250V 1A AXIAL &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_mkp3v120_d_datasheet.pdf.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AXIAL">
+<connects>
+<connect gate="G$1" pin="MT1" pad="1"/>
+<connect gate="G$1" pin="MT2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910282/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="MKP3V240GOS-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="MKP3V240G" constant="no"/>
+<attribute name="PACKAGE" value="AXIAL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K1500E70" prefix="Q" urn="urn:adsk.eagle:component:18009486/3">
+<description>&lt;h3&gt; SIDAC 140-170V 1A TO92 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_kxxxzy_datasheet.pdf.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="MT1" pad="1"/>
+<connect gate="G$1" pin="MT2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910284/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="K1500E70-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="K1500E70" constant="no"/>
+<attribute name="PACKAGE" value="TO-92" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMMDB3TG" prefix="Q" urn="urn:adsk.eagle:component:18009476/2">
+<description>&lt;h3&gt; DIAC 30-34V 2A MINIMELF &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/f6/19/58/b4/92/66/49/5d/CD00000749.pdf/files/CD00000749.pdf/jcr:content/translations/en.CD00000749.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TMMDB3TG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TMMDB3TG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17909850/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="497-14752-2-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="TMMDB3TG" constant="no"/>
+<attribute name="PACKAGE" value="DO-213AA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SODDB3TRHG" prefix="Q" urn="urn:adsk.eagle:component:18009477/1">
+<description>&lt;h3&gt; DIAC-TRIGGER DIODE, 400MW, 34V V &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.taiwansemi.com/products/datasheet/SODDB3%20SERIES_C1601.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SODDB3TRHG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SODDB3TRHG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17909852/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PN" value="SODDB3TRHGTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiwan Semiconductor Corporation" constant="no"/>
+<attribute name="MPN" value="SODDB3T RHG" constant="no"/>
+<attribute name="PACKAGE" value="SOD-123" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K1300G" prefix="Q" urn="urn:adsk.eagle:component:18009487/3">
+<description>&lt;h3&gt; SIDAC 120-138V 1A DO15 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/switching_thyristors/littelfuse_thyristor_kxxxzy_datasheet.pdf.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="DIAC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D0-15">
+<connects>
+<connect gate="A" pin="MT1" pad="1"/>
+<connect gate="A" pin="MT2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910283/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="K1300G-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="K1300G" constant="no"/>
+<attribute name="PACKAGE" value="DO-15" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S6S2RP" prefix="Q" urn="urn:adsk.eagle:component:18009485/2">
+<description>&lt;h3&gt; SCR SENS GATE 600V 0.8 AMP SMT &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.littelfuse.com/data/en/data_sheets/littelfuse_thyristor_ec103xx_sxsx.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="THYR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMB-3">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17910287/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="S6S2CT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="S6S2RP" constant="no"/>
+<attribute name="PACKAGE" value="SMD-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

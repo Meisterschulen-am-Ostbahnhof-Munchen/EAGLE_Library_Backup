@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>This library contains various sensor parts such as Pressure, Digital,Temperature sensors etc.
+
+&lt;br&gt;
+&lt;br&gt;If you would like to purchase any of our product please visit, &lt;a href="https://www.te.com/usa-en/home.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=ult_glo_cor-ult-global-disp-autodesk-models_sma-299_1&amp;elqCampaignId=84950"&gt;TE.com&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Terms and Conditions Disclaimer:&lt;/b&gt;
+&lt;br&gt;
+By using any of these models, you agree that this information has been provided to you free of charge for your use but remains the sole property of TE Connectivity Corporation (''TE'') or SnapEDA,  Inc. or Ultra Librarian/EMA Design Automation, Inc. (collectively, "Company"). While Company has used reasonable efforts to ensure its accuracy, Company does not guarantee that it is error-free, not makes any other representation, warranty, or guarantee that the information is completely accurate or up-to-date. In many cases, the CAD data has been simplified to remove proprietary detail while maintaining critical interface geometric detail for use by customers. Company expressly disclaims all implied warranties regarding this information, including but not limited to any implied warranties or merchantability or fitness for a particular purpose.</description>
+<packages>
+<package name="SON8_MS5611" urn="urn:adsk.eagle:footprint:14815558/2">
+<smd name="1" x="-1.1" y="1.875" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="2" x="-1.1" y="0.625" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="3" x="-1.1" y="-0.625" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="4" x="-1.1" y="-1.875" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="5" x="1.1" y="-1.875" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<smd name="6" x="1.1" y="-0.625" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<smd name="7" x="1.1" y="0.625" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<smd name="8" x="1.1" y="1.875" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<wire x1="-1.8796" y1="-2.8956" x2="1.8796" y2="-2.8956" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="-2.8956" x2="1.8796" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="2.8956" x2="-1.8796" y2="2.8956" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="2.8956" x2="-1.8796" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="-2.413" x2="-1.8796" y2="-2.8956" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="2.413" x2="1.8796" y2="2.8956" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.8796" x2="-2.4384" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.4384" y1="1.8796" x2="-2.286" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4986" y1="-2.4892" x2="1.4986" y2="-2.4892" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-2.4892" x2="1.4986" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.4892" x2="-1.4986" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="2.4892" x2="-1.4986" y2="-2.4892" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="1.8796" x2="-0.3302" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-0.3302" y1="1.8796" x2="-0.1778" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="SO14_MS5525DSO" urn="urn:adsk.eagle:footprint:14815562/1">
+<smd name="1" x="-4.5974" y="3.81" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="2" x="-4.5974" y="2.54" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="3" x="-4.5974" y="1.27" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="4" x="-4.5974" y="0" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="5" x="-4.5974" y="-1.27" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="6" x="-4.5974" y="-2.54" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="7" x="-4.5974" y="-3.81" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="8" x="4.5974" y="-3.81" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="9" x="4.5974" y="-2.54" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="10" x="4.5974" y="-1.27" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="11" x="4.5974" y="0" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="12" x="4.5974" y="1.27" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="13" x="4.5974" y="2.54" dx="2.2098" dy="0.6096" layer="1"/>
+<smd name="14" x="4.5974" y="3.81" dx="2.2098" dy="0.6096" layer="1"/>
+<wire x1="-4.064" y1="-6.35" x2="4.064" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-6.35" x2="4.064" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="6.35" x2="-4.064" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="6.35" x2="-4.064" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-4.445" x2="-4.064" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="4.445" x2="4.064" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-6.5024" y1="3.81" x2="-6.6548" y2="3.81" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-6.6548" y1="3.81" x2="-6.5024" y2="3.81" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.937" y1="-6.223" x2="3.937" y2="-6.223" width="0.1524" layer="51"/>
+<wire x1="3.937" y1="-6.223" x2="3.937" y2="6.223" width="0.1524" layer="51"/>
+<wire x1="3.937" y1="6.223" x2="0.3048" y2="6.223" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="6.223" x2="-0.3048" y2="6.223" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="6.223" x2="-3.937" y2="6.223" width="0.1524" layer="51"/>
+<wire x1="-3.937" y1="6.223" x2="-3.937" y2="-6.223" width="0.1524" layer="51"/>
+<wire x1="-2.9718" y1="3.81" x2="-3.1242" y2="3.81" width="0" layer="51" curve="-180"/>
+<wire x1="-3.1242" y1="3.81" x2="-2.9718" y2="3.81" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="6.223" x2="-0.3048" y2="6.223" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="TO4_TS305-11C55" urn="urn:adsk.eagle:footprint:14815560/1">
+<pad name="1" x="0" y="5.08" drill="0.7112" diameter="1.2192"/>
+<pad name="2" x="-2.54" y="2.54" drill="0.7112" diameter="1.2192" rot="R90"/>
+<pad name="3" x="0" y="0" drill="0.7112" diameter="1.2192" rot="R180"/>
+<pad name="4" x="2.54" y="2.54" drill="0.7112" diameter="1.2192" rot="R270"/>
+<wire x1="0.0762" y1="7.62" x2="-0.0762" y2="7.62" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-0.0762" y1="7.62" x2="0.0762" y2="7.62" width="0.1524" layer="21" curve="-180"/>
+<wire x1="4.699" y1="2.54" x2="-4.699" y2="2.54" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.699" y1="2.54" x2="4.699" y2="2.54" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-0.254" y1="5.08" x2="0.254" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="0" y1="4.826" x2="0" y2="5.334" width="0.1524" layer="51"/>
+<wire x1="0.0762" y1="4.064" x2="-0.0762" y2="4.064" width="0" layer="51" curve="-180"/>
+<wire x1="-0.0762" y1="4.064" x2="0.0762" y2="4.064" width="0" layer="51" curve="-180"/>
+<wire x1="4.572" y1="2.54" x2="-4.572" y2="2.54" width="0" layer="51" curve="-180"/>
+<wire x1="-4.572" y1="2.54" x2="4.572" y2="2.54" width="0" layer="51" curve="-180"/>
+<text x="-1.7272" y="1.905" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS5803-14BA01" urn="urn:adsk.eagle:footprint:14815553/2">
+<smd name="1" x="-2.675" y="1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="2" x="-2.675" y="0.625" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="3" x="-2.4083" y="-0.625" dx="2.794" dy="0.889" layer="1"/>
+<smd name="4" x="-2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="5" x="2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="6" x="2.675" y="-0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="7" x="2.675" y="0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="8" x="2.675" y="1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<wire x1="-3.5814" y1="-3.4798" x2="3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="-3.4798" x2="3.5814" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="3.4798" x2="-3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="3.4798" x2="-3.5814" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-2.6416" x2="-3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="2.6416" x2="3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.8796" x2="-4.5974" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.5974" y1="1.8796" x2="-4.445" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2004" y1="-3.0988" x2="3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="-3.0988" x2="3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="3.0988" x2="0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="3.0988" x2="-3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="3.0988" x2="-3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-1.4732" y1="1.8796" x2="-1.6256" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-1.6256" y1="1.8796" x2="-1.4732" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS5803-02BA01" urn="urn:adsk.eagle:footprint:14815555/2">
+<smd name="1" x="-2.675" y="1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="2" x="-2.675" y="0.625" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="3" x="-2.4083" y="-0.625" dx="2.794" dy="0.889" layer="1"/>
+<smd name="4" x="-2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="5" x="2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="6" x="2.675" y="-0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="7" x="2.675" y="0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="8" x="2.675" y="1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<wire x1="-3.5814" y1="-3.4798" x2="3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="-3.4798" x2="3.5814" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="3.4798" x2="-3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="3.4798" x2="-3.5814" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-2.6416" x2="-3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="2.6416" x2="3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.8796" x2="-4.5974" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.5974" y1="1.8796" x2="-4.445" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2004" y1="-3.0988" x2="3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="-3.0988" x2="3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="3.0988" x2="0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="3.0988" x2="-3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="3.0988" x2="-3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-1.4732" y1="1.8796" x2="-1.6256" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-1.6256" y1="1.8796" x2="-1.4732" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS8607-02BA01" urn="urn:adsk.eagle:footprint:14815549/2">
+<smd name="1" x="-1.1" y="1.875" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="2" x="-1.1" y="0.625" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="3" x="-1.1" y="-0.625" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="4" x="-1.1" y="-1.875" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="5" x="1.1" y="-1.875" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<smd name="6" x="1.1" y="-0.625" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<smd name="7" x="1.1" y="0.625" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<smd name="8" x="1.1" y="1.875" dx="1.0922" dy="0.6096" layer="1" rot="R180"/>
+<wire x1="-1.8796" y1="-2.8956" x2="1.8796" y2="-2.8956" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="-2.8956" x2="1.8796" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="2.8956" x2="-1.8796" y2="2.8956" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="2.8956" x2="-1.8796" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="1.3208" x2="-1.8796" y2="1.1684" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="0.0762" x2="-1.8796" y2="-0.0762" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="-1.1684" x2="-1.8796" y2="-1.3208" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="-2.413" x2="-1.8796" y2="-2.8956" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="-1.3208" x2="1.8796" y2="-1.1684" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="-0.0762" x2="1.8796" y2="0.0762" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="1.1684" x2="1.8796" y2="1.3208" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="2.413" x2="1.8796" y2="2.8956" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.8796" x2="-2.4384" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.4384" y1="1.8796" x2="-2.286" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4986" y1="-2.4892" x2="1.4986" y2="-2.4892" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-2.4892" x2="1.4986" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.4892" x2="-1.4986" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="2.4892" x2="-1.4986" y2="-2.4892" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="1.8796" x2="-0.635" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-0.635" y1="1.8796" x2="-0.4826" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS5837-02BA01" urn="urn:adsk.eagle:footprint:14815550/2">
+<smd name="1" x="-1" y="1" dx="1.2954" dy="1.2954" layer="1"/>
+<smd name="2" x="-1" y="-1" dx="1.2954" dy="1.2954" layer="1"/>
+<smd name="3" x="1" y="-1" dx="1.2954" dy="1.2954" layer="1" rot="R180"/>
+<smd name="4" x="1" y="1" dx="1.2954" dy="1.2954" layer="1" rot="R180"/>
+<wire x1="-2.032" y1="-2.032" x2="2.032" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-2.032" x2="2.032" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="2.032" x2="-2.032" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="0.9906" x2="-2.8194" y2="0.9906" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.8194" y1="0.9906" x2="-2.667" y2="0.9906" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.651" y1="-1.651" x2="1.651" y2="-1.651" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="-1.651" x2="1.651" y2="1.651" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="1.651" x2="0.3048" y2="1.651" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.651" x2="-0.3048" y2="1.651" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.651" x2="-1.651" y2="1.651" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="1.651" x2="-1.651" y2="-1.651" width="0.1524" layer="51"/>
+<wire x1="-0.2794" y1="0.9906" x2="-0.4318" y2="0.9906" width="0" layer="51" curve="-180"/>
+<wire x1="-0.4318" y1="0.9906" x2="-0.2794" y2="0.9906" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="1.651" x2="-0.3048" y2="1.651" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="SON8_MS5803" urn="urn:adsk.eagle:footprint:14815554/1">
+<smd name="1" x="-2.675" y="1.9" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="2" x="-2.675" y="0.65" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="3" x="-2.408" y="-0.65" dx="2.794" dy="0.889" layer="1"/>
+<smd name="4" x="-2.675" y="-1.9" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="5" x="2.675" y="-1.9" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="6" x="2.675" y="-0.65" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="7" x="2.675" y="0.65" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="8" x="2.675" y="1.9" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<wire x1="-3.5814" y1="-3.4798" x2="3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="-3.4798" x2="3.5814" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="3.4798" x2="-3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="3.4798" x2="-3.5814" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-2.6416" x2="-3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="2.6416" x2="3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.8796" x2="-4.5974" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.5974" y1="1.8796" x2="-4.445" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2004" y1="-3.0988" x2="3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="-3.0988" x2="3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="3.0988" x2="0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="3.0988" x2="-3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="3.0988" x2="-3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="1.8796" x2="-1.3462" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-1.3462" y1="1.8796" x2="-1.1938" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="QFN17_TSYS01" urn="urn:adsk.eagle:footprint:14815561/2">
+<smd name="1" x="-1.9431" y="0.975" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="2" x="-1.9431" y="0.325" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="3" x="-1.9431" y="-0.325" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="4" x="-1.9431" y="-0.975" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="5" x="-0.975" y="-1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="6" x="-0.325" y="-1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="7" x="0.325" y="-1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="8" x="0.975" y="-1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="9" x="1.9431" y="-0.975" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="10" x="1.9431" y="-0.325" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="11" x="1.9431" y="0.325" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="12" x="1.9431" y="0.975" dx="0.3556" dy="0.8128" layer="1" rot="R270"/>
+<smd name="13" x="0.975" y="1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="14" x="0.325" y="1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="15" x="-0.325" y="1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="16" x="-0.975" y="1.9431" dx="0.3556" dy="0.8128" layer="1" rot="R180"/>
+<smd name="17" x="0" y="0" dx="2.5908" dy="2.5908" layer="1" cream="no"/>
+<wire x1="-2.1336" y1="-2.1336" x2="-1.4732" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="-2.1336" x2="2.1336" y2="-1.4732" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="2.1336" x2="1.4732" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="2.1336" x2="-2.1336" y2="1.4732" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="-1.4732" x2="-2.1336" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="-2.1336" x2="2.1336" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="1.4732" x2="2.1336" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-1.4732" y1="2.1336" x2="-2.1336" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-2.0066" y1="0.7366" x2="-0.7366" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="2.0066" x2="1.143" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="2.0066" x2="1.143" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="2.032" x2="0.7874" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="2.032" x2="0.7874" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="0.1524" y1="2.0066" x2="0.508" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="2.0066" x2="0.508" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="2.032" x2="0.1524" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="0.1524" y1="2.032" x2="0.1524" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="2.0066" x2="-0.1524" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-0.1524" y1="2.0066" x2="-0.1524" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="-0.1524" y1="2.032" x2="-0.508" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="2.032" x2="-0.508" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="2.0066" x2="-0.7874" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="2.0066" x2="-0.7874" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="2.032" x2="-1.143" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="2.032" x2="-1.143" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="0.7874" x2="-2.0066" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="1.143" x2="-2.032" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="1.143" x2="-2.032" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.7874" x2="-2.0066" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="0.1524" x2="-2.0066" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="0.508" x2="-2.032" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.508" x2="-2.032" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.1524" x2="-2.0066" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-0.508" x2="-2.0066" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-0.1524" x2="-2.032" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-0.1524" x2="-2.032" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-0.508" x2="-2.0066" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-1.143" x2="-2.0066" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-0.7874" x2="-2.032" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-0.7874" x2="-2.032" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-1.143" x2="-2.0066" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-2.0066" x2="-1.143" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="-2.0066" x2="-1.143" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="-2.032" x2="-0.7874" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-2.032" x2="-0.7874" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-0.1524" y1="-2.0066" x2="-0.508" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="-2.0066" x2="-0.508" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="-2.032" x2="-0.1524" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="-0.1524" y1="-2.032" x2="-0.1524" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="-2.0066" x2="0.1524" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="0.1524" y1="-2.0066" x2="0.1524" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="0.1524" y1="-2.032" x2="0.508" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="-2.032" x2="0.508" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-2.0066" x2="0.7874" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-2.0066" x2="0.7874" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-2.032" x2="1.143" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-2.032" x2="1.143" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-0.7874" x2="2.0066" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-1.143" x2="2.032" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.032" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-0.7874" x2="2.0066" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-0.1524" x2="2.0066" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-0.508" x2="2.032" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-0.508" x2="2.032" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-0.1524" x2="2.0066" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="0.508" x2="2.0066" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="0.1524" x2="2.032" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.1524" x2="2.032" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.508" x2="2.0066" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="1.143" x2="2.0066" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="0.7874" x2="2.032" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.7874" x2="2.032" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="1.143" x2="2.0066" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-2.0066" x2="2.0066" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-2.0066" x2="2.0066" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="2.0066" x2="-2.0066" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="2.0066" x2="-2.0066" y2="-2.0066" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="21">
+<vertex x="2.8575" y="-0.1345"/>
+<vertex x="2.8575" y="-0.5155"/>
+<vertex x="2.6035" y="-0.5155"/>
+<vertex x="2.6035" y="-0.1345"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.1954" y="1.1954"/>
+<vertex x="-1.1954" y="0.1"/>
+<vertex x="-0.1" y="0.1"/>
+<vertex x="-0.1" y="1.1954"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.1954" y="-0.1"/>
+<vertex x="-1.1954" y="-1.1954"/>
+<vertex x="-0.1" y="-1.1954"/>
+<vertex x="-0.1" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="1.1954"/>
+<vertex x="0.1" y="0.1"/>
+<vertex x="1.1954" y="0.1"/>
+<vertex x="1.1954" y="1.1954"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="-0.1"/>
+<vertex x="0.1" y="-1.1954"/>
+<vertex x="1.1954" y="-1.1954"/>
+<vertex x="1.1954" y="-0.1"/>
+</polygon>
+<text x="-4.1656" y="0.5842" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-2.3622" y="1.143" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="TO4_TS418-1N426" urn="urn:adsk.eagle:footprint:14815559/1">
+<pad name="1" x="0" y="2.54" drill="0.7112" diameter="1.2192"/>
+<pad name="2" x="-1.27" y="1.27" drill="0.7112" diameter="1.2192" rot="R90"/>
+<pad name="3" x="0" y="0" drill="0.7112" diameter="1.2192" rot="R180"/>
+<pad name="4" x="1.27" y="1.27" drill="0.7112" diameter="1.2192" rot="R270"/>
+<wire x1="0.0762" y1="4.445" x2="-0.0762" y2="4.445" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-0.0762" y1="4.445" x2="0.0762" y2="4.445" width="0.1524" layer="21" curve="-180"/>
+<wire x1="2.794" y1="1.27" x2="-2.794" y2="1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.794" y1="1.27" x2="2.794" y2="1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-0.254" y1="2.54" x2="0.254" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="0" y1="2.286" x2="0" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="0.0762" y1="3.556" x2="-0.0762" y2="3.556" width="0" layer="51" curve="-180"/>
+<wire x1="-0.0762" y1="3.556" x2="0.0762" y2="3.556" width="0" layer="51" curve="-180"/>
+<wire x1="2.667" y1="1.27" x2="-2.667" y2="1.27" width="0" layer="51" curve="-180"/>
+<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0" layer="51" curve="-180"/>
+<text x="-1.7272" y="0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="QFN4_MS5637" urn="urn:adsk.eagle:footprint:14815557/2">
+<smd name="1" x="-1" y="1" dx="0.9906" dy="0.9906" layer="1"/>
+<smd name="2" x="-1" y="-1" dx="0.9906" dy="0.9906" layer="1"/>
+<smd name="3" x="1" y="-1" dx="0.9906" dy="0.9906" layer="1" rot="R180"/>
+<smd name="4" x="1" y="1" dx="0.9906" dy="0.9906" layer="1" rot="R180"/>
+<wire x1="-1.8796" y1="1.8796" x2="-1.8796" y2="-1.8796" width="0.1524" layer="21"/>
+<wire x1="-1.8796" y1="-1.8796" x2="1.8796" y2="-1.8796" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="-1.8796" x2="1.8796" y2="1.8796" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="1.8796" x2="-1.8796" y2="1.8796" width="0.1524" layer="21"/>
+<wire x1="-2.5146" y1="0.9906" x2="-2.667" y2="0.9906" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.667" y1="0.9906" x2="-2.5146" y2="0.9906" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-1.4986" x2="1.4986" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="1.016" x2="-0.3302" y2="1.016" width="0" layer="51" curve="-180"/>
+<wire x1="-0.3302" y1="1.016" x2="-0.1778" y2="1.016" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS5803-01BA01" urn="urn:adsk.eagle:footprint:14815556/2">
+<smd name="1" x="-2.675" y="1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="2" x="-2.675" y="0.625" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="3" x="-2.4083" y="-0.625" dx="2.794" dy="0.889" layer="1"/>
+<smd name="4" x="-2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="5" x="2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="6" x="2.675" y="-0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="7" x="2.675" y="0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="8" x="2.675" y="1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<wire x1="-3.5814" y1="-3.4798" x2="3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="-3.4798" x2="3.5814" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="3.4798" x2="-3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="3.4798" x2="-3.5814" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-2.6416" x2="-3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="2.6416" x2="3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.8796" x2="-4.5974" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.5974" y1="1.8796" x2="-4.445" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2004" y1="-3.0988" x2="3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="-3.0988" x2="3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="3.0988" x2="0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="3.0988" x2="-3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="3.0988" x2="-3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-1.4732" y1="1.8796" x2="-1.6256" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-1.6256" y1="1.8796" x2="-1.4732" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS5803-30BA01" urn="urn:adsk.eagle:footprint:14815552/2">
+<smd name="1" x="-2.675" y="1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="2" x="-2.675" y="0.625" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="3" x="-2.4083" y="-0.625" dx="2.794" dy="0.889" layer="1"/>
+<smd name="4" x="-2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1"/>
+<smd name="5" x="2.675" y="-1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="6" x="2.675" y="-0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="7" x="2.675" y="0.625" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<smd name="8" x="2.675" y="1.875" dx="2.2606" dy="0.889" layer="1" rot="R180"/>
+<wire x1="-3.5814" y1="-3.4798" x2="3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="-3.4798" x2="3.5814" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="3.4798" x2="-3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="3.4798" x2="-3.5814" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-2.6416" x2="-3.5814" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="2.6416" x2="3.5814" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.8796" x2="-4.5974" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.5974" y1="1.8796" x2="-4.445" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.2004" y1="-3.0988" x2="3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="-3.0988" x2="3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.2004" y1="3.0988" x2="0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="3.0988" x2="-3.2004" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="3.0988" x2="-3.2004" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-1.4732" y1="1.8796" x2="-1.6256" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-1.6256" y1="1.8796" x2="-1.4732" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="3.0988" x2="-0.3048" y2="3.0988" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="MS5805-02BA01" urn="urn:adsk.eagle:footprint:14815551/2">
+<smd name="1" x="-1.65" y="1.27" dx="1.7018" dy="0.889" layer="1"/>
+<smd name="2" x="-1.65" y="-1.27" dx="1.7018" dy="0.889" layer="1"/>
+<smd name="3" x="1.65" y="-1.27" dx="1.7018" dy="0.889" layer="1" rot="R180"/>
+<smd name="4" x="1.65" y="1.27" dx="1.7018" dy="0.889" layer="1" rot="R180"/>
+<wire x1="-2.6416" y1="-2.6416" x2="2.6416" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="2.6416" y1="-2.6416" x2="2.6416" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="2.6416" y1="2.6416" x2="-2.6416" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-2.6416" y1="2.6416" x2="-2.6416" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="-2.6416" y1="0.508" x2="-2.6416" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-2.6416" y1="-2.032" x2="-2.6416" y2="-2.6416" width="0.1524" layer="21"/>
+<wire x1="2.6416" y1="-0.508" x2="2.6416" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="2.6416" y1="2.032" x2="2.6416" y2="2.6416" width="0.1524" layer="21"/>
+<wire x1="-3.7846" y1="1.27" x2="-3.937" y2="1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.937" y1="1.27" x2="-3.7846" y2="1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.2352" y1="-2.2352" x2="2.2352" y2="-2.2352" width="0.1524" layer="51"/>
+<wire x1="2.2352" y1="-2.2352" x2="2.2352" y2="2.2352" width="0.1524" layer="51"/>
+<wire x1="2.2352" y1="2.2352" x2="-0.3048" y2="2.2352" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.2352" x2="-2.2352" y2="2.2352" width="0.1524" layer="51"/>
+<wire x1="-2.2352" y1="2.2352" x2="-2.2352" y2="-2.2352" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="1.27" x2="-0.8636" y2="1.27" width="0" layer="51" curve="-180"/>
+<wire x1="-0.8636" y1="1.27" x2="-0.7112" y2="1.27" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.2606" x2="-0.3048" y2="2.2352" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SON8_MS5611" urn="urn:adsk.eagle:package:14815586/3" type="model">
+<packageinstances>
+<packageinstance name="SON8_MS5611"/>
+</packageinstances>
+</package3d>
+<package3d name="SO14_MS5525DSO" urn="urn:adsk.eagle:package:14815590/1" type="box">
+<packageinstances>
+<packageinstance name="SO14_MS5525DSO"/>
+</packageinstances>
+</package3d>
+<package3d name="MS5803-14BA01" urn="urn:adsk.eagle:package:14815581/3" type="model">
+<packageinstances>
+<packageinstance name="MS5803-14BA01"/>
+</packageinstances>
+</package3d>
+<package3d name="MS5803-02BA01" urn="urn:adsk.eagle:package:14815583/3" type="model">
+<packageinstances>
+<packageinstance name="MS5803-02BA01"/>
+</packageinstances>
+</package3d>
+<package3d name="TO4_TS305-11C55" urn="urn:adsk.eagle:package:14815588/1" type="box">
+<packageinstances>
+<packageinstance name="TO4_TS305-11C55"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN17_TSYS01" urn="urn:adsk.eagle:package:14815589/2" type="box">
+<packageinstances>
+<packageinstance name="QFN17_TSYS01"/>
+</packageinstances>
+</package3d>
+<package3d name="MS8607-02BA01" urn="urn:adsk.eagle:package:14815577/3" type="model">
+<packageinstances>
+<packageinstance name="MS8607-02BA01"/>
+</packageinstances>
+</package3d>
+<package3d name="SON8_MS5803" urn="urn:adsk.eagle:package:14815582/2" type="model">
+<packageinstances>
+<packageinstance name="SON8_MS5803"/>
+</packageinstances>
+</package3d>
+<package3d name="MS5837-02BA01" urn="urn:adsk.eagle:package:14815578/2" type="box">
+<packageinstances>
+<packageinstance name="MS5837-02BA01"/>
+</packageinstances>
+</package3d>
+<package3d name="TO4_TS418-1N426" urn="urn:adsk.eagle:package:14815587/1" type="box">
+<packageinstances>
+<packageinstance name="TO4_TS418-1N426"/>
+</packageinstances>
+</package3d>
+<package3d name="MS5803-01BA01" urn="urn:adsk.eagle:package:14815584/3" type="model">
+<packageinstances>
+<packageinstance name="MS5803-01BA01"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN4_MS5637" urn="urn:adsk.eagle:package:14815585/3" type="model">
+<packageinstances>
+<packageinstance name="QFN4_MS5637"/>
+</packageinstances>
+</package3d>
+<package3d name="MS5803-30BA01" urn="urn:adsk.eagle:package:14815580/3" type="model">
+<packageinstances>
+<packageinstance name="MS5803-30BA01"/>
+</packageinstances>
+</package3d>
+<package3d name="MS5805-02BA01" urn="urn:adsk.eagle:package:14815579/3" type="model">
+<packageinstances>
+<packageinstance name="MS5805-02BA01"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MS5611" urn="urn:adsk.eagle:symbol:14815572/1">
+<pin name="VDD" x="-20.32" y="5.08" length="middle" direction="pwr"/>
+<pin name="PS" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="CSB_2" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="CSB" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDO" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="SDI/SDA" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="SCLK" x="20.32" y="5.08" length="middle" direction="in" rot="R180"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="-15.24" y2="10.16" width="0.1524" layer="94"/>
+<text x="-4.7244" y="14.1986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="11.6586" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS5525DSO" urn="urn:adsk.eagle:symbol:14815576/2">
+<pin name="SGND_2" x="-25.4" y="7.62" length="middle" direction="pas"/>
+<pin name="SOUT-_2" x="-25.4" y="5.08" length="middle" direction="out"/>
+<pin name="SGND" x="-25.4" y="2.54" length="middle" direction="pas"/>
+<pin name="SOUT-" x="-25.4" y="0" length="middle" direction="out"/>
+<pin name="SDO" x="-25.4" y="-2.54" length="middle" direction="out"/>
+<pin name="SDI/SDA" x="-25.4" y="-5.08" length="middle" direction="in"/>
+<pin name="SCLK/SCL" x="-25.4" y="-7.62" length="middle" direction="pas"/>
+<pin name="CSB" x="25.4" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SUPPLY-" x="25.4" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="PS" x="25.4" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="SUPPLY+_2" x="25.4" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="SOUT+_2" x="25.4" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SUPPLY+" x="25.4" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="SOUT+" x="25.4" y="7.62" length="middle" direction="out" rot="R180"/>
+<wire x1="-20.32" y1="12.7" x2="-20.32" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="-12.7" x2="20.32" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="-20.32" y2="12.7" width="0.1524" layer="94"/>
+<text x="-4.7244" y="16.7386" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="14.1986" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS580314BA01-00" urn="urn:adsk.eagle:symbol:14815567/3">
+<pin name="SCLK" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="CSB" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="NC" x="-20.32" y="-5.08" length="middle" direction="nc"/>
+<pin name="VDD" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PS" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI/SDA" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SDO" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS580302BA01-00" urn="urn:adsk.eagle:symbol:14815569/3">
+<pin name="SCLK" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="CSB" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="NC" x="-20.32" y="-5.08" length="middle" direction="nc"/>
+<pin name="VDD" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PS" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI/SDA" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="TS305-11C55" urn="urn:adsk.eagle:symbol:14815574/2">
+<pin name="TP+" x="-17.78" y="0" length="middle" direction="pas"/>
+<pin name="NTC" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="TP-" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS580502BA01-50" urn="urn:adsk.eagle:symbol:14815565/3">
+<pin name="VDD" x="-17.78" y="0" length="middle" direction="pwr"/>
+<pin name="SCL" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="SDA" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS8607-02BA01" urn="urn:adsk.eagle:symbol:14815563/2">
+<pin name="VDD" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="NC_2" x="-17.78" y="0" length="middle" direction="nc"/>
+<pin name="GND" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="NC_3" x="-17.78" y="-5.08" length="middle" direction="nc"/>
+<pin name="NC_4" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC" x="17.78" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="SDA" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SCL" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="TSYS01" urn="urn:adsk.eagle:symbol:14815575/2">
+<pin name="VSS" x="-20.32" y="10.16" length="middle" direction="pas"/>
+<pin name="CSB" x="-20.32" y="7.62" length="middle" direction="in"/>
+<pin name="SCLK/SCL" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="SDI/SDA" x="-20.32" y="2.54" length="middle"/>
+<pin name="SDO" x="-20.32" y="0" length="middle" direction="out"/>
+<pin name="NC_2" x="-20.32" y="-2.54" length="middle" direction="nc"/>
+<pin name="NC_3" x="-20.32" y="-5.08" length="middle" direction="nc"/>
+<pin name="NC_4" x="-20.32" y="-7.62" length="middle" direction="nc"/>
+<pin name="NC_5" x="20.32" y="-10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="NC_6" x="20.32" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC_7" x="20.32" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC_8" x="20.32" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC_9" x="20.32" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="NC" x="20.32" y="2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="VDD" x="20.32" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PS" x="20.32" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="DAP" x="20.32" y="10.16" length="middle" direction="pas" rot="R180"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.1524" layer="94"/>
+<text x="-4.7244" y="19.2786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="16.7386" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS580330BA01-00" urn="urn:adsk.eagle:symbol:14815566/3">
+<pin name="SCLK" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="CSB" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="NC" x="-20.32" y="-5.08" length="middle" direction="nc"/>
+<pin name="VDD" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PS" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI/SDA" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SDO" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS5803" urn="urn:adsk.eagle:symbol:14815568/2">
+<pin name="SCLK" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="CSB" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="NC" x="-20.32" y="-5.08" length="middle" direction="nc"/>
+<pin name="VDD" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PS" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI/SDA" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SDO" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="TS418-1N426" urn="urn:adsk.eagle:symbol:14815573/2">
+<pin name="TP+" x="-17.78" y="0" length="middle" direction="pas"/>
+<pin name="NI-RTD" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="TP-" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS580301BA01-00" urn="urn:adsk.eagle:symbol:14815570/3">
+<pin name="SCLK" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="CSB" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="NC" x="-20.32" y="-5.08" length="middle" direction="nc"/>
+<pin name="VDD" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PS" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI\SDA" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SDO" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS5637" urn="urn:adsk.eagle:symbol:14815571/2">
+<pin name="VDD" x="-17.78" y="0" length="middle" direction="pwr"/>
+<pin name="SDA" x="-17.78" y="-2.54" length="middle"/>
+<pin name="SCL" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="MS583702BA01-50" urn="urn:adsk.eagle:symbol:14815564/2">
+<pin name="GND" x="-17.78" y="0" length="middle" direction="pas"/>
+<pin name="VDD" x="-17.78" y="-2.54" length="middle" direction="pwr"/>
+<pin name="SCL" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MS560702BA03-00" prefix="U" urn="urn:adsk.eagle:component:14815603/3">
+<gates>
+<gate name="A" symbol="MS5611" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON8_MS5611">
+<connects>
+<connect gate="A" pin="CSB" pad="5"/>
+<connect gate="A" pin="CSB_2" pad="4"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="PS" pad="2"/>
+<connect gate="A" pin="SCLK" pad="8"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="6"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815586/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5607-02BA METAL LID ALTIMETER" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS560702BA03-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5607-02BA METAL LID ALTIMETER" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5607" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.5  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS560702BA03-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS561101BA03-00" prefix="U" urn="urn:adsk.eagle:component:14815601/3">
+<gates>
+<gate name="A" symbol="MS5611" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON8_MS5611">
+<connects>
+<connect gate="A" pin="CSB" pad="5"/>
+<connect gate="A" pin="CSB_2" pad="4"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="PS" pad="2"/>
+<connect gate="A" pin="SCLK" pad="8"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="6"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815586/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5611 BAROMETRIC SENSOR CM" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS561101BA03-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5611 BAROMETRIC SENSOR CM" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5611" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS561101BA03-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS561101BA03-50" prefix="U" urn="urn:adsk.eagle:component:14815600/3">
+<gates>
+<gate name="A" symbol="MS5611" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON8_MS5611">
+<connects>
+<connect gate="A" pin="CSB" pad="5"/>
+<connect gate="A" pin="CSB_2" pad="4"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="PS" pad="2"/>
+<connect gate="A" pin="SCLK" pad="8"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="6"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815586/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5611 BAROMETRIC SENSOR CM T&amp;R" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS561101BA03-50" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5611 BAROMETRIC SENSOR CM T&amp;R" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5611" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS561101BA03-50" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS560702BA03-50" prefix="U" urn="urn:adsk.eagle:component:14815602/3">
+<gates>
+<gate name="A" symbol="MS5611" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON8_MS5611">
+<connects>
+<connect gate="A" pin="CSB" pad="5"/>
+<connect gate="A" pin="CSB_2" pad="4"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="PS" pad="2"/>
+<connect gate="A" pin="SCLK" pad="8"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="6"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815586/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5607-02BA SS CAP ALTIMETER T&amp;R" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS560702BA03-50" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5607-02BA SS CAP ALTIMETER T&amp;R" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5607" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.5  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS560702BA03-50" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5525DSO-DB001DS" prefix="U" urn="urn:adsk.eagle:component:14815607/2">
+<gates>
+<gate name="A" symbol="MS5525DSO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO14_MS5525DSO">
+<connects>
+<connect gate="A" pin="CSB" pad="8"/>
+<connect gate="A" pin="PS" pad="10"/>
+<connect gate="A" pin="SCLK/SCL" pad="7"/>
+<connect gate="A" pin="SDI/SDA" pad="6"/>
+<connect gate="A" pin="SDO" pad="5"/>
+<connect gate="A" pin="SGND" pad="3"/>
+<connect gate="A" pin="SGND_2" pad="1"/>
+<connect gate="A" pin="SOUT+" pad="14"/>
+<connect gate="A" pin="SOUT+_2" pad="12"/>
+<connect gate="A" pin="SOUT-" pad="4"/>
+<connect gate="A" pin="SOUT-_2" pad="2"/>
+<connect gate="A" pin="SUPPLY+" pad="13"/>
+<connect gate="A" pin="SUPPLY+_2" pad="11"/>
+<connect gate="A" pin="SUPPLY-" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815590/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="1PSID DIGITAL PRESSURE SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5525DSO-DB001DS" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="SOIC-14" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="1PSID DIGITAL PRESSURE SENSOR" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5525DSO" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="5525DSO-DB001DS" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS580314BA01-00" prefix="IC" urn="urn:adsk.eagle:component:14815595/4">
+<gates>
+<gate name="A" symbol="MS580314BA01-00" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5803-14BA01">
+<connects>
+<connect gate="A" pin="CSB" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="NC" pad="4"/>
+<connect gate="A" pin="PS" pad="6"/>
+<connect gate="A" pin="SCLK" pad="1"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="8"/>
+<connect gate="A" pin="VDD" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815581/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS5803-14BA%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5803-14BA_B3.pdf%7FMS580314BA01-00" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5803-14BA01 DIGIT PRESSURE SENSOR TUBE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS580314BA01-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5803-14BA01 DIGIT PRESSURE SENSOR TUBE" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5803" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS580314BA01-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="G-TPCO-033" prefix="TR" urn="urn:adsk.eagle:component:14815605/2">
+<gates>
+<gate name="A" symbol="TS305-11C55" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO4_TS305-11C55">
+<connects>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="NTC" pad="2"/>
+<connect gate="A" pin="TP+" pad="1"/>
+<connect gate="A" pin="TP-" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815588/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Thermopile Infrared Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="TS305-11C55" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="G-TPCO-033" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="-" constant="no"/>
+<attribute name="PACKAGE" value="TO-5" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="TS305-11C55" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Thermopile Temperature Element" constant="no"/>
+<attribute name="SERIES" value="Unknown" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="-" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="G-TPCO-033" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS580302BA01-00" prefix="IC" urn="urn:adsk.eagle:component:14815597/4">
+<gates>
+<gate name="A" symbol="MS580302BA01-00" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5803-02BA01">
+<connects>
+<connect gate="A" pin="CSB" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="NC" pad="4"/>
+<connect gate="A" pin="PS" pad="6"/>
+<connect gate="A" pin="SCLK" pad="1"/>
+<connect gate="A" pin="SDA" pad="8"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="VDD" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815583/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS5803-02BA%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5803-02BA_B3.pdf%7FMS580302BA01-00" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5803-02BA01 DIGIT PRESSURE SENSOR TUBE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS580302BA01-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5803-02BA01 DIGIT PRESSURE SENSOR TUBE" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5803" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS580302BA01-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS583702BA01-50" prefix="IC" urn="urn:adsk.eagle:component:14815592/3">
+<gates>
+<gate name="A" symbol="MS583702BA01-50" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5837-02BA01">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="SCL" pad="3"/>
+<connect gate="A" pin="SDA" pad="4"/>
+<connect gate="A" pin="VDD" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815578/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS5837-02BA01%7FA5%7Fpdf%7FEnglish%7FENG_DS_MS5837-02BA01_A5.pdf%7FMS583702BA01-50" constant="no"/>
+<attribute name="DESCRIPTION" value="2 BARA DIGITAL PRESSURE SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS583702BA01-50" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="2 BARA DIGITAL PRESSURE SENSOR" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5837" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.5  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS583702BA01-50" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS580305BA01-00" prefix="U" urn="urn:adsk.eagle:component:14815596/3">
+<gates>
+<gate name="A" symbol="MS5803" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON8_MS5803">
+<connects>
+<connect gate="A" pin="CSB" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="NC" pad="4"/>
+<connect gate="A" pin="PS" pad="6"/>
+<connect gate="A" pin="SCLK" pad="1"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="8"/>
+<connect gate="A" pin="VDD" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815582/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5803-05BA 5BAR WHITE GEL TUBE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS580305BA01-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5803-05BA 5BAR WHITE GEL TUBE" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5803" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS580305BA01-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="G-NICO-018" prefix="U" urn="urn:adsk.eagle:component:14815606/3">
+<gates>
+<gate name="A" symbol="TSYS01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN17_TSYS01">
+<connects>
+<connect gate="A" pin="CSB" pad="2"/>
+<connect gate="A" pin="DAP" pad="17"/>
+<connect gate="A" pin="NC" pad="14"/>
+<connect gate="A" pin="NC_2" pad="6"/>
+<connect gate="A" pin="NC_3" pad="7"/>
+<connect gate="A" pin="NC_4" pad="8"/>
+<connect gate="A" pin="NC_5" pad="9"/>
+<connect gate="A" pin="NC_6" pad="10"/>
+<connect gate="A" pin="NC_7" pad="11"/>
+<connect gate="A" pin="NC_8" pad="12"/>
+<connect gate="A" pin="NC_9" pad="13"/>
+<connect gate="A" pin="PS" pad="16"/>
+<connect gate="A" pin="SCLK/SCL" pad="3"/>
+<connect gate="A" pin="SDI/SDA" pad="4"/>
+<connect gate="A" pin="SDO" pad="5"/>
+<connect gate="A" pin="VDD" pad="15"/>
+<connect gate="A" pin="VSS" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815589/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Digital Temperature Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="0.1 DEG C ACCURACY QFN TEMP SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="G-NICO-018" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="-" constant="no"/>
+<attribute name="PACKAGE" value="QFN16" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="TSYS01" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital IC Temperature Sensor" constant="no"/>
+<attribute name="SERIES" value="MEAS TSYS" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="2.2  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="G-NICO-018" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="G-TPCO-035" prefix="TR" urn="urn:adsk.eagle:component:14815604/2">
+<gates>
+<gate name="A" symbol="TS418-1N426" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO4_TS418-1N426">
+<connects>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="NI-RTD" pad="2"/>
+<connect gate="A" pin="TP+" pad="1"/>
+<connect gate="A" pin="TP-" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815587/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Thermopile Infrared Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="TS418-1N426" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="G-TPCO-035" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="-" constant="no"/>
+<attribute name="PACKAGE" value="TO-18" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="TS418-1N426" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Thermopile NDIR Element" constant="no"/>
+<attribute name="SERIES" value="Unknown" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="-" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="G-TPCO-035" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS860702BA01-50" prefix="IC" urn="urn:adsk.eagle:component:14815591/4">
+<gates>
+<gate name="A" symbol="MS8607-02BA01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS8607-02BA01">
+<connects>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="NC" pad="6"/>
+<connect gate="A" pin="NC_2" pad="2"/>
+<connect gate="A" pin="NC_3" pad="4"/>
+<connect gate="A" pin="NC_4" pad="5"/>
+<connect gate="A" pin="SCL" pad="8"/>
+<connect gate="A" pin="SDA" pad="7"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815577/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS8607-02BA01%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS8607-02BA01_B3.pdf%7FMS860702BA01-50" constant="no"/>
+<attribute name="DESCRIPTION" value="PTH COMBINATION DIGITAL SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS860702BA01-50" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="PTH COMBINATION DIGITAL SENSOR" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS8607" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.5  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS860702BA01-50" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS563702BA03-50" prefix="U" urn="urn:adsk.eagle:component:14815599/4">
+<gates>
+<gate name="A" symbol="MS5637" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN4_MS5637">
+<connects>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="SCL" pad="3"/>
+<connect gate="A" pin="SDA" pad="2"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815585/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="2 BAR INDUSTRIAL ALTIMETER SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS563702BA03-50" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="2 BAR INDUSTRIAL ALTIMETER SENSOR" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5637" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.5  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS563702BA03-50" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS580301BA01-00" prefix="IC" urn="urn:adsk.eagle:component:14815598/4">
+<gates>
+<gate name="A" symbol="MS580301BA01-00" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5803-01BA01">
+<connects>
+<connect gate="A" pin="CSB" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="NC" pad="4"/>
+<connect gate="A" pin="PS" pad="6"/>
+<connect gate="A" pin="SCLK" pad="1"/>
+<connect gate="A" pin="SDI\SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="8"/>
+<connect gate="A" pin="VDD" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815584/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS5803-01BA%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5803-01BA_B3.pdf%7FMS580301BA01-00" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5803-01BA01 PRESSURE SENSOR TUBE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS580301BA01-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5803-01BA01 PRESSURE SENSOR TUBE" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5803" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS580301BA01-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS580330BA01-00" prefix="IC" urn="urn:adsk.eagle:component:14815594/4">
+<gates>
+<gate name="A" symbol="MS580330BA01-00" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5803-30BA01">
+<connects>
+<connect gate="A" pin="CSB" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="NC" pad="4"/>
+<connect gate="A" pin="PS" pad="6"/>
+<connect gate="A" pin="SCLK" pad="1"/>
+<connect gate="A" pin="SDI/SDA" pad="7"/>
+<connect gate="A" pin="SDO" pad="8"/>
+<connect gate="A" pin="VDD" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815580/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS5803-30BA%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5803-30BA_B3.pdf%7FMS580330BA01-00" constant="no"/>
+<attribute name="DESCRIPTION" value="MS5803-30BA01 DIGIT PRESSURE SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS580330BA01-00" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MS5803-30BA01 DIGIT PRESSURE SENSOR" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5803" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS580330BA01-00" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS580502BA01-50" prefix="IC" urn="urn:adsk.eagle:component:14815593/4">
+<gates>
+<gate name="A" symbol="MS580502BA01-50" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5805-02BA01">
+<connects>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="SCL" pad="2"/>
+<connect gate="A" pin="SDA" pad="3"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14815579/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Board Level Pressure Sensors" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.mouser.com/datasheet/2/418/NG_DS_MS5805-02BA01_B-1130108.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="MINIATURE DIGITAL PRESSURE SENSOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS580502BA01-50" constant="no"/>
+<attribute name="OUTPUT-SPAN" value="24 bit ADC" constant="no"/>
+<attribute name="PACKAGE" value="Surface Mountable" constant="no"/>
+<attribute name="PART_STATUS" value="active" constant="no"/>
+<attribute name="PRODUCT_DESCRIPTION" value="MINIATURE DIGITAL PRESSURE SENSOR" constant="no"/>
+<attribute name="PRODUCT_TYPE" value="-" constant="no"/>
+<attribute name="SENSOR_TYPE" value="Digital Pressure and Altimeter Sensor Modules" constant="no"/>
+<attribute name="SERIES" value="MEAS MS5805" constant="no"/>
+<attribute name="SUPPLY_VOLTAGE" value="1.8  3.6" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="MS580502BA01-50" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

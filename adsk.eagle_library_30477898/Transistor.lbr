@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Transistors &lt;/i&gt;&lt;/h3&gt;
+
+Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
+&lt;BR&gt;
+&lt;BR&gt;
+This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
+&lt;BR&gt;
+&lt;BR&gt;
+Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
+<packages>
+<package name="DPAK3" urn="urn:adsk.eagle:footprint:10893247/5">
+<description>DPAK, 2.29 mm pitch; 3 pin, 6.095 mm L X 6.54 mm W X 2.39 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-2.29" y="-4.12" dx="3.08" dy="1.31" layer="1" roundness="37" rot="R270"/>
+<smd name="2" x="2.29" y="-4.12" dx="3.08" dy="1.31" layer="1" roundness="37" rot="R270"/>
+<smd name="3" x="0" y="2.51" dx="6.09" dy="5.63" layer="1" roundness="51"/>
+<wire x1="-2.765" y1="-3.3625" x2="-1.815" y2="-3.3625" width="0.025" layer="51"/>
+<wire x1="-1.815" y1="-3.3625" x2="-1.815" y2="-4.9525" width="0.025" layer="51"/>
+<wire x1="-1.815" y1="-4.9525" x2="-2.765" y2="-4.9525" width="0.025" layer="51"/>
+<wire x1="-2.765" y1="-4.9525" x2="-2.765" y2="-3.3625" width="0.025" layer="51"/>
+<wire x1="1.815" y1="-3.3625" x2="2.765" y2="-3.3625" width="0.025" layer="51"/>
+<wire x1="2.765" y1="-3.3625" x2="2.765" y2="-4.9525" width="0.025" layer="51"/>
+<wire x1="2.765" y1="-4.9525" x2="1.815" y2="-4.9525" width="0.025" layer="51"/>
+<wire x1="1.815" y1="-4.9525" x2="1.815" y2="-3.3625" width="0.025" layer="51"/>
+<wire x1="0" y1="-0.35" x2="0" y2="0.35" width="0.05" layer="39"/>
+<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="-3.37" y1="4.093" x2="-3.37" y2="-2.128" width="0.127" layer="51"/>
+<wire x1="-3.37" y1="-2.128" x2="3.37" y2="-2.128" width="0.127" layer="51"/>
+<wire x1="3.37" y1="-2.128" x2="3.37" y2="4.093" width="0.127" layer="51"/>
+<wire x1="3.37" y1="4.093" x2="-3.37" y2="4.093" width="0.127" layer="51"/>
+<wire x1="-3.37" y1="4.093" x2="-3.37" y2="-2.128" width="0.127" layer="21"/>
+<wire x1="-3.37" y1="-2.128" x2="3.37" y2="-2.128" width="0.127" layer="21"/>
+<wire x1="3.37" y1="-2.128" x2="3.37" y2="4.093" width="0.127" layer="21"/>
+<wire x1="-3.215" y1="4.3" x2="-3.57" y2="4.3" width="0.05" layer="39"/>
+<wire x1="-3.57" y1="4.3" x2="-3.57" y2="-2.33" width="0.05" layer="39"/>
+<wire x1="-3.57" y1="-2.33" x2="-3.145" y2="-2.33" width="0.05" layer="39"/>
+<wire x1="-3.145" y1="-2.33" x2="-3.145" y2="-5.86" width="0.05" layer="39"/>
+<wire x1="-3.145" y1="-5.86" x2="3.145" y2="-5.86" width="0.05" layer="39"/>
+<wire x1="3.145" y1="-5.86" x2="3.145" y2="-2.33" width="0.05" layer="39"/>
+<wire x1="3.145" y1="-2.33" x2="3.57" y2="-2.33" width="0.05" layer="39"/>
+<wire x1="3.57" y1="-2.33" x2="3.57" y2="4.3" width="0.05" layer="39"/>
+<wire x1="3.57" y1="4.3" x2="3.215" y2="4.3" width="0.05" layer="39"/>
+<wire x1="3.215" y1="4.3" x2="3.215" y2="5.755" width="0.05" layer="39"/>
+<wire x1="3.215" y1="5.755" x2="-3.215" y2="5.755" width="0.05" layer="39"/>
+<wire x1="-3.215" y1="5.755" x2="-3.215" y2="4.3" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<circle x="-2.54" y="-6.35" radius="0.1" width="0.2" layer="21"/>
+<text x="-3.81" y="7.3375" size="1.2" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-8.89" size="1.2" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:10893250/3">
+<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.325 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-0.95" y="-1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="0.95" y="-1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="0" y="1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R90" stop="no" cream="no"/>
+<wire x1="-1.1925" y1="-1" x2="-0.7075" y2="-1" width="0.025" layer="51"/>
+<wire x1="-0.7075" y1="-1" x2="-0.7075" y2="-1.2" width="0.025" layer="51"/>
+<wire x1="-0.7075" y1="-1.2" x2="-1.1925" y2="-1.2" width="0.025" layer="51"/>
+<wire x1="-1.1925" y1="-1.2" x2="-1.1925" y2="-1" width="0.025" layer="51"/>
+<wire x1="0.7075" y1="-1" x2="1.1925" y2="-1" width="0.025" layer="51"/>
+<wire x1="1.1925" y1="-1" x2="1.1925" y2="-1.2" width="0.025" layer="51"/>
+<wire x1="1.1925" y1="-1.2" x2="0.7075" y2="-1.2" width="0.025" layer="51"/>
+<wire x1="0.7075" y1="-1.2" x2="0.7075" y2="-1" width="0.025" layer="51"/>
+<wire x1="0.2425" y1="1" x2="-0.2425" y2="1" width="0.025" layer="51"/>
+<wire x1="-0.2425" y1="1" x2="-0.2425" y2="1.2" width="0.025" layer="51"/>
+<wire x1="-0.2425" y1="1.2" x2="0.2425" y2="1.2" width="0.025" layer="51"/>
+<wire x1="0.2425" y1="1.2" x2="0.2425" y2="1" width="0.025" layer="51"/>
+<wire x1="-1.46" y1="-0.6625" x2="-1.46" y2="0.6625" width="0.025" layer="51"/>
+<wire x1="-1.46" y1="0.6625" x2="1.46" y2="0.6625" width="0.025" layer="51"/>
+<wire x1="1.46" y1="0.6625" x2="1.46" y2="-0.6625" width="0.025" layer="51"/>
+<wire x1="1.46" y1="-0.6625" x2="-1.46" y2="-0.6625" width="0.025" layer="51"/>
+<wire x1="-1.56" y1="-0.75" x2="-1.56" y2="0.75" width="0.12" layer="51"/>
+<wire x1="-1.56" y1="0.75" x2="1.56" y2="0.75" width="0.12" layer="51"/>
+<wire x1="1.56" y1="0.75" x2="1.56" y2="-0.75" width="0.12" layer="51"/>
+<wire x1="1.56" y1="-0.75" x2="-1.56" y2="-0.75" width="0.12" layer="51"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="-1.56" y1="-0.75" x2="-1.56" y2="0.75" width="0.12" layer="21"/>
+<wire x1="-1.56" y1="0.75" x2="-0.535" y2="0.75" width="0.12" layer="21"/>
+<wire x1="1.56" y1="-0.75" x2="1.56" y2="0.75" width="0.12" layer="21"/>
+<wire x1="1.56" y1="0.75" x2="0.535" y2="0.75" width="0.12" layer="21"/>
+<wire x1="1.76" y1="-0.95" x2="1.76" y2="0.95" width="0.05" layer="39"/>
+<wire x1="1.76" y1="0.95" x2="0.555" y2="0.95" width="0.05" layer="39"/>
+<wire x1="0.555" y1="0.95" x2="0.555" y2="1.755" width="0.05" layer="39"/>
+<wire x1="0.555" y1="1.755" x2="-0.555" y2="1.755" width="0.05" layer="39"/>
+<wire x1="-0.555" y1="1.755" x2="-0.555" y2="0.95" width="0.05" layer="39"/>
+<wire x1="-0.555" y1="0.95" x2="-1.76" y2="0.95" width="0.05" layer="39"/>
+<wire x1="-1.76" y1="0.95" x2="-1.76" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="-1.76" y1="-0.95" x2="-1.505" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="-1.505" y1="-0.95" x2="-1.505" y2="-1.755" width="0.05" layer="39"/>
+<wire x1="-1.505" y1="-1.755" x2="1.505" y2="-1.755" width="0.05" layer="39"/>
+<wire x1="1.505" y1="-1.755" x2="1.505" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="1.505" y1="-0.95" x2="1.76" y2="-0.95" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<circle x="-1.02" y="-2.04" radius="0.1" width="0.2" layer="21"/>
+<text x="-2.54" y="2.54" size="1.02" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.02" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT23-3" urn="urn:adsk.eagle:footprint:10893249/2">
+<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.30 mm W X 1.11 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-0.95" y="-0.975" dx="1.1" dy="0.62" layer="1" roundness="52" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="0.95" y="-0.975" dx="1.1" dy="0.62" layer="1" roundness="52" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="0" y="0.975" dx="1.1" dy="0.62" layer="1" roundness="52" rot="R90" stop="no" cream="no"/>
+<wire x1="-1.1675" y1="-0.82" x2="-0.7325" y2="-0.82" width="0.025" layer="51"/>
+<wire x1="-0.7325" y1="-0.82" x2="-0.7325" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="-0.7325" y1="-1.185" x2="-1.1675" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="-1.1675" y1="-1.185" x2="-1.1675" y2="-0.82" width="0.025" layer="51"/>
+<wire x1="0.7325" y1="-0.82" x2="1.1675" y2="-0.82" width="0.025" layer="51"/>
+<wire x1="1.1675" y1="-0.82" x2="1.1675" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="1.1675" y1="-1.185" x2="0.7325" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="0.7325" y1="-1.185" x2="0.7325" y2="-0.82" width="0.025" layer="51"/>
+<wire x1="0.2175" y1="0.82" x2="-0.2175" y2="0.82" width="0.025" layer="51"/>
+<wire x1="-0.2175" y1="0.82" x2="-0.2175" y2="1.185" width="0.025" layer="51"/>
+<wire x1="-0.2175" y1="1.185" x2="0.2175" y2="1.185" width="0.025" layer="51"/>
+<wire x1="0.2175" y1="1.185" x2="0.2175" y2="0.82" width="0.025" layer="51"/>
+<wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.025" layer="51"/>
+<wire x1="-1.46" y1="0.65" x2="1.46" y2="0.65" width="0.025" layer="51"/>
+<wire x1="1.46" y1="0.65" x2="1.46" y2="-0.65" width="0.025" layer="51"/>
+<wire x1="1.46" y1="-0.65" x2="-1.46" y2="-0.65" width="0.025" layer="51"/>
+<wire x1="-1.52" y1="-0.7" x2="-1.52" y2="0.7" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="0.7" x2="1.52" y2="0.7" width="0.12" layer="51"/>
+<wire x1="1.52" y1="0.7" x2="1.52" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="1.52" y1="-0.7" x2="-1.52" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="-1.52" y1="-0.7" x2="-1.52" y2="0.7" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="0.7" x2="-0.49" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.52" y1="-0.7" x2="1.52" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.52" y1="0.7" x2="0.49" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.72" y1="-0.9" x2="1.72" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.72" y1="0.9" x2="0.51" y2="0.9" width="0.05" layer="39"/>
+<wire x1="0.51" y1="0.9" x2="0.51" y2="1.725" width="0.05" layer="39"/>
+<wire x1="0.51" y1="1.725" x2="-0.51" y2="1.725" width="0.05" layer="39"/>
+<wire x1="-0.51" y1="1.725" x2="-0.51" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-0.51" y1="0.9" x2="-1.72" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.72" y1="0.9" x2="-1.72" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.72" y1="-0.9" x2="-1.46" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.46" y1="-0.9" x2="-1.46" y2="-1.725" width="0.05" layer="39"/>
+<wire x1="-1.46" y1="-1.725" x2="1.46" y2="-1.725" width="0.05" layer="39"/>
+<wire x1="1.46" y1="-1.725" x2="1.46" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="1.46" y1="-0.9" x2="1.72" y2="-0.9" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<circle x="-1" y="-2" radius="0.1" width="0.2" layer="21"/>
+<text x="-2.54" y="2.54" size="0.92" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.02" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT-23" urn="urn:adsk.eagle:footprint:10893248/2">
+<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.30 mm W X 1.12 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-0.95" y="-0.96" dx="1.13" dy="0.62" layer="1" roundness="52" rot="R270"/>
+<smd name="2" x="0.95" y="-0.96" dx="1.13" dy="0.62" layer="1" roundness="52" rot="R270"/>
+<smd name="3" x="0" y="0.96" dx="1.13" dy="0.62" layer="1" roundness="52" rot="R90"/>
+<wire x1="-1.1675" y1="-0.785" x2="-0.7325" y2="-0.785" width="0.025" layer="51"/>
+<wire x1="-0.7325" y1="-0.785" x2="-0.7325" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="-0.7325" y1="-1.185" x2="-1.1675" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="-1.1675" y1="-1.185" x2="-1.1675" y2="-0.785" width="0.025" layer="51"/>
+<wire x1="0.7325" y1="-0.785" x2="1.1675" y2="-0.785" width="0.025" layer="51"/>
+<wire x1="1.1675" y1="-0.785" x2="1.1675" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="1.1675" y1="-1.185" x2="0.7325" y2="-1.185" width="0.025" layer="51"/>
+<wire x1="0.7325" y1="-1.185" x2="0.7325" y2="-0.785" width="0.025" layer="51"/>
+<wire x1="0.2175" y1="0.785" x2="-0.2175" y2="0.785" width="0.025" layer="51"/>
+<wire x1="-0.2175" y1="0.785" x2="-0.2175" y2="1.185" width="0.025" layer="51"/>
+<wire x1="-0.2175" y1="1.185" x2="0.2175" y2="1.185" width="0.025" layer="51"/>
+<wire x1="0.2175" y1="1.185" x2="0.2175" y2="0.785" width="0.025" layer="51"/>
+<wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.025" layer="51"/>
+<wire x1="-1.46" y1="0.65" x2="1.46" y2="0.65" width="0.025" layer="51"/>
+<wire x1="1.46" y1="0.65" x2="1.46" y2="-0.65" width="0.025" layer="51"/>
+<wire x1="1.46" y1="-0.65" x2="-1.46" y2="-0.65" width="0.025" layer="51"/>
+<wire x1="-1.52" y1="-0.7" x2="-1.52" y2="0.7" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="0.7" x2="1.52" y2="0.7" width="0.12" layer="51"/>
+<wire x1="1.52" y1="0.7" x2="1.52" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="1.52" y1="-0.7" x2="-1.52" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="-1.52" y1="-0.7" x2="-1.52" y2="0.7" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="0.7" x2="-0.49" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.52" y1="-0.7" x2="1.52" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.52" y1="0.7" x2="0.49" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.72" y1="-0.9" x2="1.72" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.72" y1="0.9" x2="0.51" y2="0.9" width="0.05" layer="39"/>
+<wire x1="0.51" y1="0.9" x2="0.51" y2="1.725" width="0.05" layer="39"/>
+<wire x1="0.51" y1="1.725" x2="-0.51" y2="1.725" width="0.05" layer="39"/>
+<wire x1="-0.51" y1="1.725" x2="-0.51" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-0.51" y1="0.9" x2="-1.72" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.72" y1="0.9" x2="-1.72" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.72" y1="-0.9" x2="-1.46" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.46" y1="-0.9" x2="-1.46" y2="-1.725" width="0.05" layer="39"/>
+<wire x1="-1.46" y1="-1.725" x2="1.46" y2="-1.725" width="0.05" layer="39"/>
+<wire x1="1.46" y1="-1.725" x2="1.46" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="1.46" y1="-0.9" x2="1.72" y2="-0.9" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<circle x="-1" y="-2" radius="0.1" width="0.2" layer="21"/>
+<text x="-2.54" y="-3.58" size="1.2" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.79" size="1.2" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="PG-TO263-3" urn="urn:adsk.eagle:footprint:30477902/1">
+<smd name="2" x="0" y="0" dx="10.8" dy="9.4" layer="1"/>
+<smd name="1" x="-2.55" y="-9.15" dx="1.35" dy="4.6" layer="1"/>
+<smd name="3" x="2.55" y="-9.15" dx="1.35" dy="4.6" layer="1"/>
+<wire x1="-5.05" y1="5.1" x2="-4.8" y2="5.1" width="0.2032" layer="51"/>
+<wire x1="-4.8" y1="5.1" x2="5.1" y2="5.1" width="0.2032" layer="51"/>
+<wire x1="-5.1" y1="5.1" x2="-5.1" y2="-5.7" width="0.2032" layer="51"/>
+<wire x1="-5.1" y1="-5.7" x2="5.1" y2="-5.7" width="0.2032" layer="51"/>
+<wire x1="5.1" y1="-5.7" x2="5.1" y2="5.1" width="0.2032" layer="51"/>
+<wire x1="-5.1" y1="5.1" x2="-5.05" y2="5.1" width="0.2032" layer="51"/>
+<wire x1="-3.5" y1="-11.75" x2="3.5" y2="-11.75" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-11.75" x2="3.5" y2="-6" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-6" x2="5.75" y2="-6" width="0.05" layer="39"/>
+<wire x1="5.75" y1="-6" x2="5.75" y2="5.5" width="0.05" layer="39"/>
+<wire x1="5.75" y1="5.5" x2="-5.75" y2="5.5" width="0.05" layer="39"/>
+<wire x1="-5.75" y1="5.5" x2="-5.75" y2="-6" width="0.05" layer="39"/>
+<wire x1="-5.75" y1="-6" x2="-3.5" y2="-6" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-6" x2="-3.5" y2="-11.75" width="0.05" layer="39"/>
+<rectangle x1="-2.9" y1="-10.5" x2="-2.2" y2="-5.7" layer="51"/>
+<rectangle x1="2.2" y1="-10.6" x2="2.9" y2="-5.8" layer="51"/>
+<text x="-5" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6" y="-13.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="US6" urn="urn:adsk.eagle:footprint:30477900/2">
+<smd name="1" x="-0.92" y="0.65" dx="0.4" dy="1.08" layer="1" rot="R270"/>
+<smd name="2" x="-0.92" y="0" dx="0.4" dy="1.08" layer="1" rot="R270"/>
+<smd name="3" x="-0.92" y="-0.65" dx="0.4" dy="1.08" layer="1" rot="R270"/>
+<smd name="4" x="0.92" y="-0.65" dx="0.4" dy="1.08" layer="1" rot="R90"/>
+<smd name="5" x="0.92" y="0" dx="0.4" dy="1.08" layer="1" rot="R90"/>
+<smd name="6" x="0.92" y="0.65" dx="0.4" dy="1.08" layer="1" rot="R90"/>
+<wire x1="-0.75" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="-0.75" y2="-1" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="-1" x2="-0.75" y2="1" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.25" x2="1.75" y2="1.25" width="0.05" layer="39"/>
+<wire x1="1.75" y1="1.25" x2="1.75" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="1.75" y1="-1.25" x2="-1.75" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.05" layer="39"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.746" y="0.65" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.746" y="0.65" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="TO-220" urn="urn:adsk.eagle:footprint:10893251/1">
+<description>Flange Mount (TO-220) Vertical, 2.54 mm pitch; 3 pin, 10.54 mm L X 4.69 mm W X 28.82 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<pad name="G" x="0" y="0" drill="1.23" diameter="1.85" shape="square" rot="R90" first="yes"/>
+<pad name="D" x="2.54" y="0" drill="1.23" diameter="1.85"/>
+<pad name="S" x="5.08" y="0" drill="1.23" diameter="1.85"/>
+<wire x1="0.465" y1="-0.275" x2="-0.465" y2="-0.275" width="0.025" layer="51"/>
+<wire x1="-0.465" y1="-0.275" x2="-0.465" y2="0.275" width="0.025" layer="51"/>
+<wire x1="-0.465" y1="0.275" x2="0.465" y2="0.275" width="0.025" layer="51"/>
+<wire x1="0.465" y1="0.275" x2="0.465" y2="-0.275" width="0.025" layer="51"/>
+<wire x1="3.005" y1="-0.275" x2="2.075" y2="-0.275" width="0.025" layer="51"/>
+<wire x1="2.075" y1="-0.275" x2="2.075" y2="0.275" width="0.025" layer="51"/>
+<wire x1="2.075" y1="0.275" x2="3.005" y2="0.275" width="0.025" layer="51"/>
+<wire x1="3.005" y1="0.275" x2="3.005" y2="-0.275" width="0.025" layer="51"/>
+<wire x1="5.545" y1="-0.275" x2="4.615" y2="-0.275" width="0.025" layer="51"/>
+<wire x1="4.615" y1="-0.275" x2="4.615" y2="0.275" width="0.025" layer="51"/>
+<wire x1="4.615" y1="0.275" x2="5.545" y2="0.275" width="0.025" layer="51"/>
+<wire x1="5.545" y1="0.275" x2="5.545" y2="-0.275" width="0.025" layer="51"/>
+<wire x1="-2.73" y1="-1.91" x2="-2.73" y2="2.78" width="0.025" layer="51"/>
+<wire x1="-2.73" y1="2.78" x2="-2.73" y2="2.79" width="0.025" layer="51"/>
+<wire x1="-2.73" y1="2.79" x2="-2.73" y2="2.78" width="0.025" layer="51"/>
+<wire x1="-2.73" y1="2.78" x2="7.81" y2="2.78" width="0.025" layer="51"/>
+<wire x1="7.81" y1="2.78" x2="7.81" y2="2.79" width="0.025" layer="51"/>
+<wire x1="7.81" y1="2.79" x2="7.81" y2="2.78" width="0.025" layer="51"/>
+<wire x1="7.81" y1="2.78" x2="7.81" y2="-1.91" width="0.025" layer="51"/>
+<wire x1="7.81" y1="-1.91" x2="-2.73" y2="-1.91" width="0.025" layer="51"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-2.73" y1="-1.91" x2="-2.73" y2="2.78" width="0.12" layer="51"/>
+<wire x1="-2.73" y1="2.78" x2="-2.73" y2="2.79" width="0.12" layer="51"/>
+<wire x1="-2.73" y1="2.79" x2="7.81" y2="2.79" width="0.12" layer="51"/>
+<wire x1="7.81" y1="2.79" x2="7.81" y2="2.78" width="0.12" layer="51"/>
+<wire x1="7.81" y1="2.78" x2="7.81" y2="-1.91" width="0.12" layer="51"/>
+<wire x1="7.81" y1="-1.91" x2="-2.73" y2="-1.91" width="0.12" layer="51"/>
+<wire x1="-2.73" y1="2.79" x2="7.81" y2="2.79" width="0.12" layer="21"/>
+<wire x1="-2.73" y1="-1.91" x2="7.81" y2="-1.91" width="0.12" layer="21"/>
+<wire x1="-2.73" y1="-1.91" x2="-2.73" y2="2.79" width="0.12" layer="21"/>
+<wire x1="7.81" y1="-1.91" x2="7.81" y2="2.79" width="0.12" layer="21"/>
+<wire x1="-2.98" y1="-2.16" x2="8.06" y2="-2.16" width="0.05" layer="39"/>
+<wire x1="8.06" y1="-2.16" x2="8.06" y2="3.03" width="0.05" layer="39"/>
+<wire x1="8.06" y1="3.03" x2="-2.98" y2="3.03" width="0.05" layer="39"/>
+<wire x1="-2.98" y1="3.03" x2="-2.98" y2="-2.16" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<circle x="0" y="-2.54" radius="0.1" width="0.2" layer="21"/>
+<text x="-1.778" y="-4.505" size="1.2" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.032" y="3.882" size="1.2" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="DPAK" urn="urn:adsk.eagle:footprint:30477903/1">
+<smd name="2" x="0" y="0" dx="6.7" dy="6.7" layer="1"/>
+<smd name="1" x="-2.3" y="-6.65" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.3" y="-6.65" dx="1.6" dy="3" layer="1"/>
+<wire x1="-3.6" y1="2.05" x2="3.6" y2="2.05" width="0.127" layer="51"/>
+<wire x1="-3.6" y1="2.05" x2="-3.6" y2="-4.9" width="0.127" layer="51"/>
+<wire x1="-3.6" y1="-4.9" x2="3.6" y2="-4.9" width="0.127" layer="51"/>
+<wire x1="3.6" y1="-4.9" x2="3.6" y2="2.05" width="0.127" layer="51"/>
+<wire x1="-3.6" y1="2.1" x2="-3.6" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-4.9" x2="3.6" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-4.9" x2="3.6" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-5.25" x2="-3.5" y2="-8.5" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-8.5" x2="3.5" y2="-8.5" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-8.5" x2="3.5" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-5.25" x2="4" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="4" y1="-5.25" x2="4" y2="3.75" width="0.05" layer="39"/>
+<wire x1="4" y1="3.75" x2="-4" y2="3.75" width="0.05" layer="39"/>
+<wire x1="-4" y1="3.75" x2="-4" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-4" y1="-5.25" x2="-3.5" y2="-5.25" width="0.05" layer="39"/>
+<rectangle x1="-2.6246" y1="-7.7508" x2="-1.9746" y2="-4.9508" layer="51"/>
+<rectangle x1="1.9754" y1="-7.7508" x2="2.6254" y2="-4.9508" layer="51"/>
+<text x="-3.75" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.75" y="-10" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TO-247AC" urn="urn:adsk.eagle:footprint:30477904/1">
+<wire x1="-7.874" y1="2.45" x2="7.874" y2="2.45" width="0.1524" layer="21"/>
+<wire x1="7.874" y1="-2.85" x2="7.874" y2="2.45" width="0.1524" layer="21"/>
+<wire x1="-7.874" y1="2.45" x2="-7.874" y2="-2.85" width="0.1524" layer="21"/>
+<wire x1="-7.874" y1="-2.85" x2="7.874" y2="-2.85" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="0.95" width="0.0634" layer="21" style="shortdash"/>
+<wire x1="-1.5" y1="0.95" x2="-1.5" y2="-2.8" width="0.0634" layer="21" style="shortdash"/>
+<wire x1="1.5" y1="-2.8" x2="1.5" y2="0.95" width="0.0634" layer="21" style="shortdash"/>
+<wire x1="1.5" y1="0.95" x2="1.5" y2="2.5" width="0.0634" layer="21" style="shortdash"/>
+<wire x1="-7.874" y1="0.95" x2="7.874" y2="0.95" width="0.1524" layer="51"/>
+<wire x1="-7.8" y1="0.95" x2="-6.95" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="-4.05" y1="0.95" x2="-1.5" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.95" x2="4.05" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="7" y1="0.95" x2="7.85" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="-7.874" y1="2.45" x2="7.874" y2="2.45" width="0.1524" layer="51"/>
+<wire x1="7.874" y1="-2.85" x2="7.874" y2="2.45" width="0.1524" layer="51"/>
+<wire x1="-7.874" y1="2.45" x2="-7.874" y2="-2.85" width="0.1524" layer="51"/>
+<wire x1="-7.874" y1="-2.85" x2="7.874" y2="-2.85" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.8" width="0.0634" layer="51" style="shortdash"/>
+<wire x1="1.5" y1="-2.8" x2="1.5" y2="2.5" width="0.0634" layer="51" style="shortdash"/>
+<wire x1="8.124" y1="-3.1" x2="8.124" y2="2.7" width="0.01" layer="39"/>
+<wire x1="8.124" y1="2.7" x2="-8.124" y2="2.7" width="0.01" layer="39"/>
+<wire x1="-8.124" y1="2.7" x2="-8.124" y2="-3.1" width="0.01" layer="39"/>
+<wire x1="-8.124" y1="-3.1" x2="8.124" y2="-3.1" width="0.01" layer="39"/>
+<pad name="G" x="-5.5" y="0" drill="1.6" shape="long" rot="R90"/>
+<pad name="D" x="0" y="0" drill="1.6" shape="long" rot="R90"/>
+<pad name="S" x="5.5" y="0" drill="1.6" shape="long" rot="R90"/>
+<text x="-7.874" y="3.11" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.874" y="-5.526" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-6.5" y1="-0.4" x2="-4.5" y2="0.4" layer="51"/>
+<rectangle x1="-1" y1="-0.4" x2="1" y2="0.4" layer="51"/>
+<rectangle x1="4.5" y1="-0.4" x2="6.5" y2="0.4" layer="51"/>
+</package>
+<package name="HSMT8" urn="urn:adsk.eagle:footprint:30477901/1">
+<smd name="1" x="-1.4375" y="0.975" dx="0.5" dy="0.47" layer="1"/>
+<smd name="2" x="-1.4375" y="0.325" dx="0.5" dy="0.47" layer="1"/>
+<smd name="3" x="-1.4375" y="-0.325" dx="0.5" dy="0.47" layer="1"/>
+<smd name="4" x="-1.4375" y="-0.975" dx="0.5" dy="0.47" layer="1"/>
+<smd name="5" x="1.4375" y="-0.975" dx="0.55" dy="0.47" layer="1"/>
+<smd name="6" x="1.4375" y="-0.325" dx="0.55" dy="0.47" layer="1"/>
+<smd name="7" x="1.4375" y="0.325" dx="0.55" dy="0.47" layer="1"/>
+<smd name="8" x="1.4375" y="0.975" dx="0.55" dy="0.47" layer="1"/>
+<smd name="EP" x="0.2375" y="0" dx="1.85" dy="2.7" layer="1"/>
+<wire x1="-1.5" y1="1.6" x2="-1.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.6" x2="1.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.6" x2="1.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.6" x2="-1.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.4" x2="-1.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.6" x2="1.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.6" x2="1.5" y2="1.45" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.4" x2="-1.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.6" x2="1.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.6" x2="1.5" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.85" x2="2" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="2" y1="-1.85" x2="2" y2="1.85" width="0.05" layer="39"/>
+<wire x1="2" y1="1.85" x2="-2" y2="1.85" width="0.05" layer="39"/>
+<wire x1="-2" y1="1.85" x2="-2" y2="-1.85" width="0.05" layer="39"/>
+<circle x="-1.7238" y="1.4754" radius="0.05" width="0.127" layer="21"/>
+<circle x="-1.7238" y="1.4754" radius="0.05" width="0.127" layer="51"/>
+<text x="-2.75" y="2.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.25" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="X2-DFN1006-3" urn="urn:adsk.eagle:footprint:30477899/1">
+<smd name="2" x="0" y="0.375" dx="0.55" dy="0.45" layer="1"/>
+<smd name="1" x="-0.175" y="-0.375" dx="0.2" dy="0.45" layer="1"/>
+<smd name="3" x="0.175" y="-0.375" dx="0.2" dy="0.45" layer="1"/>
+<wire x1="-0.35" y1="0.55" x2="-0.35" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="-0.35" y1="-0.55" x2="0.35" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="0.35" y1="-0.55" x2="0.35" y2="0.55" width="0.127" layer="51"/>
+<wire x1="0.35" y1="0.55" x2="-0.35" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-0.45" y1="0.55" x2="-0.45" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="0.45" y1="0.55" x2="0.45" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-1" x2="0.75" y2="-1" width="0.05" layer="39"/>
+<wire x1="0.75" y1="-1" x2="0.75" y2="1" width="0.05" layer="39"/>
+<wire x1="0.75" y1="1" x2="-0.75" y2="1" width="0.05" layer="39"/>
+<wire x1="-0.75" y1="1" x2="-0.75" y2="-1" width="0.05" layer="39"/>
+<circle x="-0.2" y="-0.8" radius="0.05" width="0.127" layer="21"/>
+<circle x="-0.2" y="-0.8" radius="0.05" width="0.127" layer="51"/>
+<text x="-1.25" y="1.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.25" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TO92-3" urn="urn:adsk.eagle:footprint:30477910/2">
+<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm</description>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.1524" layer="21" curve="-129.583345"/>
+<wire x1="1.136" y1="-0.127" x2="-1.136" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.1524" layer="51" curve="27.937554"/>
+<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.1524" layer="51" curve="22.478763"/>
+<wire x1="-1.404" y1="-0.127" x2="-2.664" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.1524" layer="21" curve="13.038528"/>
+<wire x1="-1.136" y1="-0.127" x2="-1.404" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.1524" layer="51" curve="22.478763"/>
+<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.1524" layer="51" curve="27.937554"/>
+<wire x1="2.664" y1="-0.127" x2="1.404" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="1.404" y1="-0.127" x2="1.136" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.1524" layer="21" curve="13.609443"/>
+<pad name="3" x="-1.27" y="0" drill="0.6" rot="R90"/>
+<pad name="1" x="1.27" y="0" drill="0.6" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R90"/>
+<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DPAK4" urn="urn:adsk.eagle:package:10893256/6" type="model">
+<description>DPAK, 2.29 mm pitch; 3 pin, 6.095 mm L X 6.54 mm W X 2.39 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="DPAK3"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23" urn="urn:adsk.eagle:package:10893259/4" type="model">
+<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.325 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-3" urn="urn:adsk.eagle:package:10893258/3" type="model">
+<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.30 mm W X 1.11 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23-3"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT-23" urn="urn:adsk.eagle:package:10893257/3" type="model">
+<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.30 mm W X 1.12 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="SOT-23"/>
+</packageinstances>
+</package3d>
+<package3d name="TO92-3" urn="urn:adsk.eagle:package:30477912/3" type="model">
+<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm</description>
+<packageinstances>
+<packageinstance name="TO92-3"/>
+</packageinstances>
+</package3d>
+<package3d name="PG-TO263-3" urn="urn:adsk.eagle:package:30477915/2" type="model">
+<packageinstances>
+<packageinstance name="PG-TO263-3"/>
+</packageinstances>
+</package3d>
+<package3d name="US6" urn="urn:adsk.eagle:package:30477913/3" type="model">
+<packageinstances>
+<packageinstance name="US6"/>
+</packageinstances>
+</package3d>
+<package3d name="DPAK" urn="urn:adsk.eagle:package:30477916/2" type="model">
+<packageinstances>
+<packageinstance name="DPAK"/>
+</packageinstances>
+</package3d>
+<package3d name="TO-220" urn="urn:adsk.eagle:package:10893260/3" type="model">
+<description>Flange Mount (TO-220) Vertical, 2.54 mm pitch; 3 pin, 10.54 mm L X 4.69 mm W X 28.82 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="TO-220"/>
+</packageinstances>
+</package3d>
+<package3d name="TO-247AC" urn="urn:adsk.eagle:package:30477917/2" type="model">
+<packageinstances>
+<packageinstance name="TO-247AC"/>
+</packageinstances>
+</package3d>
+<package3d name="X2-DFN1006-3" urn="urn:adsk.eagle:package:30477911/1" type="box">
+<packageinstances>
+<packageinstance name="X2-DFN1006-3"/>
+</packageinstances>
+</package3d>
+<package3d name="HSMT8" urn="urn:adsk.eagle:package:30477914/2" type="model">
+<packageinstances>
+<packageinstance name="HSMT8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOSFET_P" urn="urn:adsk.eagle:symbol:30477908/1">
+<wire x1="-1.016" y1="2.54" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
+<text x="-8.89" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-11.43" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.397" y="3.556" size="0.8128" layer="93">D</text>
+<text x="1.397" y="-4.318" size="0.8128" layer="93">S</text>
+<text x="-2.286" y="-1.778" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="point" direction="pas"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.635" y="0"/>
+<vertex x="1.905" y="-0.508"/>
+<vertex x="1.905" y="0.508"/>
+</polygon>
+</symbol>
+<symbol name="MOSFET_N" urn="urn:adsk.eagle:symbol:30477907/1">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
+<text x="-6.35" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.397" y="-4.318" size="0.8128" layer="93">D</text>
+<text x="1.397" y="3.556" size="0.8128" layer="93">S</text>
+<text x="-2.286" y="1.143" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="1.27" y="-0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+</symbol>
+<symbol name="PNP" urn="urn:adsk.eagle:symbol:30477906/1">
+<wire x1="2.0861" y1="1.6779" x2="1.5781" y2="2.5941" width="0.1524" layer="94"/>
+<wire x1="1.5781" y1="2.5941" x2="0.5159" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.5159" y1="1.478" x2="2.0861" y2="1.6779" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.1239" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="NPN" urn="urn:adsk.eagle:symbol:30477909/1">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.414" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="SSM6N7002KFU,LF" urn="urn:adsk.eagle:symbol:30477905/1">
+<pin name="D1" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="G1" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="S1" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="G2" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="D2" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="S2" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="-7.874" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FQD13N06LTM" prefix="Q" urn="urn:adsk.eagle:component:30477929/1">
+<description>&lt;h3&gt; MOSFET N-CH 60V 11A DPAK &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/FQU13N06L-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPAK3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893256/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="FQD13N06LTMCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="FQD13N06LTM" constant="no"/>
+<attribute name="PACKAGE" value="DPAK-4" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTD3055L104G" prefix="Q" urn="urn:adsk.eagle:component:30477930/1">
+<description>&lt;h3&gt; 12 A, 60 V, Logic Level N−Channel
+DPAK/IPAK
+ &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/NTD3055L104-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPAK3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893256/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMER" value="NTD3055L104GOS-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON SEMICONDUCTORS" constant="no"/>
+<attribute name="MPN" value="NTD3055L104G" constant="no"/>
+<attribute name="PACKAGE" value="DPAK-4" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SSM3J328R,LF" prefix="Q" urn="urn:adsk.eagle:component:30477936/1">
+<description>&lt;h3&gt; MOSFET P-CH 20V 6A SOT23F &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=2429&amp;prodName=SSM3J328R"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893259/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SSM3J328RLFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage" constant="no"/>
+<attribute name="MPN" value="SSM3J328R,LF" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT3904" prefix="Q" urn="urn:adsk.eagle:component:30477933/1">
+<description>&lt;h3&gt;TRANS NPN 40V 0.2A SOT-23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893259/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="MMBT3904FSCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMBT3904" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT3906" prefix="Q" urn="urn:adsk.eagle:component:30477934/1">
+<description>&lt;h3&gt; TRANS PNP 40V 0.2A SOT-23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/MMBT3906.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893259/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="MMBT3906FSCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMBT3906" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS84" prefix="Q" urn="urn:adsk.eagle:component:30477935/1">
+<description>&lt;h3&gt; MOSFET P-CH 50V 130MA SOT-23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/BSS84-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893259/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS138" prefix="Q" urn="urn:adsk.eagle:component:30477937/1">
+<description>&lt;h3&gt; MOSFET N-CH 50V 220MA SOT-23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893258/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="BSS138CT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="BSS138" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT3904LT1G" prefix="Q" urn="urn:adsk.eagle:component:30477941/1">
+<description>&lt;h3&gt; TRANS NPN 40V 0.2A SOT23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893258/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="MMBT3904LT1GOSTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMBT3904LT1G" constant="no"/>
+<attribute name="PACKAGE" value="SOT23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT3906LT1G" prefix="Q" urn="urn:adsk.eagle:component:30477938/1">
+<description>&lt;h3&gt; TRANS PNP 40V 0.2A SOT23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/MMBT3906LT1-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893258/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMER" value="MMBT3906LT1GOSTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMBT3906LT1G" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS84LT1G" prefix="Q" urn="urn:adsk.eagle:component:30477940/1">
+<description>&lt;h3&gt; MOSFET P-CH 50V 130MA SOT-23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/BSS84LT1-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893258/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="BSS84LT1GOSCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="BSS84LT1G" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPB035N08N3GATMA1" prefix="Q" urn="urn:adsk.eagle:component:30477919/2">
+<description>&lt;h3&gt; MOSFET N-CH 80V 100A D2PAK &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.infineon.com/dgdl/IPP037N08N3_Rev2.1.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&amp;fileId=db3a30431add1d95011ae8426111565b"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PG-TO263-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477915/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IPB035N08N3GATMA1CT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Infineon Technologies" constant="no"/>
+<attribute name="MPN" value="IPB035N08N3GATMA1" constant="no"/>
+<attribute name="PACKAGE" value="PG-TO263-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N7002,215" prefix="Q" urn="urn:adsk.eagle:component:30477939/1">
+<description>&lt;h3&gt; MOSFET N-CH 60V 300MA SOT-23 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893258/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-2764-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MPN" value="2N7002,215" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRF9540PBF" prefix="Q" urn="urn:adsk.eagle:component:30477925/2">
+<description>&lt;h3&gt; MOSFET P-CH 100V 19A TO220AB &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.vishay.com/docs/91078/91078.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893260/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IRF9540PBF-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Siliconix" constant="no"/>
+<attribute name="MPN" value="IRF9540PBF" constant="no"/>
+<attribute name="PACKAGE" value="TO-220AB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRF520NPBF" prefix="Q" urn="urn:adsk.eagle:component:30477931/2">
+<description>&lt;h3&gt;MOSFET N-CH 100V 9.7A TO-220AB &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.infineon.com/dgdl/irf520npbf.pdf?fileId=5546d462533600a4015355e340711985"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893260/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IRF520NPBF-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Infineon Technologies" constant="no"/>
+<attribute name="MPN" value="IRF520NPBF" constant="no"/>
+<attribute name="PACKAGE" value="TO-220" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SSM6N7002KFU,LF" prefix="Q" urn="urn:adsk.eagle:component:30477923/2">
+<description>&lt;h3&gt; MOSFET 2N-CH 60V 0.3A &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/SSM6N7002KFU.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SSM6N7002KFU,LF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="US6">
+<connects>
+<connect gate="G$1" pin="D1" pad="6"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="5"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477913/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SSM6N7002KFULFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage" constant="no"/>
+<attribute name="MPN" value="SSM6N7002KFU,LF" constant="no"/>
+<attribute name="PACKAGE" value="US6" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRF540NPBF" prefix="Q" urn="urn:adsk.eagle:component:30477926/2">
+<description>&lt;h3&gt; MOSFET N-CH 100V 33A TO220AB &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893260/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IRF540NPBF-ND" constant="no"/>
+<attribute name="MANUFATURER" value="Infineon Technologies" constant="no"/>
+<attribute name="MPN" value="IRF540NPBF" constant="no"/>
+<attribute name="PACKAGE" value="TO-220AB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STD35NF06T4" prefix="Q" urn="urn:adsk.eagle:component:30477918/2">
+<description>&lt;h3&gt;MOSFET N-CH 60V 35A DPAK&lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/0d/26/b9/23/e3/c0/49/5f/CD00002312.pdf/files/CD00002312.pdf/jcr:content/translations/en.CD00002312.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477916/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="497-STD35NF06T4CT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="STD35NF06T4" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDN340P" prefix="Q" urn="urn:adsk.eagle:component:30477932/1">
+<description>&lt;h3&gt; MOSFET P-CH 20V 2A SSOT3 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893257/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="FDN340PCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="FDN340P" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRFZ44NPBF" prefix="Q" urn="urn:adsk.eagle:component:30477924/2">
+<description>&lt;h3&gt; MOSFET N-CH 55V 49A TO220AB &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10893260/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBlayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IRFZ44NPBF-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Infineon Technologies" constant="no"/>
+<attribute name="MPN" value="IRFZ44NPBF" constant="no"/>
+<attribute name="PACKAGE" value="TO-220AB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RQ3E130BNTB" prefix="Q" urn="urn:adsk.eagle:component:30477922/2">
+<description>&lt;h3&gt;MOSFET N-CH 30V 13A 8HSMT &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq3e130bntb-e.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HSMT8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 EP"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477914/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RQ3E130BNTBCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" constant="no"/>
+<attribute name="MPN" value="RQ3E130BNTB" constant="no"/>
+<attribute name="PACKAGE" value="HSMT8" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMP210DUFB4-7" prefix="Q" urn="urn:adsk.eagle:component:30477921/1">
+<description>&lt;h3&gt; MOSFET P-CH 20V 200MA 3DFN &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.diodes.com/assets/Datasheets/DMP210DUFB4.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="X2-DFN1006-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477911/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="DMP210DUFB4-7DICT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="DMP210DUFB4-7" constant="no"/>
+<attribute name="PACKAGE" value="X2-DFN1006-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIHG47N60EF-GE3" prefix="Q" urn="urn:adsk.eagle:component:30477920/2">
+<description>&lt;h3&gt; MOSFET N-CH 600V 47A TO247AC &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.vishay.com/docs/91559/sihg47n60ef.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-247AC">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477917/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SIHG47N60EF-GE3-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Siliconix" constant="no"/>
+<attribute name="MPN" value="SIHG47N60EF-GE3" constant="no"/>
+<attribute name="PACKAGE" value="TO-247AC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRFP150NPBF" prefix="Q" urn="urn:adsk.eagle:component:30477927/2">
+<description>&lt;h3&gt; MOSFET N-CH 100V 42A TO247AC &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.infineon.com/dgdl/irfp150npbf.pdf?fileId=5546d462533600a4015356286d121fd6"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-247AC">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477917/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IRFP150NPBF-ND" constant="no"/>
+<attribute name="MANUFATURER" value="Infineon Technologies" constant="no"/>
+<attribute name="MPN" value="IRFP150NPBF" constant="no"/>
+<attribute name="PACKAGE" value="TO-247AC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BS170" prefix="Q" urn="urn:adsk.eagle:component:30477928/3">
+<description>&lt;h3&gt; MOSFET N-CH 60V 300MA TO92-3 &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://rocelec.widen.net/view/pdf/fonxoqycul/FAIRS29185-1.pdf?t.download=true&amp;u=5oefqw"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-3">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30477912/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="2156-BS170-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" constant="no"/>
+<attribute name="MPN" value="BS170" constant="no"/>
+<attribute name="PACKAGE" value="TO92-3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

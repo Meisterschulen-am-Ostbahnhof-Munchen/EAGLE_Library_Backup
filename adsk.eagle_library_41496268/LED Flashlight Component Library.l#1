@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RESC1608X60" urn="urn:adsk.eagle:footprint:16378537/2">
+<description>Chip, 1.60 X 0.82 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
+<wire x1="0.85" y1="0.8009" x2="-0.85" y2="0.8009" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.8009" x2="-0.85" y2="-0.8009" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.475" x2="-0.85" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-0.475" x2="-0.85" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="0.475" x2="0.85" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.85" y1="0.475" x2="0.85" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
+<smd name="2" x="0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
+<text x="0" y="1.4359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="KSC441GDCT70SHLFS" urn="urn:adsk.eagle:footprint:19992255/2">
+<smd name="2" x="-4.45" y="2" dx="3.1" dy="1" layer="1"/>
+<smd name="1" x="4.45" y="2" dx="3.1" dy="1" layer="1"/>
+<smd name="4" x="-4.45" y="-2" dx="3.1" dy="1" layer="1"/>
+<smd name="3" x="4.45" y="-2" dx="3.1" dy="1" layer="1"/>
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.127" layer="51"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="2.9" x2="-3.1" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.2" x2="-3.1" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.2" x2="3.1" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-3" x2="-3.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-3.1" x2="3.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-3.1" x2="3.1" y2="-3" width="0.127" layer="21"/>
+<wire x1="-6.15" y1="3.5" x2="-6.15" y2="-3.5" width="0.05" layer="39"/>
+<wire x1="-6.15" y1="-3.5" x2="6.15" y2="-3.5" width="0.05" layer="39"/>
+<wire x1="6.15" y1="-3.5" x2="6.15" y2="3.5" width="0.05" layer="39"/>
+<wire x1="6.15" y1="3.5" x2="-6.15" y2="3.5" width="0.05" layer="39"/>
+<circle x="6.43" y="2" radius="0.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="1.523153125" width="0.127" layer="21"/>
+<text x="-3.5" y="4.29" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-5.25" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="RESC1005X40" urn="urn:adsk.eagle:footprint:16378540/2">
+<description>Chip, 1.05 X 0.54 X 0.40 mm body
+&lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
+<wire x1="0.55" y1="0.636" x2="-0.55" y2="0.636" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.636" x2="-0.55" y2="-0.636" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.3" x2="-0.55" y2="-0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="-0.3" x2="-0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="0.3" x2="0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="0.55" y1="0.3" x2="0.55" y2="-0.3" width="0.12" layer="51"/>
+<smd name="1" x="-0.5075" y="0" dx="0.5351" dy="0.644" layer="1"/>
+<smd name="2" x="0.5075" y="0" dx="0.5351" dy="0.644" layer="1"/>
+<text x="0" y="1.271" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.271" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="LEDRD254W60D565H860B_W90" library_version="11" urn="urn:adsk.eagle:footprint:41496270/1">
+<description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description>
+<wire x1="2.5425" y1="1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="154.1581"/>
+<wire x1="2.5425" y1="-1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="-154.1581"/>
+<wire x1="2.5425" y1="1.2314" x2="2.5425" y2="-1.2314" width="0.12" layer="21"/>
+<wire x1="-2.5946" y1="2.5946" x2="-1.8446" y2="2.5946" width="0.12" layer="21"/>
+<wire x1="-2.2196" y1="2.9696" x2="-2.2196" y2="2.2196" width="0.12" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.981" diameter="1.581"/>
+<pad name="2" x="1.27" y="0" drill="0.981" diameter="1.581"/>
+<circle x="0" y="0" radius="2.825" width="0.12" layer="51"/>
+<text x="0" y="3.6046" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.4642" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC2012X65" urn="urn:adsk.eagle:footprint:16378532/2">
+<description>Chip, 2.00 X 1.25 X 0.65 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 0.65 mm&lt;/p&gt;</description>
+<wire x1="1.075" y1="1.0241" x2="-1.075" y2="1.0241" width="0.127" layer="21"/>
+<wire x1="1.075" y1="-1.0241" x2="-1.075" y2="-1.0241" width="0.127" layer="21"/>
+<wire x1="1.075" y1="-0.7" x2="-1.075" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="-1.075" y1="-0.7" x2="-1.075" y2="0.7" width="0.12" layer="51"/>
+<wire x1="-1.075" y1="0.7" x2="1.075" y2="0.7" width="0.12" layer="51"/>
+<wire x1="1.075" y1="0.7" x2="1.075" y2="-0.7" width="0.12" layer="51"/>
+<smd name="1" x="-0.9195" y="0" dx="1.0312" dy="1.4202" layer="1"/>
+<smd name="2" x="0.9195" y="0" dx="1.0312" dy="1.4202" layer="1"/>
+<text x="0" y="1.6591" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6591" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC3224X71" urn="urn:adsk.eagle:footprint:16378536/2">
+<description>Chip, 3.20 X 2.49 X 0.71 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.49 X 0.71 mm&lt;/p&gt;</description>
+<wire x1="1.675" y1="1.6441" x2="-1.675" y2="1.6441" width="0.127" layer="21"/>
+<wire x1="1.675" y1="-1.6441" x2="-1.675" y2="-1.6441" width="0.127" layer="21"/>
+<wire x1="1.675" y1="-1.32" x2="-1.675" y2="-1.32" width="0.12" layer="51"/>
+<wire x1="-1.675" y1="-1.32" x2="-1.675" y2="1.32" width="0.12" layer="51"/>
+<wire x1="-1.675" y1="1.32" x2="1.675" y2="1.32" width="0.12" layer="51"/>
+<wire x1="1.675" y1="1.32" x2="1.675" y2="-1.32" width="0.12" layer="51"/>
+<smd name="1" x="-1.4695" y="0" dx="1.1312" dy="2.6602" layer="1"/>
+<smd name="2" x="1.4695" y="0" dx="1.1312" dy="2.6602" layer="1"/>
+<text x="0" y="2.2791" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2791" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC3216X70" urn="urn:adsk.eagle:footprint:16378539/2">
+<description>Chip, 3.20 X 1.60 X 0.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 0.70 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.4754" y="0" dx="1.1646" dy="1.8153" layer="1"/>
+<smd name="2" x="1.4754" y="0" dx="1.1646" dy="1.8153" layer="1"/>
+<text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESMELF3515" urn="urn:adsk.eagle:footprint:16378534/2">
+<description>MELF, 3.50 mm length, 1.52 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.52 mm diameter&lt;/p&gt;</description>
+<wire x1="1.105" y1="1.1825" x2="-1.105" y2="1.1825" width="0.127" layer="21"/>
+<wire x1="-1.105" y1="-1.1825" x2="1.105" y2="-1.1825" width="0.127" layer="21"/>
+<wire x1="1.85" y1="-0.8" x2="-1.85" y2="-0.8" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="-0.8" x2="-1.85" y2="0.8" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="0.8" x2="1.85" y2="0.8" width="0.12" layer="51"/>
+<wire x1="1.85" y1="0.8" x2="1.85" y2="-0.8" width="0.12" layer="51"/>
+<smd name="1" x="-1.6813" y="0" dx="1.1527" dy="1.7371" layer="1"/>
+<smd name="2" x="1.6813" y="0" dx="1.1527" dy="1.7371" layer="1"/>
+<text x="0" y="1.8175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESMELF2014" urn="urn:adsk.eagle:footprint:16378535/2">
+<description>MELF, 2.00 mm length, 1.40 mm diameter
+&lt;p&gt;MELF Resistor package with 2.00 mm length and 1.40 mm diameter&lt;/p&gt;</description>
+<wire x1="0.5189" y1="1.114" x2="-0.5189" y2="1.114" width="0.127" layer="21"/>
+<wire x1="-0.5189" y1="-1.114" x2="0.5189" y2="-1.114" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-0.725" x2="-1.05" y2="-0.725" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="-0.725" x2="-1.05" y2="0.725" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="0.725" x2="1.05" y2="0.725" width="0.12" layer="51"/>
+<wire x1="1.05" y1="0.725" x2="1.05" y2="-0.725" width="0.12" layer="51"/>
+<smd name="1" x="-0.9918" y="0" dx="0.9456" dy="1.6" layer="1"/>
+<smd name="2" x="0.9918" y="0" dx="0.9456" dy="1.6" layer="1"/>
+<text x="0" y="1.749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.749" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC6332X71" urn="urn:adsk.eagle:footprint:16378533/2">
+<description>Chip, 6.30 X 3.20 X 0.71 mm body
+&lt;p&gt;Chip package with body size 6.30 X 3.20 X 0.71 mm&lt;/p&gt;</description>
+<wire x1="3.225" y1="1.9991" x2="-3.225" y2="1.9991" width="0.127" layer="21"/>
+<wire x1="3.225" y1="-1.9991" x2="-3.225" y2="-1.9991" width="0.127" layer="21"/>
+<wire x1="3.225" y1="-1.675" x2="-3.225" y2="-1.675" width="0.12" layer="51"/>
+<wire x1="-3.225" y1="-1.675" x2="-3.225" y2="1.675" width="0.12" layer="51"/>
+<wire x1="-3.225" y1="1.675" x2="3.225" y2="1.675" width="0.12" layer="51"/>
+<wire x1="3.225" y1="1.675" x2="3.225" y2="-1.675" width="0.12" layer="51"/>
+<smd name="1" x="-2.9695" y="0" dx="1.2312" dy="3.3702" layer="1"/>
+<smd name="2" x="2.9695" y="0" dx="1.2312" dy="3.3702" layer="1"/>
+<text x="0" y="2.6341" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.6341" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC5025X71" urn="urn:adsk.eagle:footprint:16378538/2">
+<description>Chip, 5.00 X 2.50 X 0.71 mm body
+&lt;p&gt;Chip package with body size 5.00 X 2.50 X 0.71 mm&lt;/p&gt;</description>
+<wire x1="2.575" y1="1.6491" x2="-2.575" y2="1.6491" width="0.127" layer="21"/>
+<wire x1="2.575" y1="-1.6491" x2="-2.575" y2="-1.6491" width="0.127" layer="21"/>
+<wire x1="2.575" y1="-1.325" x2="-2.575" y2="-1.325" width="0.12" layer="51"/>
+<wire x1="-2.575" y1="-1.325" x2="-2.575" y2="1.325" width="0.12" layer="51"/>
+<wire x1="-2.575" y1="1.325" x2="2.575" y2="1.325" width="0.12" layer="51"/>
+<wire x1="2.575" y1="1.325" x2="2.575" y2="-1.325" width="0.12" layer="51"/>
+<smd name="1" x="-2.3195" y="0" dx="1.2312" dy="2.6702" layer="1"/>
+<smd name="2" x="2.3195" y="0" dx="1.2312" dy="2.6702" layer="1"/>
+<text x="0" y="2.2841" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2841" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:footprint:16378542/2">
+<description>AXIAL Resistor, 11.76 mm pitch, 8.5 mm body length, 2.5 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 11.76 mm pitch, 0.63 mm lead diameter, 8.5 mm body length and 2.5 mm body diameter&lt;/p&gt;</description>
+<wire x1="-4.25" y1="1.25" x2="-4.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-1.25" x2="4.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-1.25" x2="4.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="4.25" y1="1.25" x2="-4.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="0" x2="-4.911" y2="0" width="0.127" layer="21"/>
+<wire x1="4.25" y1="0" x2="4.911" y2="0" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="51"/>
+<wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="51"/>
+<wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="51"/>
+<wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="51"/>
+<pad name="1" x="-5.88" y="0" drill="0.83" diameter="1.43"/>
+<pad name="2" x="5.88" y="0" drill="0.83" diameter="1.43"/>
+<text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESMELF5924" urn="urn:adsk.eagle:footprint:16378541/2">
+<description>MELF, 5.90 mm length, 2.45 mm diameter
+&lt;p&gt;MELF Resistor package with 5.90 mm length and 2.45 mm diameter&lt;/p&gt;</description>
+<wire x1="2.1315" y1="1.639" x2="-2.1315" y2="1.639" width="0.127" layer="21"/>
+<wire x1="-2.1315" y1="-1.639" x2="2.1315" y2="-1.639" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-1.25" x2="-3.05" y2="-1.25" width="0.12" layer="51"/>
+<wire x1="-3.05" y1="-1.25" x2="-3.05" y2="1.25" width="0.12" layer="51"/>
+<wire x1="-3.05" y1="1.25" x2="3.05" y2="1.25" width="0.12" layer="51"/>
+<wire x1="3.05" y1="1.25" x2="3.05" y2="-1.25" width="0.12" layer="51"/>
+<smd name="1" x="-2.7946" y="0" dx="1.3261" dy="2.65" layer="1"/>
+<smd name="2" x="2.7946" y="0" dx="1.3261" dy="2.65" layer="1"/>
+<text x="0" y="2.274" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.274" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="BAT_3000" urn="urn:adsk.eagle:footprint:27510224/1">
+<smd name="P1" x="-7.87" y="0.69" dx="3.18" dy="3.18" layer="1"/>
+<smd name="N" x="0" y="0.69" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="7.87" y="0.69" dx="3.18" dy="3.18" layer="1"/>
+<circle x="0" y="0.69" radius="6" width="0.12" layer="21"/>
+<circle x="0" y="0.69" radius="6" width="0.12" layer="51"/>
+<wire x1="-9.65" y1="6.16" x2="9.65" y2="6.16" width="0.12" layer="51"/>
+<wire x1="9.65" y1="6.16" x2="9.65" y2="-6.16" width="0.12" layer="51"/>
+<wire x1="9.65" y1="-6.16" x2="-9.65" y2="-6.16" width="0.12" layer="51"/>
+<wire x1="-9.65" y1="-6.16" x2="-9.65" y2="6.16" width="0.12" layer="51"/>
+<wire x1="-10.414" y1="1.016" x2="-10.414" y2="0.508" width="0.12" layer="21"/>
+<wire x1="-10.668" y1="0.762" x2="-10.16" y2="0.762" width="0.12" layer="21"/>
+<wire x1="10.414" y1="1.016" x2="10.414" y2="0.508" width="0.12" layer="21"/>
+<wire x1="10.16" y1="0.762" x2="10.668" y2="0.762" width="0.12" layer="21"/>
+<wire x1="-9.65" y1="6.16" x2="-5.334" y2="6.16" width="0.12" layer="21"/>
+<wire x1="5.334" y1="6.16" x2="9.65" y2="6.16" width="0.12" layer="21"/>
+<wire x1="9.65" y1="6.16" x2="9.65" y2="3.302" width="0.12" layer="21"/>
+<wire x1="9.65" y1="-1.778" x2="9.65" y2="-6.16" width="0.12" layer="21"/>
+<wire x1="9.65" y1="-6.16" x2="-9.65" y2="-6.16" width="0.12" layer="21"/>
+<wire x1="-9.65" y1="-6.16" x2="-9.65" y2="-1.778" width="0.12" layer="21"/>
+<wire x1="-9.65" y1="3.302" x2="-9.65" y2="6.16" width="0.12" layer="21"/>
+<text x="0" y="7.69" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-7.7521" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="RESAD724W46L381D178B" urn="urn:adsk.eagle:footprint:16378530/2">
+<description>Axial Resistor, 7.24 mm pitch, 3.81 mm body length, 1.78 mm body diameter
+&lt;p&gt;Axial Resistor package with 7.24 mm pitch (lead spacing), 0.46 mm lead diameter, 3.81 mm body length and 1.78 mm body diameter&lt;/p&gt;</description>
+<wire x1="-2.16" y1="1.015" x2="-2.16" y2="-1.015" width="0.127" layer="21"/>
+<wire x1="-2.16" y1="-1.015" x2="2.16" y2="-1.015" width="0.127" layer="21"/>
+<wire x1="2.16" y1="-1.015" x2="2.16" y2="1.015" width="0.127" layer="21"/>
+<wire x1="2.16" y1="1.015" x2="-2.16" y2="1.015" width="0.127" layer="21"/>
+<wire x1="-2.16" y1="0" x2="-2.736" y2="0" width="0.127" layer="21"/>
+<wire x1="2.16" y1="0" x2="2.736" y2="0" width="0.127" layer="21"/>
+<wire x1="2.16" y1="-1.015" x2="-2.16" y2="-1.015" width="0.12" layer="51"/>
+<wire x1="-2.16" y1="-1.015" x2="-2.16" y2="1.015" width="0.12" layer="51"/>
+<wire x1="-2.16" y1="1.015" x2="2.16" y2="1.015" width="0.12" layer="51"/>
+<wire x1="2.16" y1="1.015" x2="2.16" y2="-1.015" width="0.12" layer="51"/>
+<pad name="1" x="-3.62" y="0" drill="0.66" diameter="1.26"/>
+<pad name="2" x="3.62" y="0" drill="0.66" diameter="1.26"/>
+<text x="0" y="1.65" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.65" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="BAT_2996" urn="urn:adsk.eagle:footprint:27510230/1">
+<smd name="P1" x="-7.3" y="0.69" dx="3.18" dy="3.18" layer="1"/>
+<smd name="N" x="0" y="0.69" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="7.3" y="0.69" dx="3.18" dy="3.18" layer="1"/>
+<circle x="0" y="0.69" radius="5.3" width="0.12" layer="21"/>
+<circle x="0" y="0.69" radius="5.3" width="0.12" layer="51"/>
+<wire x1="-9.275" y1="6.16" x2="9.275" y2="6.16" width="0.12" layer="51"/>
+<wire x1="9.275" y1="6.16" x2="9.275" y2="-6.16" width="0.12" layer="51"/>
+<wire x1="9.275" y1="-6.16" x2="-9.275" y2="-6.16" width="0.12" layer="51"/>
+<wire x1="-9.275" y1="-6.16" x2="-9.275" y2="6.16" width="0.12" layer="51"/>
+<wire x1="-9.906" y1="1.016" x2="-9.906" y2="0.508" width="0.12" layer="21"/>
+<wire x1="-10.16" y1="0.762" x2="-9.652" y2="0.762" width="0.12" layer="21"/>
+<wire x1="9.906" y1="1.016" x2="9.906" y2="0.508" width="0.12" layer="21"/>
+<wire x1="9.652" y1="0.762" x2="10.16" y2="0.762" width="0.12" layer="21"/>
+<wire x1="-9.275" y1="6.16" x2="-5.08" y2="6.16" width="0.12" layer="21"/>
+<wire x1="5.08" y1="6.16" x2="9.275" y2="6.16" width="0.12" layer="21"/>
+<wire x1="9.275" y1="6.16" x2="9.275" y2="3.302" width="0.12" layer="21"/>
+<wire x1="9.275" y1="-1.778" x2="9.275" y2="-6.16" width="0.12" layer="21"/>
+<wire x1="9.275" y1="-6.16" x2="-9.275" y2="-6.16" width="0.12" layer="21"/>
+<wire x1="-9.275" y1="-6.16" x2="-9.275" y2="-1.778" width="0.12" layer="21"/>
+<wire x1="-9.275" y1="3.302" x2="-9.275" y2="6.16" width="0.12" layer="21"/>
+<text x="0" y="7.526121875" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-7.1021" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="RESMELF3218" urn="urn:adsk.eagle:footprint:16378531/2">
+<description>MELF, 3.20 mm length, 1.80 mm diameter
+&lt;p&gt;MELF Resistor package with 3.20 mm length and 1.80 mm diameter&lt;/p&gt;</description>
+<wire x1="0.8815" y1="1.314" x2="-0.8815" y2="1.314" width="0.127" layer="21"/>
+<wire x1="-0.8815" y1="-1.314" x2="0.8815" y2="-1.314" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-0.925" x2="-1.7" y2="-0.925" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.925" x2="-1.7" y2="0.925" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.925" x2="1.7" y2="0.925" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.925" x2="1.7" y2="-0.925" width="0.12" layer="51"/>
+<smd name="1" x="-1.4946" y="0" dx="1.2261" dy="2" layer="1"/>
+<smd name="2" x="1.4946" y="0" dx="1.2261" dy="2" layer="1"/>
+<text x="0" y="1.949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.949" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="BAT_3002" urn="urn:adsk.eagle:footprint:27510228/2">
+<smd name="P1" x="-12.825" y="0.65" dx="5.08" dy="5.08" layer="1"/>
+<smd name="N" x="0" y="0.65" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="12.825" y="0.65" dx="5.08" dy="5.08" layer="1"/>
+<circle x="0" y="0.65" radius="10" width="0.12" layer="21"/>
+<circle x="0" y="0.65" radius="10" width="0.12" layer="51"/>
+<wire x1="-15.555" y1="10.055" x2="15.555" y2="10.055" width="0.12" layer="51"/>
+<wire x1="15.555" y1="10.055" x2="15.555" y2="-10.055" width="0.12" layer="51"/>
+<wire x1="15.555" y1="-10.055" x2="-15.555" y2="-10.055" width="0.12" layer="51"/>
+<wire x1="-15.555" y1="-10.055" x2="-15.555" y2="10.055" width="0.12" layer="51"/>
+<wire x1="16.002" y1="0.508" x2="17.018" y2="0.508" width="0.12" layer="21"/>
+<wire x1="7.62" y1="10.055" x2="15.555" y2="10.055" width="0.12" layer="21"/>
+<wire x1="15.555" y1="-2.54" x2="15.555" y2="-10.055" width="0.12" layer="21"/>
+<wire x1="15.555" y1="-10.055" x2="-15.555" y2="-10.055" width="0.12" layer="21"/>
+<wire x1="-15.555" y1="-10.055" x2="-15.555" y2="-2.54" width="0.12" layer="21"/>
+<wire x1="15.555" y1="10.055" x2="15.555" y2="3.81" width="0.12" layer="21"/>
+<wire x1="-15.555" y1="10.055" x2="-7.305" y2="10.055" width="0.12" layer="21"/>
+<wire x1="-15.555" y1="3.81" x2="-15.555" y2="10.055" width="0.12" layer="21"/>
+<wire x1="16.51" y1="1.016" x2="16.51" y2="0" width="0.12" layer="21"/>
+<wire x1="-17.018" y1="0.762" x2="-16.002" y2="0.762" width="0.12" layer="21"/>
+<wire x1="-16.51" y1="1.27" x2="-16.51" y2="0.254" width="0.12" layer="21"/>
+<text x="0" y="11.95" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-11.62" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="BAT_3004" urn="urn:adsk.eagle:footprint:27510223/1">
+<smd name="P1" x="-14.465" y="1.485" dx="5.08" dy="5.08" layer="1"/>
+<smd name="N" x="0" y="1.485" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="14.465" y="1.485" dx="5.08" dy="5.08" layer="1"/>
+<circle x="0" y="1.485" radius="11.5" width="0.12" layer="21"/>
+<circle x="0" y="1.485" radius="11.5" width="0.12" layer="51"/>
+<wire x1="-17.195" y1="10.69" x2="17.195" y2="10.69" width="0.12" layer="51"/>
+<wire x1="17.195" y1="10.69" x2="17.195" y2="-10.69" width="0.12" layer="51"/>
+<wire x1="17.195" y1="-10.69" x2="-17.195" y2="-10.69" width="0.12" layer="51"/>
+<wire x1="-17.195" y1="-10.69" x2="-17.195" y2="10.69" width="0.12" layer="51"/>
+<wire x1="-17.195" y1="10.69" x2="-8.89" y2="10.69" width="0.12" layer="21"/>
+<wire x1="8.89" y1="10.69" x2="17.195" y2="10.69" width="0.12" layer="21"/>
+<wire x1="17.195" y1="10.69" x2="17.195" y2="5.08" width="0.12" layer="21"/>
+<wire x1="-17.195" y1="5.08" x2="-17.195" y2="10.69" width="0.12" layer="21"/>
+<wire x1="17.195" y1="-10.69" x2="-17.195" y2="-10.69" width="0.12" layer="21"/>
+<wire x1="-18.796" y1="1.524" x2="-17.78" y2="1.524" width="0.12" layer="21"/>
+<wire x1="-18.288" y1="2.032" x2="-18.288" y2="1.016" width="0.12" layer="21"/>
+<wire x1="17.78" y1="1.524" x2="18.796" y2="1.524" width="0.12" layer="21"/>
+<wire x1="18.288" y1="2.032" x2="18.288" y2="1.016" width="0.12" layer="21"/>
+<wire x1="-17.195" y1="-10.69" x2="-17.195" y2="-2.032" width="0.12" layer="21"/>
+<wire x1="17.195" y1="-2.032" x2="17.195" y2="-10.69" width="0.12" layer="21"/>
+<text x="0" y="14.765" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-12.007" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="BAT_3010" urn="urn:adsk.eagle:footprint:27510226/1">
+<smd name="P1" x="-14.465" y="1.65" dx="5.08" dy="5.08" layer="1"/>
+<smd name="N" x="0" y="1.65" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="14.465" y="1.65" dx="5.08" dy="5.08" layer="1"/>
+<circle x="0" y="1.65" radius="11.5" width="0.12" layer="21"/>
+<circle x="0" y="1.65" radius="11.5" width="0.12" layer="51"/>
+<wire x1="-17.195" y1="10.525" x2="17.195" y2="10.525" width="0.12" layer="51"/>
+<wire x1="17.195" y1="10.525" x2="17.195" y2="-10.525" width="0.12" layer="51"/>
+<wire x1="17.195" y1="-10.525" x2="-17.195" y2="-10.525" width="0.12" layer="51"/>
+<wire x1="-17.195" y1="-10.525" x2="-17.195" y2="10.525" width="0.12" layer="51"/>
+<wire x1="-17.195" y1="5.08" x2="-17.195" y2="10.525" width="0.12" layer="21"/>
+<wire x1="-17.195" y1="-10.525" x2="17.195" y2="-10.525" width="0.12" layer="21"/>
+<wire x1="-18.796" y1="1.524" x2="-17.78" y2="1.524" width="0.12" layer="21"/>
+<wire x1="-18.288" y1="2.032" x2="-18.288" y2="1.016" width="0.12" layer="21"/>
+<wire x1="17.78" y1="1.524" x2="18.796" y2="1.524" width="0.12" layer="21"/>
+<wire x1="18.288" y1="2.032" x2="18.288" y2="1.016" width="0.12" layer="21"/>
+<wire x1="17.195" y1="-10.525" x2="17.195" y2="-2.032" width="0.12" layer="21"/>
+<wire x1="-17.195" y1="-2.54" x2="-17.195" y2="-10.525" width="0.12" layer="21"/>
+<wire x1="17.195" y1="5.08" x2="17.195" y2="10.525" width="0.12" layer="21"/>
+<wire x1="10.16" y1="10.525" x2="17.195" y2="10.525" width="0.12" layer="21"/>
+<wire x1="-17.195" y1="10.525" x2="-8.446" y2="10.525" width="0.12" layer="21"/>
+<text x="-0.508" y="14.382" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.254" y="-11.842" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="BAT_3008" urn="urn:adsk.eagle:footprint:27510227/1">
+<smd name="P1" x="-15.24" y="1.515" dx="5.08" dy="5.08" layer="1"/>
+<smd name="N" x="0" y="1.515" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="15.24" y="1.515" dx="5.08" dy="5.08" layer="1"/>
+<circle x="0" y="1.515" radius="12.25" width="0.12" layer="51"/>
+<circle x="0" y="1.515" radius="12.25" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="11.43" x2="17.97" y2="11.43" width="0.12" layer="51"/>
+<wire x1="17.97" y1="11.43" x2="17.97" y2="-11.43" width="0.12" layer="51"/>
+<wire x1="17.97" y1="-11.43" x2="-17.97" y2="-11.43" width="0.12" layer="51"/>
+<wire x1="-17.97" y1="-11.43" x2="-17.97" y2="11.43" width="0.12" layer="51"/>
+<wire x1="-17.97" y1="5.08" x2="-17.97" y2="11.43" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="-11.43" x2="17.97" y2="-11.43" width="0.12" layer="21"/>
+<wire x1="-19.558" y1="1.524" x2="-18.542" y2="1.524" width="0.12" layer="21"/>
+<wire x1="-19.05" y1="2.032" x2="-19.05" y2="1.016" width="0.12" layer="21"/>
+<wire x1="18.542" y1="1.524" x2="19.558" y2="1.524" width="0.12" layer="21"/>
+<wire x1="19.05" y1="2.032" x2="19.05" y2="1.016" width="0.12" layer="21"/>
+<wire x1="17.97" y1="-11.43" x2="17.97" y2="-2.794" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="-2.794" x2="-17.97" y2="-11.43" width="0.12" layer="21"/>
+<wire x1="17.97" y1="5.08" x2="17.97" y2="11.43" width="0.12" layer="21"/>
+<wire x1="9.398" y1="11.43" x2="17.97" y2="11.43" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="11.43" x2="-9.208" y2="11.43" width="0.12" layer="21"/>
+<text x="0" y="14.795" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-12.485" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="BAT_3012" urn="urn:adsk.eagle:footprint:41496271/1">
+<smd name="P1" x="-10.02" y="1.19" dx="3.18" dy="3.18" layer="1"/>
+<smd name="N" x="0" y="1.19" dx="10.16" dy="10.16" layer="1"/>
+<smd name="P" x="10.02" y="1.19" dx="3.18" dy="3.18" layer="1"/>
+<circle x="0" y="1.19" radius="8" width="0.12" layer="21"/>
+<circle x="0" y="1.19" radius="8" width="0.12" layer="51"/>
+<wire x1="-11.735" y1="7.66" x2="11.735" y2="7.66" width="0.12" layer="51"/>
+<wire x1="11.735" y1="7.66" x2="11.735" y2="-7.66" width="0.12" layer="51"/>
+<wire x1="11.735" y1="-7.66" x2="-11.735" y2="-7.66" width="0.12" layer="51"/>
+<wire x1="-11.735" y1="-7.66" x2="-11.735" y2="7.66" width="0.12" layer="51"/>
+<wire x1="-11.735" y1="3.81" x2="-11.735" y2="7.66" width="0.12" layer="21"/>
+<wire x1="-11.735" y1="-7.66" x2="11.735" y2="-7.66" width="0.12" layer="21"/>
+<wire x1="-13.462" y1="1.016" x2="-12.446" y2="1.016" width="0.12" layer="21"/>
+<wire x1="-12.954" y1="1.524" x2="-12.954" y2="0.508" width="0.12" layer="21"/>
+<wire x1="12.446" y1="1.27" x2="13.462" y2="1.27" width="0.12" layer="21"/>
+<wire x1="12.954" y1="1.778" x2="12.954" y2="0.762" width="0.12" layer="21"/>
+<wire x1="11.735" y1="-7.66" x2="11.735" y2="-1.778" width="0.12" layer="21"/>
+<wire x1="-11.735" y1="-1.778" x2="-11.735" y2="-7.66" width="0.12" layer="21"/>
+<wire x1="-11.735" y1="7.66" x2="-6.35" y2="7.66" width="0.12" layer="21"/>
+<wire x1="6.35" y1="7.66" x2="11.724" y2="7.66" width="0.12" layer="21"/>
+<wire x1="11.724" y1="7.66" x2="11.724" y2="3.81" width="0.12" layer="21"/>
+<text x="0" y="10.66" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-9.1421" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="BAT_3006" urn="urn:adsk.eagle:footprint:27510225/1">
+<smd name="P1" x="-15.24" y="1.19" dx="5.08" dy="5.08" layer="1"/>
+<smd name="N" x="0" y="1.19" dx="3.96" dy="3.96" layer="1"/>
+<smd name="P" x="15.24" y="1.19" dx="5.08" dy="5.08" layer="1"/>
+<circle x="0" y="1.19" radius="12" width="0.12" layer="21"/>
+<circle x="0" y="1.19" radius="12" width="0.12" layer="51"/>
+<wire x1="-17.97" y1="11.785" x2="17.97" y2="11.785" width="0.12" layer="51"/>
+<wire x1="17.97" y1="11.785" x2="17.97" y2="-11.785" width="0.12" layer="51"/>
+<wire x1="17.97" y1="-11.785" x2="-17.97" y2="-11.785" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="-11.785" x2="-17.97" y2="11.785" width="0.12" layer="51"/>
+<wire x1="-17.97" y1="4.572" x2="-17.97" y2="11.785" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="-11.785" x2="17.97" y2="-11.785" width="0.12" layer="21"/>
+<wire x1="-19.558" y1="1.27" x2="-18.542" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-19.05" y1="1.778" x2="-19.05" y2="0.762" width="0.12" layer="21"/>
+<wire x1="18.542" y1="1.27" x2="19.558" y2="1.27" width="0.12" layer="21"/>
+<wire x1="19.05" y1="1.778" x2="19.05" y2="0.762" width="0.12" layer="21"/>
+<wire x1="17.97" y1="-11.785" x2="17.97" y2="-2.54" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="-2.54" x2="-17.97" y2="-11.785" width="0.12" layer="21"/>
+<wire x1="17.97" y1="4.572" x2="17.97" y2="11.785" width="0.12" layer="21"/>
+<wire x1="9.398" y1="11.785" x2="17.97" y2="11.785" width="0.12" layer="21"/>
+<wire x1="-17.97" y1="11.785" x2="-9.208" y2="11.785" width="0.12" layer="21"/>
+<text x="0" y="14.47" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-12.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RESC1608X60" urn="urn:adsk.eagle:package:16378565/2" type="model">
+<description>Chip, 1.60 X 0.82 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1608X60"/>
+</packageinstances>
+</package3d>
+<package3d name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:package:41496276/1" type="model">
+<description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="LEDRD254W60D565H860B_W90"/>
+</packageinstances>
+</package3d>
+<package3d name="KSC441GDCT70SHLFS" urn="urn:adsk.eagle:package:19992271/3" type="model">
+<packageinstances>
+<packageinstance name="KSC441GDCT70SHLFS"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X40" urn="urn:adsk.eagle:package:16378568/2" type="model">
+<description>Chip, 1.05 X 0.54 X 0.40 mm body
+&lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X40"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC3224X71" urn="urn:adsk.eagle:package:16378563/3" type="model">
+<description>Chip, 3.20 X 2.49 X 0.71 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.49 X 0.71 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC3224X71"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC2012X65" urn="urn:adsk.eagle:package:16378559/2" type="model">
+<description>Chip, 2.00 X 1.25 X 0.65 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 0.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC2012X65"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC5025X71" urn="urn:adsk.eagle:package:16378564/2" type="model">
+<description>Chip, 5.00 X 2.50 X 0.71 mm body
+&lt;p&gt;Chip package with body size 5.00 X 2.50 X 0.71 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC5025X71"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC3216X70" urn="urn:adsk.eagle:package:16378566/2" type="model">
+<description>Chip, 3.20 X 1.60 X 0.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 0.70 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC3216X70"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF2014" urn="urn:adsk.eagle:package:16378558/2" type="model">
+<description>MELF, 2.00 mm length, 1.40 mm diameter
+&lt;p&gt;MELF Resistor package with 2.00 mm length and 1.40 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESMELF2014"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF3515" urn="urn:adsk.eagle:package:16378562/2" type="model">
+<description>MELF, 3.50 mm length, 1.52 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.52 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESMELF3515"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC6332X71L" urn="urn:adsk.eagle:package:16378557/3" type="model">
+<description>Chip, 6.30 X 3.20 X 0.71 mm body
+&lt;p&gt;Chip package with body size 6.30 X 3.20 X 0.71 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC6332X71"/>
+</packageinstances>
+</package3d>
+<package3d name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:package:16378560/2" type="model">
+<description>AXIAL Resistor, 11.76 mm pitch, 8.5 mm body length, 2.5 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 11.76 mm pitch, 0.63 mm lead diameter, 8.5 mm body length and 2.5 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESAD1176W63L850D250B"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF5924" urn="urn:adsk.eagle:package:16378567/3" type="model">
+<description>MELF, 5.90 mm length, 2.45 mm diameter
+&lt;p&gt;MELF Resistor package with 5.90 mm length and 2.45 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESMELF5924"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF3218" urn="urn:adsk.eagle:package:16378556/2" type="model">
+<description>MELF, 3.20 mm length, 1.80 mm diameter
+&lt;p&gt;MELF Resistor package with 3.20 mm length and 1.80 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESMELF3218"/>
+</packageinstances>
+</package3d>
+<package3d name="RESAD724W46L381D178B" urn="urn:adsk.eagle:package:16378561/2" type="model">
+<description>Axial Resistor, 7.24 mm pitch, 3.81 mm body length, 1.78 mm body diameter
+&lt;p&gt;Axial Resistor package with 7.24 mm pitch (lead spacing), 0.46 mm lead diameter, 3.81 mm body length and 1.78 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESAD724W46L381D178B"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3000" urn="urn:adsk.eagle:package:27510248/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_3000"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_2996" urn="urn:adsk.eagle:package:27510251/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_2996"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3004" urn="urn:adsk.eagle:package:27510246/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_3004"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3002" urn="urn:adsk.eagle:package:27510254/2" type="model">
+<packageinstances>
+<packageinstance name="BAT_3002"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3008" urn="urn:adsk.eagle:package:27510245/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_3008"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3010" urn="urn:adsk.eagle:package:27510240/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_3010"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3006" urn="urn:adsk.eagle:package:27510247/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_3006"/>
+</packageinstances>
+</package3d>
+<package3d name="BAT_3012" urn="urn:adsk.eagle:package:41496277/1" type="model">
+<packageinstances>
+<packageinstance name="BAT_3012"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="LED" library_version="11" urn="urn:adsk.eagle:symbol:41496273/1">
+<description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description>
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="2.286" y="-0.762" size="1.778" layer="95" rot="R180" align="top-right">&gt;NAME</text>
+<text x="1.905" y="-3.302" size="1.778" layer="96" rot="R180" align="top-right">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94" pour="solid">
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94" pour="solid">
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="SPST4PIN_NO-2" library_version="4" urn="urn:adsk.eagle:symbol:41496272/1">
+<circle x="-2.54" y="2.54" radius="0.508" width="0" layer="94"/>
+<circle x="5.08" y="2.54" radius="0.508" width="0" layer="94"/>
+<circle x="-2.54" y="0" radius="0.508" width="0" layer="94"/>
+<text x="-3.048" y="4.826" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.588" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-1.524" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="0" x2="2.286" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="R-US" urn="urn:adsk.eagle:symbol:16378528/2">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="0" y="2.7686" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-3.302" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+</symbol>
+<symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:13870/1">
+<frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
+</symbol>
+<symbol name="BAT-3N" urn="urn:adsk.eagle:symbol:27510220/1">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.715" y1="2.54" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.905" x2="-5.08" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="2.54" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<text x="-1.27" y="6.35" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="-1.27" y="-6.35" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="+" x="-10.16" y="0" length="short"/>
+<pin name="-" x="7.62" y="0" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND" library_version="1" urn="urn:adsk.eagle:component:41496279/1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LETTER_L" prefix="FRAME" uservalue="yes" library_version="1" urn="urn:adsk.eagle:component:41496283/1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+LETTER landscape</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED" prefix="D" urn="urn:adsk.eagle:component:41496278/1">
+<description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="WHITE90" package="LEDRD254W60D565H860B_W90">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="C" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41496276/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KSC441GDCT70SHLFS" prefix="S" library_version="4" urn="urn:adsk.eagle:component:41496281/1">
+<description>&lt;h3&gt; TACT 6.2 X 6.2, 5.2 MM H, 4.75N, &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://www.ckswitches.com/media/2629/ksc-dct.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPST4PIN_NO-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KSC441GDCT70SHLFS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19992271/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="CKN12187TR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="C&amp;K" constant="no"/>
+<attribute name="MPN" value="KSC441G DCT 70SH LFS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R-US" prefix="R" urn="urn:adsk.eagle:component:41496280/1">
+<description>&lt;B&gt;Resistor Fixed - ANSI</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CHIP-0402(1005-METRIC)" package="RESC1005X40">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378568/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-0603(1608-METRIC)" package="RESC1608X60">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378565/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-0805(2012-METRIC)" package="RESC2012X65">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378559/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-1206(3216-METRIC)" package="RESC3216X70">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378566/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-1210(3225-METRIC)" package="RESC3224X71">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378563/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-2010(5025-METRIC)" package="RESC5025X71">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378564/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-2512(6332-METRIC)" package="RESC6332X71">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378557/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="AXIAL-11.7MM-PITCH" package="RESAD1176W63L850D250B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378560/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MELF(3515-METRIC)" package="RESMELF3515">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378562/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MELF(2014-METRIC)" package="RESMELF2014">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378558/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MELF(5924-METRIC)" package="RESMELF5924">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378567/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MELF(3218-METRIC)" package="RESMELF3218">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378556/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="AXIAL-7.2MM-PITCH" package="RESAD724W46L381D178B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378561/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Resistor" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+</deviceset>
+<deviceset name="COIN-CELL-SMT-3P-?-" prefix="BT" uservalue="yes" urn="urn:adsk.eagle:component:41496282/1">
+<description>Battery Holders - Coin Cell SMD - CR2032, LR44, SR44 etc.
+
+
+&lt;BR&gt;&lt;a href="https://docs.rs-online.com/b397/0900766b813ec0e2.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BAT-3N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2996" package="BAT_2996">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510251/1"/>
+</package3dinstances>
+<technologies>
+<technology name="303">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="303" constant="no"/>
+</technology>
+<technology name="357">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="357" constant="no"/>
+</technology>
+<technology name="G-13">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="G-13" constant="no"/>
+</technology>
+<technology name="LR44">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="LR44" constant="no"/>
+</technology>
+<technology name="MS76">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="MS76" constant="no"/>
+</technology>
+<technology name="PX76A">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="PX76A" constant="no"/>
+</technology>
+<technology name="SR44">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="SR44" constant="no"/>
+</technology>
+<technology name="V313">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="11.6mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 11.6mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="2996" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="V313" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3000" package="BAT_3000">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510248/1"/>
+</package3dinstances>
+<technologies>
+<technology name="BR1216">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="12mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3000" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR1216" constant="no"/>
+</technology>
+<technology name="BR1220">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="12mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3000" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR1220" constant="no"/>
+</technology>
+<technology name="BR1225">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="12mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3000" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR1225" constant="no"/>
+</technology>
+<technology name="CL1220">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="12mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3000" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CL1220" constant="no"/>
+</technology>
+<technology name="CR1216">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="12mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3000" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR1216" constant="no"/>
+</technology>
+<technology name="CR1220">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="12mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3000" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR1220" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3002" package="BAT_3002">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510254/2"/>
+</package3dinstances>
+<technologies>
+<technology name="BR2016">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR2016" constant="no"/>
+</technology>
+<technology name="BR2020">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR2020" constant="no"/>
+</technology>
+<technology name="BR2025">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR2025" constant="no"/>
+</technology>
+<technology name="CL2020">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CL2020" constant="no"/>
+</technology>
+<technology name="CR2016">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2016" constant="no"/>
+</technology>
+<technology name="CR2025">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2025" constant="no"/>
+</technology>
+<technology name="CR2032">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2032" constant="no"/>
+</technology>
+<technology name="DL2016">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DL2016" constant="no"/>
+</technology>
+<technology name="DL2025">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DL2025" constant="no"/>
+</technology>
+<technology name="DL2032">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DL2032" constant="no"/>
+</technology>
+<technology name="DR2032">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="20mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3002" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DR2032" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3004" package="BAT_3004">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510246/1"/>
+</package3dinstances>
+<technologies>
+<technology name="BR2320">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3004" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR2320" constant="no"/>
+</technology>
+<technology name="BR2325">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3004" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR2325" constant="no"/>
+</technology>
+<technology name="CL2330">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3004" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CL2330" constant="no"/>
+</technology>
+<technology name="CR2320">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3004" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2320" constant="no"/>
+</technology>
+<technology name="CR2325">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3004" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2325" constant="no"/>
+</technology>
+<technology name="DL2325">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3004" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DL2325" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3006" package="BAT_3006">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510247/1"/>
+</package3dinstances>
+<technologies>
+<technology name="CR2430">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="24mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 24mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3006" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2430" constant="no"/>
+</technology>
+<technology name="DL2430">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="24mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 24mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3006" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DL2430" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3008" package="BAT_3008">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510245/1"/>
+</package3dinstances>
+<technologies>
+<technology name="CR2450">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="24mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 24mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3008" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR2450" constant="no"/>
+</technology>
+<technology name="DL2450">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="24mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 24mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3008" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB_CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="DL2450" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3010" package="BAT_3010">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27510240/1"/>
+</package3dinstances>
+<technologies>
+<technology name="CR2354">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3010" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="RROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin cell" constant="no"/>
+<attribute name="VALUE" value="CR2354" constant="no"/>
+</technology>
+<technology name="DL2354">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="23mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 23.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3010" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="RROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin cell" constant="no"/>
+<attribute name="VALUE" value="DL2354" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3012" package="BAT_3012">
+<connects>
+<connect gate="G$1" pin="+" pad="P P1"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41496277/1"/>
+</package3dinstances>
+<technologies>
+<technology name="BR1616">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="16mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 16.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3012" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="BR1616" constant="no"/>
+</technology>
+<technology name="CR1612">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="16mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 16.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3012" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR1612" constant="no"/>
+</technology>
+<technology name="CR1616">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="16mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 16.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3012" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR1616" constant="no"/>
+</technology>
+<technology name="CR1620">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="16mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 16.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3012" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR1620" constant="no"/>
+</technology>
+<technology name="CR1632">
+<attribute name="CATEGORY" value="Battery-Holder" constant="no"/>
+<attribute name="CELL_DIAMETER" value="16mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Battery Retainer Coin, 16.0mm 1 Cell SMD (SMT) Tab" constant="no"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="3012" constant="no"/>
+<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="-" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Holder" constant="no"/>
+<attribute name="TYPE" value="Coin Cell" constant="no"/>
+<attribute name="VALUE" value="CR1632" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">
+Since Version 8.4, EAGLE supports properties for SPICE simulation. 
+Probes in schematics and SPICE mapping objects found in parts and library devices
+will not be understood with this version. Update EAGLE to the latest version
+for full support of SPICE simulation. 
+</note>
+</compatibility>
+</eagle>

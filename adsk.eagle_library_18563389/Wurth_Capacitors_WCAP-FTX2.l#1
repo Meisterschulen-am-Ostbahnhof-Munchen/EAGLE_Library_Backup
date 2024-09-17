@@ -1,0 +1,3399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Capacitors - Film Capacitors - WCAP-FTX2&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-03-11&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-FTX2_22.5X26X15X25(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563391/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X15X25(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="7.5" x2="13" y2="7.5" width="0.1" layer="51"/>
+<wire x1="13" y1="7.5" x2="13" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="13" y1="-7.5" x2="-13" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-13" y1="-7.5" x2="-13" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="7.6" x2="13.1" y2="7.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="7.6" x2="13.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-7.6" x2="-13.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-7.6" x2="-13.1" y2="7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="7.8"/>
+<vertex x="13.3" y="7.8"/>
+<vertex x="13.3" y="-7.8"/>
+<vertex x="-13.3" y="-7.8"/>
+</polygon>
+<text x="0" y="8.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-9.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X6X15(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563397/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X6X15(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="3" x2="13" y2="3" width="0.1" layer="51"/>
+<wire x1="13" y1="3" x2="13" y2="-3" width="0.1" layer="51"/>
+<wire x1="13" y1="-3" x2="-13" y2="-3" width="0.1" layer="51"/>
+<wire x1="-13" y1="-3" x2="-13" y2="3" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="3.1" x2="13.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="3.1" x2="13.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-3.1" x2="-13.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-3.1" x2="-13.1" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="3.3"/>
+<vertex x="13.3" y="3.3"/>
+<vertex x="13.3" y="-3.3"/>
+<vertex x="-13.3" y="-3.3"/>
+</polygon>
+<text x="-0.1" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-4.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X11X20(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563393/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X11X20(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="5.5" x2="13" y2="5.5" width="0.1" layer="51"/>
+<wire x1="13" y1="5.5" x2="13" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="13" y1="-5.5" x2="-13" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-13" y1="-5.5" x2="-13" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="5.6" x2="13.1" y2="5.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="5.6" x2="13.1" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-5.6" x2="-13.1" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-5.6" x2="-13.1" y2="5.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="5.8"/>
+<vertex x="13.3" y="5.8"/>
+<vertex x="13.3" y="-5.8"/>
+<vertex x="-13.3" y="-5.8"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X7.5X15(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563396/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X7.5X15(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="3.75" x2="13" y2="3.75" width="0.1" layer="51"/>
+<wire x1="13" y1="3.75" x2="13" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="13" y1="-3.75" x2="-13" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-13" y1="-3.75" x2="-13" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="3.85" x2="13.1" y2="3.85" width="0.2" layer="21"/>
+<wire x1="13.1" y1="3.85" x2="13.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-3.85" x2="-13.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-3.85" x2="-13.1" y2="3.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="4.05"/>
+<vertex x="13.3" y="4.05"/>
+<vertex x="13.3" y="-4.05"/>
+<vertex x="-13.3" y="-4.05"/>
+</polygon>
+<text x="-0.1" y="4.75" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-5.65" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X9X18(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563394/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X9X18(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="4.5" x2="13" y2="4.5" width="0.1" layer="51"/>
+<wire x1="13" y1="4.5" x2="13" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="13" y1="-4.5" x2="-13" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-13" y1="-4.5" x2="-13" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="4.6" x2="13.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="4.6" x2="13.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-4.6" x2="-13.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-4.6" x2="-13.1" y2="4.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="4.8"/>
+<vertex x="13.3" y="4.8"/>
+<vertex x="13.3" y="-4.8"/>
+<vertex x="-13.3" y="-4.8"/>
+</polygon>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-6.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_27.5X31X15.5X29(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563421/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X15.5X29(PitchXLXWXH)</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-15.5" y1="7.75" x2="15.5" y2="7.75" width="0.1" layer="51"/>
+<wire x1="15.5" y1="7.75" x2="15.5" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-7.75" x2="-15.5" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-7.75" x2="-15.5" y2="7.75" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="7.85" x2="15.6" y2="7.85" width="0.2" layer="21"/>
+<wire x1="15.6" y1="7.85" x2="15.6" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-7.85" x2="-15.6" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-7.85" x2="-15.6" y2="7.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="8.05"/>
+<vertex x="15.8" y="8.05"/>
+<vertex x="15.8" y="-8.05"/>
+<vertex x="-15.8" y="-8.05"/>
+</polygon>
+<text x="0.4" y="8.75" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.95" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X7.5X16.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563395/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X7.5X16.5(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="3.75" x2="13" y2="3.75" width="0.1" layer="51"/>
+<wire x1="13" y1="3.75" x2="13" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="13" y1="-3.75" x2="-13" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-13" y1="-3.75" x2="-13" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="3.85" x2="13.1" y2="3.85" width="0.2" layer="21"/>
+<wire x1="13.1" y1="3.85" x2="13.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-3.85" x2="-13.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-3.85" x2="-13.1" y2="3.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="4.05"/>
+<vertex x="13.3" y="4.05"/>
+<vertex x="13.3" y="-4.05"/>
+<vertex x="-13.3" y="-4.05"/>
+</polygon>
+<text x="-0.1" y="4.75" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-5.65" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_27.5X31X13X22(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563420/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X13X22(PitchXLXWXH)</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-15.5" y1="6.5" x2="15.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="15.5" y1="6.5" x2="15.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-6.5" x2="-15.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-6.5" x2="-15.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="6.6" x2="15.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="6.6" x2="15.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-6.6" x2="-15.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-6.6" x2="-15.6" y2="6.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="6.8"/>
+<vertex x="15.8" y="6.8"/>
+<vertex x="15.8" y="-6.8"/>
+<vertex x="-15.8" y="-6.8"/>
+</polygon>
+<text x="0.4" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X6X12(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563424/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X6X12(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="3" x2="13" y2="3" width="0.1" layer="51"/>
+<wire x1="13" y1="3" x2="13" y2="-3" width="0.1" layer="51"/>
+<wire x1="13" y1="-3" x2="-13" y2="-3" width="0.1" layer="51"/>
+<wire x1="-13" y1="-3" x2="-13" y2="3" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="3.1" x2="13.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="3.1" x2="13.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-3.1" x2="-13.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-3.1" x2="-13.1" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="3.3"/>
+<vertex x="13.3" y="3.3"/>
+<vertex x="13.3" y="-3.3"/>
+<vertex x="-13.3" y="-3.3"/>
+</polygon>
+<text x="-0.1" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-4.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_27.5X31X19X32.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563423/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X19X32.5(PitchXLXWXH)</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-15.5" y1="9.5" x2="15.5" y2="9.5" width="0.1" layer="51"/>
+<wire x1="15.5" y1="9.5" x2="15.5" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-9.5" x2="-15.5" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-9.5" x2="-15.5" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="9.6" x2="15.6" y2="9.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="9.6" x2="15.6" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-9.6" x2="-15.6" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-9.6" x2="-15.6" y2="9.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="9.8"/>
+<vertex x="15.8" y="9.8"/>
+<vertex x="15.8" y="-9.8"/>
+<vertex x="-15.8" y="-9.8"/>
+</polygon>
+<text x="0.4" y="10.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_22.5X26X10X21(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563392/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X10X21(PitchXLXWXH)</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="5" x2="13" y2="5" width="0.1" layer="51"/>
+<wire x1="13" y1="5" x2="13" y2="-5" width="0.1" layer="51"/>
+<wire x1="13" y1="-5" x2="-13" y2="-5" width="0.1" layer="51"/>
+<wire x1="-13" y1="-5" x2="-13" y2="5" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="5.1" x2="13.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="5.1" x2="13.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-5.1" x2="-13.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-5.1" x2="-13.1" y2="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="5.3"/>
+<vertex x="13.3" y="5.3"/>
+<vertex x="13.3" y="-5.3"/>
+<vertex x="-13.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X5X11(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563405/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X5X11(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="2.5" x2="9" y2="2.5" width="0.1" layer="51"/>
+<wire x1="9" y1="2.5" x2="9" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="9" y1="-2.5" x2="-9" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-2.5" x2="-9" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="2.6" x2="9.1" y2="2.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="2.6" x2="9.1" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-2.6" x2="-9.1" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-2.6" x2="-9.1" y2="2.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="2.8"/>
+<vertex x="9.3" y="2.8"/>
+<vertex x="9.3" y="-2.8"/>
+<vertex x="-9.3" y="-2.8"/>
+</polygon>
+<text x="-0.1" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_27.5X31X10.5X20(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563390/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X10.5X20(PitchXLXWXH)</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-15.5" y1="5.25" x2="15.5" y2="5.25" width="0.1" layer="51"/>
+<wire x1="15.5" y1="5.25" x2="15.5" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-5.25" x2="-15.5" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-5.25" x2="-15.5" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="5.35" x2="15.6" y2="5.35" width="0.2" layer="21"/>
+<wire x1="15.6" y1="5.35" x2="15.6" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-5.35" x2="-15.6" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-5.35" x2="-15.6" y2="5.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="5.55"/>
+<vertex x="15.8" y="5.55"/>
+<vertex x="15.8" y="-5.55"/>
+<vertex x="-15.8" y="-5.55"/>
+</polygon>
+<text x="0.1" y="6.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X8.5X14.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563401/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X8.5X14.5(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="4.25" x2="9" y2="4.25" width="0.1" layer="51"/>
+<wire x1="9" y1="4.25" x2="9" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="9" y1="-4.25" x2="-9" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-9" y1="-4.25" x2="-9" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="4.35" x2="9.1" y2="4.35" width="0.2" layer="21"/>
+<wire x1="9.1" y1="4.35" x2="9.1" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-4.35" x2="-9.1" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-4.35" x2="-9.1" y2="4.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.55"/>
+<vertex x="9.3" y="4.55"/>
+<vertex x="9.3" y="-4.55"/>
+<vertex x="-9.3" y="-4.55"/>
+</polygon>
+<text x="-0.1" y="5.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-6.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X6X12(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563404/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X6X12(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="3" x2="9" y2="3" width="0.1" layer="51"/>
+<wire x1="9" y1="3" x2="9" y2="-3" width="0.1" layer="51"/>
+<wire x1="9" y1="-3" x2="-9" y2="-3" width="0.1" layer="51"/>
+<wire x1="-9" y1="-3" x2="-9" y2="3" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="3.1" x2="9.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="3.1" x2="9.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-3.1" x2="-9.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-3.1" x2="-9.1" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="3.3"/>
+<vertex x="9.3" y="3.3"/>
+<vertex x="9.3" y="-3.3"/>
+<vertex x="-9.3" y="-3.3"/>
+</polygon>
+<text x="-0.1" y="4.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X10X16(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563398/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X10X16(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="5" x2="9" y2="5" width="0.1" layer="51"/>
+<wire x1="9" y1="5" x2="9" y2="-5" width="0.1" layer="51"/>
+<wire x1="9" y1="-5" x2="-9" y2="-5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-5" x2="-9" y2="5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="5.1" x2="9.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="5.1" x2="9.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-5.1" x2="-9.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-5.1" x2="-9.1" y2="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="5.3"/>
+<vertex x="9.3" y="5.3"/>
+<vertex x="9.3" y="-5.3"/>
+<vertex x="-9.3" y="-5.3"/>
+</polygon>
+<text x="0.1" y="6.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X6X11.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563406/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X6X11.5(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="3" x2="9" y2="3" width="0.1" layer="51"/>
+<wire x1="9" y1="3" x2="9" y2="-3" width="0.1" layer="51"/>
+<wire x1="9" y1="-3" x2="-9" y2="-3" width="0.1" layer="51"/>
+<wire x1="-9" y1="-3" x2="-9" y2="3" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="3.1" x2="9.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="3.1" x2="9.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-3.1" x2="-9.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-3.1" x2="-9.1" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="3.3"/>
+<vertex x="9.3" y="3.3"/>
+<vertex x="9.3" y="-3.3"/>
+<vertex x="-9.3" y="-3.3"/>
+</polygon>
+<text x="-0.1" y="4.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X7.5X14.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563402/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X7.5X14.5(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="3.75" x2="9" y2="3.75" width="0.1" layer="51"/>
+<wire x1="9" y1="3.75" x2="9" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="9" y1="-3.75" x2="-9" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-9" y1="-3.75" x2="-9" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="3.85" x2="9.1" y2="3.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="3.85" x2="9.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-3.85" x2="-9.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-3.85" x2="-9.1" y2="3.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.05"/>
+<vertex x="9.3" y="4.05"/>
+<vertex x="9.3" y="-4.05"/>
+<vertex x="-9.3" y="-4.05"/>
+</polygon>
+<text x="-0.1" y="4.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.75" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X8X14(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563400/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X8X14(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="4" x2="9" y2="4" width="0.1" layer="51"/>
+<wire x1="9" y1="4" x2="9" y2="-4" width="0.1" layer="51"/>
+<wire x1="9" y1="-4" x2="-9" y2="-4" width="0.1" layer="51"/>
+<wire x1="-9" y1="-4" x2="-9" y2="4" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="4.1" x2="9.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="4.1" x2="9.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-4.1" x2="-9.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-4.1" x2="-9.1" y2="4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.3"/>
+<vertex x="9.3" y="4.3"/>
+<vertex x="9.3" y="-4.3"/>
+<vertex x="-9.3" y="-4.3"/>
+</polygon>
+<text x="0.1" y="4.9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.2" y="-5.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X7.5X13.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563403/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X7.5X13.5(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="3.75" x2="9" y2="3.75" width="0.1" layer="51"/>
+<wire x1="9" y1="3.75" x2="9" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="9" y1="-3.75" x2="-9" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-9" y1="-3.75" x2="-9" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="3.85" x2="9.1" y2="3.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="3.85" x2="9.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-3.85" x2="-9.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-3.85" x2="-9.1" y2="3.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.05"/>
+<vertex x="9.3" y="4.05"/>
+<vertex x="9.3" y="-4.05"/>
+<vertex x="-9.3" y="-4.05"/>
+</polygon>
+<text x="-0.1" y="4.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.75" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_10X13X4.5X9.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563416/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X4.5X9.5(PitchXLXWXH)</description>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="5" y="0" drill="0.9"/>
+<wire x1="-6.5" y1="2.25" x2="6.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="6.5" y1="2.25" x2="6.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-2.25" x2="-6.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-2.25" x2="-6.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="2.35" x2="6.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="6.6" y1="2.35" x2="6.6" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-2.35" x2="-6.6" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-2.35" x2="-6.6" y2="2.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="2.55"/>
+<vertex x="6.8" y="2.55"/>
+<vertex x="6.8" y="-2.55"/>
+<vertex x="-6.8" y="-2.55"/>
+</polygon>
+<text x="0" y="3.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-4.15" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_15X18X9X15(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563399/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X9X15(PitchXLXWXH)</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="4.5" x2="9" y2="4.5" width="0.1" layer="51"/>
+<wire x1="9" y1="4.5" x2="9" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="9" y1="-4.5" x2="-9" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-4.5" x2="-9" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="4.6" x2="9.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="4.6" x2="9.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-4.6" x2="-9.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-4.6" x2="-9.1" y2="4.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.8"/>
+<vertex x="9.3" y="4.8"/>
+<vertex x="9.3" y="-4.8"/>
+<vertex x="-9.3" y="-4.8"/>
+</polygon>
+<text x="0.1" y="5.4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.2" y="-6.4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_7.5X11X6X10(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563417/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,7.5X11X6X10(PitchXLXWXH)</description>
+<pad name="1" x="-3.75" y="0" drill="0.9"/>
+<pad name="2" x="3.75" y="0" drill="0.9"/>
+<wire x1="-5.6" y1="3.1" x2="5.6" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.6" y1="3.1" x2="5.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.6" y1="-3.1" x2="-5.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.6" y1="-3.1" x2="-5.6" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5.5" y1="3" x2="5.5" y2="3" width="0.1" layer="51"/>
+<wire x1="5.5" y1="3" x2="5.5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5.5" y1="-3" x2="-5.5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5.5" y1="-3" x2="-5.5" y2="3" width="0.1" layer="51"/>
+<text x="-0.1" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.2" y="-4.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.8" y="3.3"/>
+<vertex x="5.8" y="3.3"/>
+<vertex x="5.8" y="-3.3"/>
+<vertex x="-5.8" y="-3.3"/>
+</polygon>
+</package>
+<package name="WCAP-FTX2_7.5X10X6X12(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563418/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,7.5X10X6X12(PitchXLXWXH)</description>
+<pad name="1" x="-3.75" y="0" drill="0.9"/>
+<pad name="2" x="3.75" y="0" drill="0.9"/>
+<wire x1="-5.1" y1="3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="-0.1" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.2" y="-4.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="3.3"/>
+<vertex x="5.3" y="3.3"/>
+<vertex x="5.3" y="-3.3"/>
+<vertex x="-5.3" y="-3.3"/>
+</polygon>
+</package>
+<package name="WCAP-FTX2_10X13X7X12(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563413/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X7X12(PitchXLXWXH)</description>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="5" y="0" drill="0.9"/>
+<wire x1="-6.5" y1="3.5" x2="6.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="3.5" x2="6.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-3.5" x2="-6.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-3.5" x2="-6.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="3.6" x2="6.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="3.6" x2="6.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-3.6" x2="-6.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-3.6" x2="-6.6" y2="3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="3.8"/>
+<vertex x="6.8" y="3.8"/>
+<vertex x="6.8" y="-3.8"/>
+<vertex x="-6.8" y="-3.8"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_10X13X5X11(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563414/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X5X11(PitchXLXWXH)</description>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="5" y="0" drill="0.9"/>
+<wire x1="-6.5" y1="2.5" x2="6.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="2.5" x2="6.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-2.5" x2="-6.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-2.5" x2="-6.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="2.6" x2="6.6" y2="2.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="2.6" x2="6.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-2.6" x2="-6.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-2.6" x2="-6.6" y2="2.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="2.8"/>
+<vertex x="6.8" y="2.8"/>
+<vertex x="6.8" y="-2.8"/>
+<vertex x="-6.8" y="-2.8"/>
+</polygon>
+<text x="0" y="3.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.1" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_10X13X8X14(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563411/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X8X14(PitchXLXWXH)</description>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="5" y="0" drill="0.9"/>
+<wire x1="-6.5" y1="4" x2="6.5" y2="4" width="0.1" layer="51"/>
+<wire x1="6.5" y1="4" x2="6.5" y2="-4" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-4" x2="-6.5" y2="-4" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-4" x2="-6.5" y2="4" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="4.1" x2="6.6" y2="4.1" width="0.2" layer="21"/>
+<wire x1="6.6" y1="4.1" x2="6.6" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-4.1" x2="-6.6" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-4.1" x2="-6.6" y2="4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="4.3"/>
+<vertex x="6.8" y="4.3"/>
+<vertex x="6.8" y="-4.3"/>
+<vertex x="-6.8" y="-4.3"/>
+</polygon>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_10X13X5X10(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563415/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X5X10(PitchXLXWXH)</description>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="5" y="0" drill="0.9"/>
+<wire x1="-6.5" y1="2.5" x2="6.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="2.5" x2="6.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-2.5" x2="-6.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-2.5" x2="-6.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="2.6" x2="6.6" y2="2.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="2.6" x2="6.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-2.6" x2="-6.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-2.6" x2="-6.6" y2="2.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="2.8"/>
+<vertex x="6.8" y="2.8"/>
+<vertex x="6.8" y="-2.8"/>
+<vertex x="-6.8" y="-2.8"/>
+</polygon>
+<text x="0" y="3.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.1" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_12.5X15X10X16(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563407/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X10X16(PitchXLXWXH)</description>
+<pad name="1" x="-6.25" y="0" drill="0.9"/>
+<pad name="2" x="6.25" y="0" drill="0.9"/>
+<wire x1="-7.5" y1="5" x2="7.5" y2="5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="5" x2="7.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-5" x2="-7.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-5" x2="-7.5" y2="5" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="5.1" x2="7.6" y2="5.1" width="0.2" layer="21"/>
+<wire x1="7.6" y1="5.1" x2="7.6" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-5.1" x2="-7.6" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-5.1" x2="-7.6" y2="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="5.3"/>
+<vertex x="7.8" y="5.3"/>
+<vertex x="7.8" y="-5.3"/>
+<vertex x="-7.8" y="-5.3"/>
+</polygon>
+<text x="-0.1" y="6.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_10X13X7X13(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563412/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X7X13(PitchXLXWXH)</description>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="5" y="0" drill="0.9"/>
+<wire x1="-6.5" y1="3.5" x2="6.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="3.5" x2="6.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-3.5" x2="-6.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-3.5" x2="-6.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="3.6" x2="6.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="3.6" x2="6.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-3.6" x2="-6.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-3.6" x2="-6.6" y2="3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="3.8"/>
+<vertex x="6.8" y="3.8"/>
+<vertex x="6.8" y="-3.8"/>
+<vertex x="-6.8" y="-3.8"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_12.5X15X6X11.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563410/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X6X11.5(PitchXLXWXH)</description>
+<pad name="1" x="-6.25" y="0" drill="0.9"/>
+<pad name="2" x="6.25" y="0" drill="0.9"/>
+<wire x1="-7.5" y1="3" x2="7.5" y2="3" width="0.1" layer="51"/>
+<wire x1="7.5" y1="3" x2="7.5" y2="-3" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-3" x2="-7.5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-3" x2="-7.5" y2="3" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="3.1" x2="7.6" y2="3.1" width="0.2" layer="21"/>
+<wire x1="7.6" y1="3.1" x2="7.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-3.1" x2="-7.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-3.1" x2="-7.6" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="3.3"/>
+<vertex x="7.8" y="3.3"/>
+<vertex x="7.8" y="-3.3"/>
+<vertex x="-7.8" y="-3.3"/>
+</polygon>
+<text x="-0.1" y="4.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_12.5X15X8.5X14(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563408/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X8.5X14(PitchXLXWXH)</description>
+<pad name="1" x="-6.25" y="0" drill="0.9"/>
+<pad name="2" x="6.25" y="0" drill="0.9"/>
+<wire x1="-7.5" y1="4.25" x2="7.5" y2="4.25" width="0.1" layer="51"/>
+<wire x1="7.5" y1="4.25" x2="7.5" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-4.25" x2="-7.5" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-4.25" x2="-7.5" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="4.35" x2="7.6" y2="4.35" width="0.2" layer="21"/>
+<wire x1="7.6" y1="4.35" x2="7.6" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-4.35" x2="-7.6" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-4.35" x2="-7.6" y2="4.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="4.55"/>
+<vertex x="7.8" y="4.55"/>
+<vertex x="7.8" y="-4.55"/>
+<vertex x="-7.8" y="-4.55"/>
+</polygon>
+<text x="-0.1" y="5.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-6.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_37.5X41.5X22.5X35.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563422/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,37.5X41.5X22.5X35.5(PitchXLXWXH)</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-20.75" y1="11.25" x2="20.75" y2="11.25" width="0.1" layer="51"/>
+<wire x1="20.75" y1="11.25" x2="20.75" y2="-11.25" width="0.1" layer="51"/>
+<wire x1="20.75" y1="-11.25" x2="-20.75" y2="-11.25" width="0.1" layer="51"/>
+<wire x1="-20.75" y1="-11.25" x2="-20.75" y2="11.25" width="0.1" layer="51"/>
+<wire x1="-20.85" y1="11.35" x2="20.85" y2="11.35" width="0.2" layer="21"/>
+<wire x1="20.85" y1="11.35" x2="20.85" y2="-11.35" width="0.2" layer="21"/>
+<wire x1="20.85" y1="-11.35" x2="-20.85" y2="-11.35" width="0.2" layer="21"/>
+<wire x1="-20.85" y1="-11.35" x2="-20.85" y2="11.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-21.05" y="11.55"/>
+<vertex x="21.05" y="11.55"/>
+<vertex x="21.05" y="-11.55"/>
+<vertex x="-21.05" y="-11.55"/>
+</polygon>
+<text x="0.2" y="12.4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-13.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTX2_12.5X15X7X12.5(PXLXWXH)" urn="urn:adsk.eagle:footprint:18563409/1">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X7X12.5(PitchXLXWXH)</description>
+<pad name="1" x="-6.25" y="0" drill="0.9"/>
+<pad name="2" x="6.25" y="0" drill="0.9"/>
+<wire x1="-7.5" y1="3.5" x2="7.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="3.5" x2="7.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-3.5" x2="-7.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-3.5" x2="-7.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="3.6" x2="7.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="3.6" x2="7.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-3.6" x2="-7.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-3.6" x2="-7.6" y2="3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="3.8"/>
+<vertex x="7.8" y="3.8"/>
+<vertex x="7.8" y="-3.8"/>
+<vertex x="-7.8" y="-3.8"/>
+</polygon>
+<text x="-0.1" y="4.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-FTX2_22.5X26X15X25(PXLXWXH)" urn="urn:adsk.eagle:package:18563427/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X15X25(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X15X25(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X11X20(PXLXWXH)" urn="urn:adsk.eagle:package:18563429/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X11X20(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X11X20(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X6X15(PXLXWXH)" urn="urn:adsk.eagle:package:18563433/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X6X15(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X6X15(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X10X21(PXLXWXH)" urn="urn:adsk.eagle:package:18563428/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X10X21(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X10X21(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X7.5X15(PXLXWXH)" urn="urn:adsk.eagle:package:18563432/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X7.5X15(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X7.5X15(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X9X18(PXLXWXH)" urn="urn:adsk.eagle:package:18563430/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X9X18(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X9X18(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X7.5X16.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563431/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X7.5X16.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X7.5X16.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_27.5X31X15.5X29(PXLXWXH)" urn="urn:adsk.eagle:package:18563455/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X15.5X29(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_27.5X31X15.5X29(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_27.5X31X10.5X20(PXLXWXH)" urn="urn:adsk.eagle:package:18563426/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X10.5X20(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_27.5X31X10.5X20(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_27.5X31X13X22(PXLXWXH)" urn="urn:adsk.eagle:package:18563425/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X13X22(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_27.5X31X13X22(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_22.5X26X6X12(PXLXWXH)" urn="urn:adsk.eagle:package:18563458/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,22.5X26X6X12(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_22.5X26X6X12(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_27.5X31X19X32.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563457/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,27.5X31X19X32.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_27.5X31X19X32.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X5X11(PXLXWXH)" urn="urn:adsk.eagle:package:18563441/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X5X11(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X5X11(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X6X12(PXLXWXH)" urn="urn:adsk.eagle:package:18563440/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X6X12(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X6X12(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X6X11.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563442/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X6X11.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X6X11.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X8.5X14.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563437/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X8.5X14.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X8.5X14.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X10X16(PXLXWXH)" urn="urn:adsk.eagle:package:18563434/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X10X16(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X10X16(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X7.5X14.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563438/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X7.5X14.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X7.5X14.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X8X14(PXLXWXH)" urn="urn:adsk.eagle:package:18563436/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X8X14(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X8X14(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X7.5X13.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563439/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X7.5X13.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X7.5X13.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_15X18X9X15(PXLXWXH)" urn="urn:adsk.eagle:package:18563435/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,15X18X9X15(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_15X18X9X15(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_10X13X4.5X9.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563452/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X4.5X9.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_10X13X4.5X9.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_7.5X10X6X12(PXLXWXH)" urn="urn:adsk.eagle:package:18563454/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,7.5X10X6X12(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_7.5X10X6X12(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_7.5X11X6X10(PXLXWXH)" urn="urn:adsk.eagle:package:18563453/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,7.5X11X6X10(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_7.5X11X6X10(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_10X13X7X12(PXLXWXH)" urn="urn:adsk.eagle:package:18563449/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X7X12(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_10X13X7X12(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_10X13X5X11(PXLXWXH)" urn="urn:adsk.eagle:package:18563450/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X5X11(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_10X13X5X11(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_10X13X8X14(PXLXWXH)" urn="urn:adsk.eagle:package:18563447/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X8X14(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_10X13X8X14(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_10X13X5X10(PXLXWXH)" urn="urn:adsk.eagle:package:18563451/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X5X10(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_10X13X5X10(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_10X13X7X13(PXLXWXH)" urn="urn:adsk.eagle:package:18563448/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,10X13X7X13(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_10X13X7X13(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_12.5X15X10X16(PXLXWXH)" urn="urn:adsk.eagle:package:18563443/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X10X16(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_12.5X15X10X16(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_12.5X15X8.5X14(PXLXWXH)" urn="urn:adsk.eagle:package:18563444/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X8.5X14(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_12.5X15X8.5X14(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_12.5X15X6X11.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563446/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X6X11.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_12.5X15X6X11.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_12.5X15X7X12.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563445/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,12.5X15X7X12.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_12.5X15X7X12.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTX2_37.5X41.5X22.5X35.5(PXLXWXH)" urn="urn:adsk.eagle:package:18563456/2" type="model">
+<description>&lt;B&gt;WCAP-FTX2&lt;/B&gt;&lt;BR&gt; Film Capacitors,37.5X41.5X22.5X35.5(PitchXLXWXH)</description>
+<packageinstances>
+<packageinstance name="WCAP-FTX2_37.5X41.5X22.5X35.5(PXLXWXH)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C" urn="urn:adsk.eagle:symbol:18563419/2">
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-FTX2_P22.5" prefix="C" urn="urn:adsk.eagle:component:18563461/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P22.5=Pitch22.5&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_W10" package="WCAP-FTX2_22.5X26X10X21(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563428/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026030">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026030.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="21mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026030 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="140V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225155K275ASPB45000" constant="no"/>
+<attribute name="VALUE" value="1500nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10mm" constant="no"/>
+</technology>
+<technology name="_890324026030CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026030CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="21mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026030CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="140V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225155K275ACPP35004" constant="no"/>
+<attribute name="VALUE" value="1.5uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W11" package="WCAP-FTX2_22.5X26X11X20(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563429/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026027">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026027.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="20mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026027 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="170V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225105K275ASPB46000" constant="no"/>
+<attribute name="VALUE" value="1000nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="11mm" constant="no"/>
+</technology>
+<technology name="_890324026027CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026027CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="20mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026027CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="170V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225105K275ACPP36004" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="11mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W15" package="WCAP-FTX2_22.5X26X15X25(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563427/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026034">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026034.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="25mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026034 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="170V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225225K275ASPB46000" constant="no"/>
+<attribute name="VALUE" value="2200nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="15mm" constant="no"/>
+</technology>
+<technology name="_890324026034CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026034CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="25mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026034CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="170V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225225K275ACPP26004" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="15mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W6H15" package="WCAP-FTX2_22.5X26X6X15(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563433/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026003.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="15mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026003 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="160V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225224K275ASPB46000" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324026003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026003CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="15mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026003CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="160V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225224K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7.5H15" package="WCAP-FTX2_22.5X26X7.5X15(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563432/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026020">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026020.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="15mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026020 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="130V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225684K275ASPB45000" constant="no"/>
+<attribute name="VALUE" value="680nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+<technology name="_890324026020CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026020CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="15mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026020CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="130V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225684K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="680nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7.5H16.5" package="WCAP-FTX2_22.5X26X7.5X16.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563431/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026018">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026018.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="16.5mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026018 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="160V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225564K275ASPB46000" constant="no"/>
+<attribute name="VALUE" value="560nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+<technology name="_890324026018CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026018CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="16.5mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026018CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="160V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225564K275ACPP36004" constant="no"/>
+<attribute name="VALUE" value="560nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W9" package="WCAP-FTX2_22.5X26X9X18(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563430/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026024">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026024.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="18mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324026024 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="160V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225824K275ASPB46000" constant="no"/>
+<attribute name="VALUE" value="820nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+<technology name="_890324026024CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026024CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="18mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026024CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="160V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225824K275ACPP36004" constant="no"/>
+<attribute name="VALUE" value="820nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W6H12" package="WCAP-FTX2_22.5X26X6X12(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563458/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324026007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324026007CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="26mm" constant="no"/>
+<attribute name="P" value="22.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324026007CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="140V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P225334K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="330nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTX2_P27.5" prefix="C" urn="urn:adsk.eagle:component:18563460/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P27.5=Pitch27.5&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_W10.5" package="WCAP-FTX2_27.5X31X10.5X20(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563426/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324027006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027006.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="20mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324027006 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="170V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275684K275ASPB56000" constant="no"/>
+<attribute name="VALUE" value="680nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10.5mm" constant="no"/>
+</technology>
+<technology name="_890324027006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027006CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="20mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324027006CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="170V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275684K275ACPP36004" constant="no"/>
+<attribute name="VALUE" value="0.68uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W13" package="WCAP-FTX2_27.5X31X13X22(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563425/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324027012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027012.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="22mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324027012 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="130V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275125K275ASPB56000" constant="no"/>
+<attribute name="VALUE" value="1200nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="13mm" constant="no"/>
+</technology>
+<technology name="_890324027012CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027012CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="22mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324027012CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="130V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275125K275ACPP36004" constant="no"/>
+<attribute name="VALUE" value="1.2uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="13mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W15.5" package="WCAP-FTX2_27.5X31X15.5X29(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563455/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324027025">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027025.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="29mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324027025 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="130V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275335K275ASPB55000" constant="no"/>
+<attribute name="VALUE" value="3300nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="15.5mm" constant="no"/>
+</technology>
+<technology name="_890324027025CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027025CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="29mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324027025CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="130V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275335K275ACPP25004" constant="no"/>
+<attribute name="VALUE" value="3.3uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="15.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W19" package="WCAP-FTX2_27.5X31X19X32.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563457/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324027030CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324027030CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="32.5mm" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="P" value="27.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324027030CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="140V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P275475K275ACPP26004" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="19mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTX2_P15" prefix="C" urn="urn:adsk.eagle:component:18563463/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P15=Pitch15&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_W10" package="WCAP-FTX2_15X18X10X16(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563434/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025045">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025045.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="16mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025045 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="230V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015684K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="680nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10mm" constant="no"/>
+</technology>
+<technology name="_890324025045CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025045CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="16mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025045CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="230V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015684K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="680nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W5" package="WCAP-FTX2_15X18X5X11(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563441/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025004.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025004 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015273K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="27nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025004CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025004CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025004CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015273K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="27nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025006.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025006 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015333K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="33nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025006CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025006CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015333K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="33nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025007.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025007 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015393K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="39nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025007CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025007CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015393K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="39nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025009.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025009 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="220V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015473K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="47nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025009CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025009CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025009CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="220V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015473K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="47nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025011.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025011 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="250V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015563K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="56nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324025011CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025011CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025011CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="250V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015563K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="56nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W6H11.5" package="WCAP-FTX2_15X18X6X11.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563442/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025027">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025027.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="11.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025027 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="180V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015224K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025027CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025027CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="11.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025027CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="180V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015224K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W6H12" package="WCAP-FTX2_15X18X6X12(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563440/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025013">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025013.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025013 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="270V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015683K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="68nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025013CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025013CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025013CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="270V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015683K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="68nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025015.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025015 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="290V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015823K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="82nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025015CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025015CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025015CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="290V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015823K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="82nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025017.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025017 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015104K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025017CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025017CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025017CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015104K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025022.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025022 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="210V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015154K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="150nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025022CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025022CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025022CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="210V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015154K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="150nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025025">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025025.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025025 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="230V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015184K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="180nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324025025CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025025CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025025CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="230V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015184K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="180nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7.5H13.5" package="WCAP-FTX2_15X18X7.5X13.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563439/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025020">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025020.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="13.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025020 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015124K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="120nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+<technology name="_890324025020CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025020CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="13.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025020CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015124K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="120nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7.5H14.5" package="WCAP-FTX2_15X18X7.5X14.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563438/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025031">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025031.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025031 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="250V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015274K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="270nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+<technology name="_890324025031CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025031CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025031CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="250V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015274K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="270nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W8.5" package="WCAP-FTX2_15X18X8.5X14.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563437/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025034">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025034.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025034 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="260V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015334K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="330nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8.5mm" constant="no"/>
+</technology>
+<technology name="_890324025034CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025034CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14.5mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025034CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="260V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015334K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="330nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W8" package="WCAP-FTX2_15X18X8X14(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563436/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025039">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025039.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025039 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="220V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015474K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+<technology name="_890324025039CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025039CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025039CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="220V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015474K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W9" package="WCAP-FTX2_15X18X9X15(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563435/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324025043">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025043.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="15mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324025043 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="220V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015564K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="560nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+<technology name="_890324025043CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324025043CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="15mm" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="P" value=" 15 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324025043CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="220V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P015564K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="560nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTX2_P7.5" prefix="C" urn="urn:adsk.eagle:component:18563465/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P7.5=Pitch 7.5&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L10" package="WCAP-FTX2_7.5X10X6X12(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563454/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324022017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324022017.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="10mm" constant="no"/>
+<attribute name="P" value="7.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324022017 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P075683K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="68nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324022017CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324022017CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="10mm" constant="no"/>
+<attribute name="P" value="7.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324022017CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P075683K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="68nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_L11" package="WCAP-FTX2_7.5X11X6X10(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563453/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324022007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324022007.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="11mm" constant="no"/>
+<attribute name="P" value="7.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324022007 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="500V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P075153K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="15nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324022007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324022007CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="11mm" constant="no"/>
+<attribute name="P" value="7.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324022007CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="500V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P075153K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="15nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTX2_P10" prefix="C" urn="urn:adsk.eagle:component:18563462/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P10=Pitch 10&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_W4.5" package="WCAP-FTX2_10X13X4.5X9.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563452/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324023008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023008.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="9.5mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023008 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010153K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="15nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="4.5mm" constant="no"/>
+</technology>
+<technology name="_890324023008CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023008CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="9.5mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023008CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010153K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="15nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="4.5mm" constant="no"/>
+</technology>
+<technology name="_890324023011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023011.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="9.5mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023011 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010223K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="22nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="4.5mm" constant="no"/>
+</technology>
+<technology name="_890324023011CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023011CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="9.5mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023011CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010223K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="22nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="4.5mm" constant="no"/>
+</technology>
+<technology name="_890324023015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023015.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="9.5mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023015 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010473K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="47nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="4.5mm" constant="no"/>
+</technology>
+<technology name="_890324023015CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023015CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="9.5mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023015CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010473K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="47nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="4.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W5H10" package="WCAP-FTX2_10X13X5X10(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563451/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324023002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023002.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023002 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="600V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010562K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="5.6nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023002CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023002CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023002CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="600V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010562K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="5.6nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023003.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023003 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010682K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="6.8nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023003CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023003CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010682K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="6.8nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023004.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023004 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010822K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="8.2nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023004CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023004CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023004CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010822K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="8.2nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023017.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023017 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010563K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="56nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023017CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023017CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="10mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023017CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010563K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="56nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W5H11" package="WCAP-FTX2_10X13X5X11(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563450/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324023006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023006.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023006 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="500V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010103K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023006CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023006CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="500V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010103K275ACPP56004" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023007.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023007 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010123K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="12nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023007CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023007CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010123K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="12nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023010.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023010 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010183K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="18nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+<technology name="_890324023010CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023010CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="11mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023010CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010183K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="18nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7H12" package="WCAP-FTX2_10X13X7X12(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563449/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324023025">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023025.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023025 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010154K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="150nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023025CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023025CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023025CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010154K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="150nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7H13" package="WCAP-FTX2_10X13X7X13(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563448/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324023019">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023019.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023019 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010683K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="68nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023019CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023019CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023019CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010683K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="68nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023021">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023021.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023021 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010823K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="82nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023021CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023021CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023021CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010823K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="82nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023023">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023023.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023023 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010104K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023023CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023023CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,10%@10kHz" constant="no"/>
+<attribute name="DF3" value="0,5%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023023CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010104K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023024">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023024.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023024 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010124K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="120nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324023024CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023024CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="13mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023024CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010124K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="120nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W8" package="WCAP-FTX2_10X13X8X14(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563447/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324023028">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023028.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324023028 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010224K275ASPB16000" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+<technology name="_890324023028CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324023028CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14mm" constant="no"/>
+<attribute name="L" value="13mm" constant="no"/>
+<attribute name="P" value=" 10 " constant="no"/>
+<attribute name="PART-NUMBER" value="890324023028CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="300V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P010224K275ACPP46004" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTX2_P37.5" prefix="C" urn="urn:adsk.eagle:component:18563459/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P37.5=Pitch37.5&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_W22.5" package="WCAP-FTX2_37.5X41.5X22.5X35.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563456/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324028008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324028008.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="35.5mm" constant="no"/>
+<attribute name="L" value="41.5mm" constant="no"/>
+<attribute name="P" value="37.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324028008 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="110V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P375685K275ASPB65000" constant="no"/>
+<attribute name="VALUE" value="6800nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="22.5mm" constant="no"/>
+</technology>
+<technology name="_890324028008CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324028008CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,70%@10kHz" constant="no"/>
+<attribute name="DF3" value="-" constant="no"/>
+<attribute name="H" value="35.5mm" constant="no"/>
+<attribute name="L" value="41.5mm" constant="no"/>
+<attribute name="P" value="37.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324028008CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="110V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P375685K275ACPP25004" constant="no"/>
+<attribute name="VALUE" value="6.8uF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="22.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTX2_P12.5" prefix="C" urn="urn:adsk.eagle:component:18563464/2">
+<description>&lt;b&gt;WCAP-FTX2 Film Capacitors &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;X2-Capacitors   &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series with max. operating temperature of +85 °C 
+&lt;BR&gt;Product series for interference suppression 
+&lt;BR&gt;Self-healing properties 
+&lt;BR&gt;Certificates: ENEC 10 by VDE, cULus, CQC 
+&lt;BR&gt;Safety class: X2 
+&lt;BR&gt;Mounting style: Boxed THT 
+&lt;BR&gt;Dielectric: Polypropylene 
+&lt;BR&gt;Capacitance range: 5.6 nF ‒ 6.8 µF 
+&lt;BR&gt;Capacitance tolerance: ±10 % 
+&lt;BR&gt;Voltage range (UR): 275 V(AC) 
+&lt;BR&gt;Operating temperature: -40 °C up to + 105 °C 
+&lt;BR&gt;Pitch: 7.5 / 10.0 / 12.5 / 15.0 / 22.5 / 27.5 / 37.5 mm 
+&lt;BR&gt;Recommended soldering: Wave soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications 
+&lt;BR&gt;Filter 
+&lt;BR&gt;Interference suppression 
+&lt;BR&gt;e.g. EMI filter for power supplies 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;P12.5=Pitch12.5&lt;/B&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14733v209%20Family_WCAP-FTX2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-FTX2/"&gt;https://www.we-online.com/catalog/en/WCAP-FTX2/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-11
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_W10" package="WCAP-FTX2_12.5X15X10X16(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563443/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324024005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024005.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="16mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324024005 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="280V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125474K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10mm" constant="no"/>
+</technology>
+<technology name="_890324024005CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024005CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="16mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324024005CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="280V/us" constant="no"/>
+<attribute name="RISO" value=" 10000 Ohm x F" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125474K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="470nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="10mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W6" package="WCAP-FTX2_12.5X15X6X11.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563446/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324024001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024001.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="11.5mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324024001 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="210V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125154K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="150nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+<technology name="_890324024001CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024001CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="11.5mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324024001CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="210V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125154K275ACPP55004" constant="no"/>
+<attribute name="VALUE" value="150nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W7" package="WCAP-FTX2_12.5X15X7X12.5(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563445/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324024002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024002.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12.5mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324024002 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="240V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125224K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+<technology name="_890324024002CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024002CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="12.5mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324024002CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="240V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125224K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="220nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="7mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W8.5" package="WCAP-FTX2_12.5X15X8.5X14(PXLXWXH)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18563444/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890324024003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024003.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 890324024003 " constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="260V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125334K275ASPB15000" constant="no"/>
+<attribute name="VALUE" value="330nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8.5mm" constant="no"/>
+</technology>
+<technology name="_890324024003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/890324024003CS.pdf" constant="no"/>
+<attribute name="DF1" value="0,10%@1kHz" constant="no"/>
+<attribute name="DF2" value="0,20%@10kHz" constant="no"/>
+<attribute name="DF3" value="2,00%@100kHz" constant="no"/>
+<attribute name="H" value="14mm" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="P" value="12.5" constant="no"/>
+<attribute name="PART-NUMBER" value="890324024003CS" constant="no"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="260V/us" constant="no"/>
+<attribute name="RISO" value=" 30000 MOhm" constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="MX2P125334K275ACPP45004" constant="no"/>
+<attribute name="VALUE" value="330nF" constant="no"/>
+<attribute name="VR" value="275V(AC)" constant="no"/>
+<attribute name="W" value="8.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
